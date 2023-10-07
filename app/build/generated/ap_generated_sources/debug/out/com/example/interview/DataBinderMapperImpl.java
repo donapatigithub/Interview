@@ -6,7 +6,7 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
-import com.example.interview.databinding.ActivityDashboardBindingImpl;
+import com.example.interview.databinding.FragmentHomeBindingImpl;
 import com.example.interview.databinding.ItemDashboardBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -19,14 +19,14 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_ACTIVITYDASHBOARD = 1;
+  private static final int LAYOUT_FRAGMENTHOME = 1;
 
   private static final int LAYOUT_ITEMDASHBOARD = 2;
 
   private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.activity_dashboard, LAYOUT_ACTIVITYDASHBOARD);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_home, LAYOUT_FRAGMENTHOME);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.item_dashboard, LAYOUT_ITEMDASHBOARD);
   }
 
@@ -39,11 +39,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
-        case  LAYOUT_ACTIVITYDASHBOARD: {
-          if ("layout/activity_dashboard_0".equals(tag)) {
-            return new ActivityDashboardBindingImpl(component, view);
+        case  LAYOUT_FRAGMENTHOME: {
+          if ("layout/fragment_home_0".equals(tag)) {
+            return new FragmentHomeBindingImpl(component, view);
           }
-          throw new IllegalArgumentException("The tag for activity_dashboard is invalid. Received: " + tag);
+          throw new IllegalArgumentException("The tag for fragment_home is invalid. Received: " + tag);
         }
         case  LAYOUT_ITEMDASHBOARD: {
           if ("layout/item_dashboard_0".equals(tag)) {
@@ -109,7 +109,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
-      sKeys.put("layout/activity_dashboard_0", com.example.interview.R.layout.activity_dashboard);
+      sKeys.put("layout/fragment_home_0", com.example.interview.R.layout.fragment_home);
       sKeys.put("layout/item_dashboard_0", com.example.interview.R.layout.item_dashboard);
     }
   }

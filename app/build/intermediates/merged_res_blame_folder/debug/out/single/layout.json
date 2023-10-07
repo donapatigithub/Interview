@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/activity_dashboard.xml",
+        "source": "com.example.interview.app-main-6:/layout/activity_dashboard.xml"
+    },
+    {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\activity_dashboard.xml",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\activity_dashboard.xml"
     },
@@ -8,7 +12,7 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\item_dashboard.xml"
     },
     {
-        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/item_dashboard.xml",
-        "source": "com.example.interview.app-main-6:/layout/item_dashboard.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_home.xml"
     }
 ]

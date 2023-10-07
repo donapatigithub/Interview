@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.fragment.app.FragmentManager
 
 class Login : AppCompatActivity() {
    private lateinit var userName : EditText
@@ -28,8 +29,17 @@ class Login : AppCompatActivity() {
             val password = userPassword.text.toString()
 
             if (user == "1" && password=="1"){
-                val intent = Intent(this,DashboardActivity::class.java)
-                startActivity(intent)
+                val isLoginsuccess= true
+                if (isLoginsuccess) {
+                    /*val fragment = HomeFragment()
+                    val fragmentManager = supportFragmentManager
+                    val transaction = fragmentManager.beginTransaction()
+                    transaction.replace(R.id.fragmentcontainer, fragment)
+                    transaction.commit()
+                    finish()*/
+                    val intent = Intent(this,DashboardActivity::class.java)
+                    startActivity(intent)
+                }
             }else{
                 Toast.makeText(this,"Invalid Input",Toast.LENGTH_LONG).show()
             }
