@@ -23,12 +23,16 @@ drawable logo
 drawable mobile
 drawable shoe
 drawable toys
+id action_homeFragment_to_cartFragment
+id action_homeFragment_to_profileFragment
 id bottomNav
 id cart
 id cartFragment
 id dashRV
 id fragmentContainer
+id fragment_container
 id home
+id homeFragment
 id homeimg
 id hscrollview
 id imgscroll

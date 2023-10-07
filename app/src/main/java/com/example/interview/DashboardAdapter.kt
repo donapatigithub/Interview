@@ -11,6 +11,7 @@ import com.example.interview.model.DashboardModel
 
 class DashboardAdapter : ListAdapter<DashboardModel, DashboardAdapter.ViewHolder>(DiffCallback()) {
 
+    private var onItemClickListener: ((Int,String)->Unit)?=null
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val binding = ItemDashboardBinding.inflate(inflater,parent,false)
@@ -19,6 +20,11 @@ class DashboardAdapter : ListAdapter<DashboardModel, DashboardAdapter.ViewHolder
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item= getItem(position)
         holder.bind(item)
+        holder.itemView.setOnClickListener{
+            val itemsSelect = getItem(position)
+            val itemtype = itemsSelect.name
+            onItemClickListener?.invoke(position,itemtype)
+        }
     }
     inner class ViewHolder(private val binding: ItemDashboardBinding): RecyclerView.ViewHolder(binding.root) {
             fun bind(item: DashboardModel){
@@ -37,5 +43,8 @@ class DashboardAdapter : ListAdapter<DashboardModel, DashboardAdapter.ViewHolder
         override fun areContentsTheSame(oldItem: DashboardModel, newItem: DashboardModel): Boolean {
             return oldItem == newItem
         }
+    }
+    fun onClickItem(listner: (Int,String)-> Unit){
+        this.onItemClickListener = listner
     }
 }

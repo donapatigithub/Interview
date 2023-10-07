@@ -3138,6 +3138,8 @@ int id action_bar_title 0x7f080039
 int id action_container 0x7f08003a
 int id action_context_bar 0x7f08003b
 int id action_divider 0x7f08003c
+int id action_homeFragment_to_cartFragment 0x7f08021a
+int id action_homeFragment_to_profileFragment 0x7f08021b
 int id action_image 0x7f08003d
 int id action_menu_divider 0x7f08003e
 int id action_menu_presenter 0x7f08003f
@@ -3283,6 +3285,7 @@ int id flip 0x7f0800ca
 int id floating 0x7f0800cb
 int id forever 0x7f0800cc
 int id fragmentContainer 0x7f080219
+int id fragment_container 0x7f08021d
 int id fragment_container_view_tag 0x7f0800cd
 int id frost 0x7f0800ce
 int id fullscreen_header 0x7f0800cf
@@ -3300,6 +3303,7 @@ int id hide_in_inspector_tag 0x7f0800da
 int id hideable 0x7f0800db
 int id home 0x7f0800dc
 int id homeAsUp 0x7f0800dd
+int id homeFragment 0x7f08021c
 int id homeimg 0x7f0800de
 int id honorRequest 0x7f0800df
 int id horizontal_only 0x7f0800e0

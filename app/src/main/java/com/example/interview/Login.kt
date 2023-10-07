@@ -20,7 +20,6 @@ class Login : AppCompatActivity() {
         userName = findViewById(R.id.userid)
         userPassword = findViewById(R.id.password)
         login = findViewById(R.id.loginbtn)
-
         onClick()
     }
     fun onClick(){
@@ -38,6 +37,7 @@ class Login : AppCompatActivity() {
                     transaction.commit()
                     finish()*/
                     val intent = Intent(this,DashboardActivity::class.java)
+                    //intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                     startActivity(intent)
                 }
             }else{

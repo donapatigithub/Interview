@@ -9,6 +9,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import com.example.interview.databinding.FragmentHomeBinding
 import com.example.interview.model.DashboardViewModel
 
@@ -26,12 +28,29 @@ class HomeFragment : Fragment() {
         imageScroll()
         return binding.root
     }
-    fun init(){
+    private  fun init(){
         viewModel = ViewModelProvider(this).get(DashboardViewModel::class.java)
         binding.lifecycleOwner=this
         binding.adapter=dashboardAdapter
         viewModel.dashboardItems.observe(viewLifecycleOwner) {
             dashboardAdapter.submitList(it)
+        }
+        dashboardAdapter.onClickItem { position, itemType ->
+            when(itemType){
+                "Toys" ->{
+
+                        //Navigation.findNavController(requireActivity(),R.id.fragmentContainer).navigate(R.id.cartFragment)
+                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,CartFragment())
+                        .addToBackStack(null)
+                        .commit()
+                }
+                "Mobiles"->{
+                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ProfileFragment())
+                        .addToBackStack(null)
+                        .commit()
+                }
+            }
+
         }
     }
     fun imageScroll(){
@@ -62,6 +81,4 @@ class HomeFragment : Fragment() {
             }
         }
     }
-
-
 }

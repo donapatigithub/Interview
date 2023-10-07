@@ -12,6 +12,7 @@ class DashboardViewModel: ViewModel() {
     init {
         _dashboardItems.value = getDashItems()
     }
+
     private fun getDashItems():List<DashboardModel>{
         return listOf(
             DashboardModel(R.drawable.electronics,"Electronics"),
