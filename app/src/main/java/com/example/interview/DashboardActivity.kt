@@ -6,12 +6,29 @@ import android.widget.HorizontalScrollView
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.appcompat.widget.LinearLayoutCompat
+import androidx.databinding.DataBindingUtil
+import com.example.interview.databinding.ActivityDashboardBinding
+import com.example.interview.model.DashboardModel
 
 class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dashboard)
+        val binding : ActivityDashboardBinding=DataBindingUtil.setContentView(this,R.layout.activity_dashboard)
+        binding.dashRV.adapter=DashboardAdapter(getDashItems())
+
         imageScroll()
+    }
+
+    private fun getDashItems():List<DashboardModel>{
+        return listOf(
+            DashboardModel(R.drawable.electronics,"Electronics"),
+            DashboardModel(R.drawable.mobile,"Mobiles"),
+            DashboardModel(R.drawable.clothes,"Clothes"),
+            DashboardModel(R.drawable.shoe,"Footwear"),
+            DashboardModel(R.drawable.furniture,"Furniture"),
+            DashboardModel(R.drawable.toys,"Toys"),
+            DashboardModel(R.drawable.kitchen,"Kitchen")
+        )
     }
     fun imageScroll(){
         val imageContainer = findViewById<LinearLayoutCompat>(R.id.imgscroll)

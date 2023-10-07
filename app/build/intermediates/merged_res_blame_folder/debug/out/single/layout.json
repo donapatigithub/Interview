@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/activity_dashboard.xml",
+        "source": "com.example.interview.app-main-6:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/item_dashboard.xml",
+        "source": "com.example.interview.app-main-6:/layout/item_dashboard.xml"
+    }
+]
