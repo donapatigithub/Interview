@@ -28,7 +28,8 @@ MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.0] C:\Users\DO20329591\.
 MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\DO20329591\.gradle\caches\transforms-3\768ed22ee5b87667317a97ec75e6bf9d\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.compose.ui:ui-graphics:1.4.0] C:\Users\DO20329591\.gradle\caches\transforms-3\da54f8575c8c17523101f78632bf45e1\transformed\ui-graphics-1.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0] C:\Users\DO20329591\.gradle\caches\transforms-3\378df300ee8cfa98932194233ccd9546\transformed\ui-tooling-1.4.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DO20329591\.gradle\caches\transforms-3\5ae40766907719c6749fb4172b84988c\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\DO20329591\.gradle\caches\transforms-3\1128412d023b99d63c26a27fc0333097\transformed\recyclerview-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\DO20329591\.gradle\caches\transforms-3\3df552cd3e0e2e327d3c03a3d7d4d770\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\DO20329591\.gradle\caches\transforms-3\4d0365cf741d988a2b394092c2cc993f\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\DO20329591\.gradle\caches\transforms-3\6f1cbeab916b55a33e5b52b6a632019d\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\DO20329591\.gradle\caches\transforms-3\eb8561040cc444423a62dedf667b7b2c\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
@@ -57,7 +58,6 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DO2
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\d283b24e2ecb85da2db140797b2c4f54\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\DO20329591\.gradle\caches\transforms-3\1be142d482273c7899c5d474ae8a6772\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DO20329591\.gradle\caches\transforms-3\0d5bc53360795c9ac9b820e460e812d7\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\f50d117eaa1625920a4d47453d54a3bf\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\bb602cecc2f9d601d86b498557ee6176\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.12.0] C:\Users\DO20329591\.gradle\caches\transforms-3\6ff1bdd8ff9c908837b84dc15d60d445\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\DO20329591\.gradle\caches\transforms-3\c32dfb4c8c518b3ce2efa5c4c01ef0f6\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
@@ -256,8 +256,10 @@ MERGED from [androidx.compose.ui:ui-graphics:1.4.0] C:\Users\DO20329591\.gradle\
 MERGED from [androidx.compose.ui:ui-graphics:1.4.0] C:\Users\DO20329591\.gradle\caches\transforms-3\da54f8575c8c17523101f78632bf45e1\transformed\ui-graphics-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0] C:\Users\DO20329591\.gradle\caches\transforms-3\378df300ee8cfa98932194233ccd9546\transformed\ui-tooling-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0] C:\Users\DO20329591\.gradle\caches\transforms-3\378df300ee8cfa98932194233ccd9546\transformed\ui-tooling-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DO20329591\.gradle\caches\transforms-3\5ae40766907719c6749fb4172b84988c\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DO20329591\.gradle\caches\transforms-3\5ae40766907719c6749fb4172b84988c\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\DO20329591\.gradle\caches\transforms-3\1128412d023b99d63c26a27fc0333097\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\DO20329591\.gradle\caches\transforms-3\1128412d023b99d63c26a27fc0333097\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\DO20329591\.gradle\caches\transforms-3\3df552cd3e0e2e327d3c03a3d7d4d770\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\DO20329591\.gradle\caches\transforms-3\3df552cd3e0e2e327d3c03a3d7d4d770\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\DO20329591\.gradle\caches\transforms-3\4d0365cf741d988a2b394092c2cc993f\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\DO20329591\.gradle\caches\transforms-3\4d0365cf741d988a2b394092c2cc993f\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\DO20329591\.gradle\caches\transforms-3\6f1cbeab916b55a33e5b52b6a632019d\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
@@ -314,8 +316,6 @@ MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\DO20329591\.gradle\cache
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\DO20329591\.gradle\caches\transforms-3\1be142d482273c7899c5d474ae8a6772\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DO20329591\.gradle\caches\transforms-3\0d5bc53360795c9ac9b820e460e812d7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DO20329591\.gradle\caches\transforms-3\0d5bc53360795c9ac9b820e460e812d7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\f50d117eaa1625920a4d47453d54a3bf\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\f50d117eaa1625920a4d47453d54a3bf\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\bb602cecc2f9d601d86b498557ee6176\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\bb602cecc2f9d601d86b498557ee6176\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.12.0] C:\Users\DO20329591\.gradle\caches\transforms-3\6ff1bdd8ff9c908837b84dc15d60d445\transformed\core-1.12.0\AndroidManifest.xml:20:5-44

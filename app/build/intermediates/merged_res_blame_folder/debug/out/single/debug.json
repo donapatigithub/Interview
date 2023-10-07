@@ -1,130 +1,134 @@
 [
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/layout_activity_login.xml.flat",
-        "source": "com.example.interview.app-main-6:/layout/activity_login.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_furniture.jpg.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\furniture.jpg"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_shoe.jpg.flat",
-        "source": "com.example.interview.app-main-6:/drawable/shoe.jpg"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.interview.app-main-6:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/xml_backup_rules.xml.flat",
-        "source": "com.example.interview.app-main-6:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.interview.app-main-6:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.interview.app-main-6:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_item_dashboard.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\item_dashboard.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_electronics.jpg.flat",
-        "source": "com.example.interview.app-main-6:/drawable/electronics.jpg"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_toys.jpg.flat",
-        "source": "com.example.interview.app-main-6:/drawable/toys.jpg"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/layout_activity_dashboard.xml.flat",
-        "source": "com.example.interview.app-main-6:/layout/activity_dashboard.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_logo.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\logo.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_toys.jpg.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\toys.jpg"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-xhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_clothes.jpg.flat",
-        "source": "com.example.interview.app-main-6:/drawable/clothes.jpg"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_electronics.jpg.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\electronics.jpg"
     },
     {
         "merged": "com.example.interview.app-merged_res-4:/layout_item_dashboard.xml.flat",
         "source": "com.example.interview.app-main-6:/layout/item_dashboard.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_logo.webp.flat",
-        "source": "com.example.interview.app-main-6:/drawable/logo.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_mobile.jpg.flat",
-        "source": "com.example.interview.app-main-6:/drawable/mobile.jpg"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_shoe.jpg.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\shoe.jpg"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-hdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_kitchen.jpg.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\kitchen.jpg"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_kitchen.jpg.flat",
-        "source": "com.example.interview.app-main-6:/drawable/kitchen.jpg"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/drawable_furniture.jpg.flat",
-        "source": "com.example.interview.app-main-6:/drawable/furniture.jpg"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.interview.app-merged_res-4:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.interview.app-main-6:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_mobile.jpg.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\mobile.jpg"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_clothes.jpg.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\clothes.jpg"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
     }
 ]

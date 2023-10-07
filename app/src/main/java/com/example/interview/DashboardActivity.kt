@@ -1,36 +1,38 @@
 package com.example.interview
 
+import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.HorizontalScrollView
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.appcompat.widget.LinearLayoutCompat
+import androidx.core.view.size
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.RecyclerView
 import com.example.interview.databinding.ActivityDashboardBinding
 import com.example.interview.model.DashboardModel
+import com.example.interview.model.DashboardViewModel
 
 class DashboardActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDashboardBinding
+    private val dashboardAdapter =DashboardAdapter()
+    private lateinit var viewModel: DashboardViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_dashboard)
-        binding.dashRV.adapter=DashboardAdapter(getDashItems())
+        viewModel = ViewModelProvider(this).get(DashboardViewModel::class.java)
+        binding.lifecycleOwner=this
+        binding.adapter=dashboardAdapter
+        viewModel.dashboardItems.observe(this ,{ items ->
+            dashboardAdapter.submitList(items)
+        })
         imageScroll()
     }
 
-    private fun getDashItems():List<DashboardModel>{
-        return listOf(
-            DashboardModel(R.drawable.electronics,"Electronics"),
-            DashboardModel(R.drawable.mobile,"Mobiles"),
-            DashboardModel(R.drawable.clothes,"Clothes"),
-            DashboardModel(R.drawable.shoe,"Footwear"),
-            DashboardModel(R.drawable.furniture,"Furniture"),
-            DashboardModel(R.drawable.toys,"Toys"),
-            DashboardModel(R.drawable.kitchen,"Kitchen")
-        )
-    }
     fun imageScroll(){
         val imageContainer = binding.imgscroll
 
@@ -43,6 +45,7 @@ class DashboardActivity : AppCompatActivity() {
                 R.drawable.toys,
                 R.drawable.furniture
             )
+            Log.d("Sizeimg", image.size.toString())
             val imageSpace = resources.getDimensionPixelSize(R.dimen.img_space)
 
             for (i in image) {
@@ -57,6 +60,5 @@ class DashboardActivity : AppCompatActivity() {
                 imageContainer.addView(imageView)
             }
         }
-
     }
 }
