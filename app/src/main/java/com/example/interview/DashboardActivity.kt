@@ -11,11 +11,12 @@ import com.example.interview.databinding.ActivityDashboardBinding
 import com.example.interview.model.DashboardModel
 
 class DashboardActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityDashboardBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding : ActivityDashboardBinding=DataBindingUtil.setContentView(this,R.layout.activity_dashboard)
+        binding = DataBindingUtil.setContentView(this,R.layout.activity_dashboard)
         binding.dashRV.adapter=DashboardAdapter(getDashItems())
-
         imageScroll()
     }
 
@@ -31,28 +32,30 @@ class DashboardActivity : AppCompatActivity() {
         )
     }
     fun imageScroll(){
-        val imageContainer = findViewById<LinearLayoutCompat>(R.id.imgscroll)
+        val imageContainer = binding.imgscroll
 
-        val image = arrayOf(
-            R.drawable.mobile,
-            R.drawable.clothes,
-            R.drawable.electronics,
-            R.drawable.shoe,
-            R.drawable.toys,
-            R.drawable.furniture
-        )
-        val imageSpace = resources.getDimensionPixelSize(R.dimen.img_space)
-
-        for (i in image){
-            val imageView = ImageView(this)
-            imageView.setImageResource(i)
-            val layoutParams = LinearLayoutCompat.LayoutParams(
-                LinearLayoutCompat.LayoutParams.WRAP_CONTENT,
-                LinearLayoutCompat.LayoutParams.WRAP_CONTENT
+        if (imageContainer != null) {
+            val image = arrayOf(
+                R.drawable.mobile,
+                R.drawable.clothes,
+                R.drawable.electronics,
+                R.drawable.shoe,
+                R.drawable.toys,
+                R.drawable.furniture
             )
-            layoutParams.marginEnd = imageSpace
-            imageView.layoutParams=layoutParams
-            imageContainer.addView(imageView)
+            val imageSpace = resources.getDimensionPixelSize(R.dimen.img_space)
+
+            for (i in image) {
+                val imageView = ImageView(this)
+                imageView.setImageResource(i)
+                val layoutParams = LinearLayoutCompat.LayoutParams(
+                    LinearLayoutCompat.LayoutParams.WRAP_CONTENT,
+                    LinearLayoutCompat.LayoutParams.WRAP_CONTENT
+                )
+                layoutParams.marginEnd = imageSpace
+                imageView.layoutParams = layoutParams
+                imageContainer.addView(imageView)
+            }
         }
 
     }

@@ -14,10 +14,12 @@ drawable electronics
 drawable furniture
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable kitchen
 drawable logo
 drawable mobile
 drawable shoe
 drawable toys
+id dashRV
 id homeimg
 id hscrollview
 id imgscroll
@@ -25,10 +27,13 @@ id loginbtn
 id logo
 id logoName
 id password
+id prodimg
+id prodname
 id search
 id userid
 layout activity_dashboard
 layout activity_login
+layout item_dashboard
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

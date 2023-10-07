@@ -6,7 +6,7 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="30"
-9        android:targetSdkVersion="33" />
+9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 11-->C:\And\Interview\app\src\main\AndroidManifest.xml:5:5-79
@@ -18,7 +18,7 @@
 13-->C:\And\Interview\app\src\main\AndroidManifest.xml:7:5-9:38
 14        android:name="android.permission.READ_EXTERNAL_STORAGE"
 14-->C:\And\Interview\app\src\main\AndroidManifest.xml:8:9-64
-15        android:maxSdkVersion="33" />
+15        android:maxSdkVersion="34" />
 15-->C:\And\Interview\app\src\main\AndroidManifest.xml:9:9-35
 16    <uses-permission android:name="android.permission.CAMERA" />
 16-->C:\And\Interview\app\src\main\AndroidManifest.xml:10:5-65

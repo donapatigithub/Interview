@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
                                                               
-                                       
-                                         
+     
     
                  
                        
@@ -13,7 +12,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:tag="layout/item_dashboard_0" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    android:tag="layout/item_dashboard_0" xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView
         android:id="@+id/prodimg"
         android:layout_width="100dp"
@@ -27,7 +26,5 @@
         android:layout_gravity="center_horizontal"
         android:tag="binding_2"    
         />
-
-
 </LinearLayout>
          
