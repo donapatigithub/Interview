@@ -37,10 +37,10 @@ class HomeFragment : Fragment() {
         }
         dashboardAdapter.onClickItem { position, itemType ->
             when(itemType){
-                "Toys" ->{
+                "Electronics" ->{
 
                         //Navigation.findNavController(requireActivity(),R.id.fragmentContainer).navigate(R.id.cartFragment)
-                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,CartFragment())
+                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ProductsListFragment())
                         .addToBackStack(null)
                         .commit()
                 }

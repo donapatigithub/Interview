@@ -13,7 +13,7 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="256" />
+                            <option name="x" value="500" />
                             <option name="y" value="12" />
                           </Point>
                         </option>
@@ -21,6 +21,32 @@
                     </value>
                   </entry>
                   <entry key="homeFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="256" />
+                            <option name="y" value="54" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_homeFragment_to_cartFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_homeFragment_to_profileFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="product">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -37,7 +63,7 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
+                            <option name="x" value="500" />
                             <option name="y" value="368" />
                           </Point>
                         </option>

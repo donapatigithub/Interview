@@ -4,6 +4,10 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_baseline_cancel_24.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\baseline_cancel_24.xml"
+    },
+    {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_activity_dashboard.xml.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\activity_dashboard.xml"
     },
@@ -32,6 +36,10 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_products_list_iem.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\products_list_iem.xml"
+    },
+    {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
@@ -52,6 +60,10 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_fragment_products_list.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_products_list.xml"
+    },
+    {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -70,10 +82,6 @@
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.interview.app-merged_res-4:/layout_activity_dashboard.xml.flat",
-        "source": "com.example.interview.app-main-6:/layout/activity_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
@@ -162,5 +170,13 @@
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_cross.png.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\cross.png"
+    },
+    {
+        "merged": "com.example.interview.app-merged_res-4:/layout_fragment_products_list.xml.flat",
+        "source": "com.example.interview.app-main-6:/layout/fragment_products_list.xml"
     }
 ]

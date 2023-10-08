@@ -27,5 +27,10 @@
         android:name="com.example.interview.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/product"
+        android:name="com.example.interview.ProductsListFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_products_list"/>
 
 </navigation>
