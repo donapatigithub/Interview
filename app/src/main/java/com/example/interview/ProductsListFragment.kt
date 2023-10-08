@@ -7,8 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
-import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.interview.databinding.FragmentProductsListBinding
 import com.example.interview.model.ProductViewModel
@@ -23,7 +22,6 @@ class ProductsListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentProductsListBinding.inflate(inflater, container, false)
-        //binding.productItems=productViewModel.productItems
         return binding.root
     }
 
@@ -32,13 +30,13 @@ class ProductsListFragment : Fragment() {
         productViewModel = ViewModelProvider(this).get(ProductViewModel::class.java)
 
         val adapter = ProductAdapter()
+        adapter.setOnItemClickListener { product ->
+            val action = R.id.action_product_to_cartFragment
+            findNavController().navigate(action)
+        }
         binding.productsRecycle.adapter = adapter
         binding.productsRecycle.layoutManager = LinearLayoutManager(requireContext())
         binding.productItems=productViewModel.productItems
-        /*binding.adapter = ProductAdapter()
-        productViewModel.productItems.observe(viewLifecycleOwner){
-            ProductAdapter().submitList(it)
-        }*/
         binding.lifecycleOwner = this
         productViewModel.productItems.observe(viewLifecycleOwner, Observer {
             adapter.submitList(it)

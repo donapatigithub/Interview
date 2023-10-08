@@ -10,6 +10,12 @@ import com.example.interview.databinding.ProductsListIemBinding
 import com.example.interview.model.ProductModel
 
 class ProductAdapter : ListAdapter<ProductModel, ProductAdapter.ProductVH>(ProductDiffCallback()) {
+
+    private var onItemClickListener: ((ProductModel) -> Unit)? = null
+
+    fun setOnItemClickListener(listener: (ProductModel)->Unit){
+        onItemClickListener=listener
+    }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductVH {
         val binding  = ProductsListIemBinding.inflate(LayoutInflater.from(parent.context),parent,false)
         return ProductVH(binding)
@@ -24,8 +30,10 @@ class ProductAdapter : ListAdapter<ProductModel, ProductAdapter.ProductVH>(Produ
             Log.d("Das","Image Id: ${item.image}, Name:${item.name}, Price:${item.price}")
             binding.executePendingBindings()
 
+            itemView.setOnClickListener {
+                onItemClickListener?.invoke(item)
+            }
         }
-
     }
 }
 

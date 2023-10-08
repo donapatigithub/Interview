@@ -3141,14 +3141,14 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
-id action_homeFragment_to_cartFragment
-id action_homeFragment_to_profileFragment
+id action_homeFragment_to_product
 id action_image
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_product_to_cartFragment
 id action_text
 id actions
 id activity_chooser_view_content

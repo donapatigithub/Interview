@@ -25,8 +25,8 @@ drawable logo
 drawable mobile
 drawable shoe
 drawable toys
-id action_homeFragment_to_cartFragment
-id action_homeFragment_to_profileFragment
+id action_homeFragment_to_product
+id action_product_to_cartFragment
 id bottomNav
 id cancel
 id cart
