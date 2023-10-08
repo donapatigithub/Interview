@@ -18,7 +18,7 @@ public class FragmentProductsListBindingImpl extends FragmentProductsListBinding
     }
     // views
     @NonNull
-    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
+    private final android.widget.RelativeLayout mboundView0;
     // variables
     // values
     // listeners
@@ -32,7 +32,7 @@ public class FragmentProductsListBindingImpl extends FragmentProductsListBinding
             , (android.widget.ImageButton) bindings[2]
             , (androidx.recyclerview.widget.RecyclerView) bindings[1]
             );
-        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView0.setTag(null);
         this.productsRecycle.setTag(null);
         setRootTag(root);

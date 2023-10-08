@@ -20,22 +20,20 @@ public class FragmentHomeBindingImpl extends FragmentHomeBinding  {
         sViewsWithIds.put(R.id.hscrollview, 5);
         sViewsWithIds.put(R.id.imgscroll, 6);
         sViewsWithIds.put(R.id.txt, 7);
-        sViewsWithIds.put(R.id.bottomNav, 8);
     }
     // views
     @NonNull
-    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
+    private final android.widget.RelativeLayout mboundView0;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
     public FragmentHomeBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 8, sIncludes, sViewsWithIds));
     }
     private FragmentHomeBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (com.google.android.material.bottomnavigation.BottomNavigationView) bindings[8]
             , (androidx.recyclerview.widget.RecyclerView) bindings[1]
             , (androidx.appcompat.widget.AppCompatImageView) bindings[2]
             , (android.widget.HorizontalScrollView) bindings[5]
@@ -45,7 +43,7 @@ public class FragmentHomeBindingImpl extends FragmentHomeBinding  {
             , (androidx.appcompat.widget.AppCompatTextView) bindings[7]
             );
         this.dashRV.setTag(null);
-        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners

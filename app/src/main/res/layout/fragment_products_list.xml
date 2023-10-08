@@ -12,7 +12,7 @@
             name="productItems"
             type="androidx.lifecycle.LiveData&lt;java.util.List&lt;com.example.interview.model.ProductModel>>" />
     </data>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProductsListFragment">
@@ -22,18 +22,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/baseline_cancel_24"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:contentDescription="cancel" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/productsRecycle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/cancel"
+        android:layout_below="@id/cancel"
         app:productList="@{productItems}"
+        android:layout_marginBottom="50dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
 </layout>

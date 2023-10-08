@@ -3140,7 +3140,9 @@ int id action_bar_title 0x7f080039
 int id action_container 0x7f08003a
 int id action_context_bar 0x7f08003b
 int id action_divider 0x7f08003c
+int id action_homeFragment_to_cartFragment 0x7f08003d
 int id action_homeFragment_to_product 0x7f080223
+int id action_homeFragment_to_profileFragment 0x7f08003e
 int id action_image 0x7f08003f
 int id action_menu_divider 0x7f080040
 int id action_menu_presenter 0x7f080041

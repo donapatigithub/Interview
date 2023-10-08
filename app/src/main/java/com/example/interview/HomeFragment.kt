@@ -44,14 +44,33 @@ class HomeFragment : Fragment() {
                         .addToBackStack(null)
                         .commit()
                 }
-                "Mobiles"->{
-                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ProfileFragment())
-                        .addToBackStack(null)
-                        .commit()
-                }
             }
 
         }
+        /*binding.bottomNav.setOnItemSelectedListener {
+            when(it.itemId){
+                R.id.profile-> {
+                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ProfileFragment())
+                        .addToBackStack(null)
+                        .commit()
+                    true
+                }
+                R.id.cart-> {
+                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,CartFragment())
+                        .addToBackStack(null)
+                        .commit()
+                    true
+                }
+                R.id.home-> {
+                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,HomeFragment())
+                        .addToBackStack(null)
+                        .commit()
+                    true
+                }
+
+                else -> false
+            }
+        }*/
     }
     fun imageScroll(){
         val imageContainer = binding.imgscroll
