@@ -18,14 +18,10 @@ import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.interview.DashboardAdapter;
 import com.example.interview.R;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class FragmentHomeBinding extends ViewDataBinding {
-  @NonNull
-  public final BottomNavigationView bottomNav;
-
   @NonNull
   public final RecyclerView dashRV;
 
@@ -51,11 +47,9 @@ public abstract class FragmentHomeBinding extends ViewDataBinding {
   protected DashboardAdapter mAdapter;
 
   protected FragmentHomeBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      BottomNavigationView bottomNav, RecyclerView dashRV, AppCompatImageView homeimg,
-      HorizontalScrollView hscrollview, LinearLayoutCompat imgscroll, TextView offertitle,
-      SearchView search, AppCompatTextView txt) {
+      RecyclerView dashRV, AppCompatImageView homeimg, HorizontalScrollView hscrollview,
+      LinearLayoutCompat imgscroll, TextView offertitle, SearchView search, AppCompatTextView txt) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.bottomNav = bottomNav;
     this.dashRV = dashRV;
     this.homeimg = homeimg;
     this.hscrollview = hscrollview;
