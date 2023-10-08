@@ -7,12 +7,16 @@ import com.example.interview.R
 
 class ProductViewModel : ViewModel() {
     private val _productItems = MutableLiveData<List<ProductModel>>()
-    val productItems: LiveData<List<ProductModel>>
-        get() = _productItems
-    init {
-        _productItems.value= listOf(
+    val productItems: LiveData<List<ProductModel>> =_productItems
+        init {
+            _productItems.value = getProducts()
+        }
+    private fun getProducts() : List<ProductModel>{
+        return listOf(
 
-            ProductModel("Hp ProBook","58999",R.drawable.electronics)
+            ProductModel("Hp ProBook","58999",R.drawable.electronics),
+            ProductModel("Elec","250",R.drawable.toys)
+
         )
     }
 }

@@ -11,9 +11,9 @@ import com.example.interview.model.ProductModel
 
 class ProductAdapter : ListAdapter<ProductModel, ProductAdapter.ProductVH>(ProductDiffCallback()) {
 
-    private var onItemClickListener: ((ProductModel) -> Unit)? = null
+    private var onItemClickListener: ((Int,String) -> Unit)? = null
 
-    fun setOnItemClickListener(listener: (ProductModel)->Unit){
+    fun setOnItemClickListener(listener: (Int,String)->Unit){
         onItemClickListener=listener
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductVH {
@@ -23,16 +23,17 @@ class ProductAdapter : ListAdapter<ProductModel, ProductAdapter.ProductVH>(Produ
     override fun onBindViewHolder(holder: ProductVH, position: Int) {
         val product =getItem(position)
         holder.bind(product)
+        holder.itemView.setOnClickListener {
+            val prodselect = getItem(position)
+            val prodtype = prodselect.name
+            onItemClickListener?.invoke(position,prodtype)
+        }
     }
     inner class ProductVH(private val binding: ProductsListIemBinding):RecyclerView.ViewHolder(binding.root) {
         fun bind(item: ProductModel){
             binding.product=item
             Log.d("Das","Image Id: ${item.image}, Name:${item.name}, Price:${item.price}")
             binding.executePendingBindings()
-
-            itemView.setOnClickListener {
-                onItemClickListener?.invoke(item)
-            }
         }
     }
 }

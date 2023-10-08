@@ -30,9 +30,15 @@ class ProductsListFragment : Fragment() {
         productViewModel = ViewModelProvider(this).get(ProductViewModel::class.java)
 
         val adapter = ProductAdapter()
-        adapter.setOnItemClickListener { product ->
-            val action = R.id.action_product_to_cartFragment
-            findNavController().navigate(action)
+        adapter.setOnItemClickListener { position, prodtype->
+
+            when(prodtype){
+                "Hp ProBook"->{
+                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,CartFragment())
+                        .addToBackStack(null)
+                        .commit()
+                }
+            }
         }
         binding.productsRecycle.adapter = adapter
         binding.productsRecycle.layoutManager = LinearLayoutManager(requireContext())
