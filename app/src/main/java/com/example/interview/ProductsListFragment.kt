@@ -34,7 +34,7 @@ class ProductsListFragment : Fragment() {
 
             when(prodtype){
                 "Hp ProBook"->{
-                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,CartFragment())
+                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ItemDetailsFragment())
                         .addToBackStack(null)
                         .commit()
                 }

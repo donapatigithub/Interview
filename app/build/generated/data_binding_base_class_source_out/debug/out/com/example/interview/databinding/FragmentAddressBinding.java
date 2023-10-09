@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,6 +21,9 @@ public abstract class FragmentAddressBinding extends ViewDataBinding {
   public final Button btnedit;
 
   @NonNull
+  public final ImageButton cancel;
+
+  @NonNull
   public final Button delbtn;
 
   @NonNull
@@ -32,9 +36,11 @@ public abstract class FragmentAddressBinding extends ViewDataBinding {
   public final TextView savedText;
 
   protected FragmentAddressBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button btnedit, Button delbtn, EditText edtText, Button savebtn, TextView savedText) {
+      Button btnedit, ImageButton cancel, Button delbtn, EditText edtText, Button savebtn,
+      TextView savedText) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnedit = btnedit;
+    this.cancel = cancel;
     this.delbtn = delbtn;
     this.edtText = edtText;
     this.savebtn = savebtn;

@@ -40,7 +40,7 @@ class HomeFragment : Fragment() {
                 "Electronics" ->{
 
                         //Navigation.findNavController(requireActivity(),R.id.fragmentContainer).navigate(R.id.cartFragment)
-                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ItemDetailsFragment())
+                    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ProductsListFragment())
                         .addToBackStack(null)
                         .commit()
                 }

@@ -51,6 +51,11 @@ class AddressFragment : Fragment() {
                 showToast("No address to save")
             }
         }
+        binding.cancel.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ProfileFragment())
+                .addToBackStack(null)
+                .commit()
+        }
     }
     private fun showToast(message: String){
         Toast.makeText(requireContext(),message,Toast.LENGTH_SHORT).show()

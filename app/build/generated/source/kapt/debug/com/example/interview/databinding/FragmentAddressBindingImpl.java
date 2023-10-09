@@ -14,11 +14,12 @@ public class FragmentAddressBindingImpl extends FragmentAddressBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.edtText, 1);
-        sViewsWithIds.put(R.id.btnedit, 2);
-        sViewsWithIds.put(R.id.delbtn, 3);
-        sViewsWithIds.put(R.id.savebtn, 4);
-        sViewsWithIds.put(R.id.savedText, 5);
+        sViewsWithIds.put(R.id.cancel, 1);
+        sViewsWithIds.put(R.id.edtText, 2);
+        sViewsWithIds.put(R.id.btnedit, 3);
+        sViewsWithIds.put(R.id.delbtn, 4);
+        sViewsWithIds.put(R.id.savebtn, 5);
+        sViewsWithIds.put(R.id.savedText, 6);
     }
     // views
     @NonNull
@@ -29,15 +30,16 @@ public class FragmentAddressBindingImpl extends FragmentAddressBinding  {
     // Inverse Binding Event Handlers
 
     public FragmentAddressBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
     }
     private FragmentAddressBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.Button) bindings[2]
             , (android.widget.Button) bindings[3]
-            , (android.widget.EditText) bindings[1]
+            , (android.widget.ImageButton) bindings[1]
             , (android.widget.Button) bindings[4]
-            , (android.widget.TextView) bindings[5]
+            , (android.widget.EditText) bindings[2]
+            , (android.widget.Button) bindings[5]
+            , (android.widget.TextView) bindings[6]
             );
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView0.setTag(null);
