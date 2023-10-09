@@ -24,4 +24,9 @@ class DashboardViewModel: ViewModel() {
             DashboardModel(R.drawable.kitchen,"Kitchen")
         )
     }
+    fun filterItems(query : String): List<DashboardModel>{
+        return getDashItems().filter {
+        it.name.contains(query, ignoreCase = true)
+        }
+    }
 }

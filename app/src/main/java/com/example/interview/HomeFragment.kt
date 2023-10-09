@@ -8,6 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.appcompat.widget.LinearLayoutCompat
+import androidx.appcompat.widget.SearchView
+import androidx.appcompat.widget.SearchView.OnQueryTextListener
+import androidx.databinding.adapters.SearchViewBindingAdapter.OnQueryTextChange
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
@@ -19,6 +22,7 @@ class HomeFragment : Fragment() {
     private lateinit var binding : FragmentHomeBinding
     private val dashboardAdapter =DashboardAdapter()
     private lateinit var viewModel: DashboardViewModel
+    private lateinit var searchView: SearchView
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -47,6 +51,14 @@ class HomeFragment : Fragment() {
             }
 
         }
+        searchView = binding.search
+        searchView.setUpSearchView{ query->
+            filterItems(query)
+        }
+    }
+    private fun filterItems(query: String){
+        val filteredList = viewModel.filterItems(query)
+        dashboardAdapter.submitList(filteredList)
     }
     fun imageScroll(){
         val imageContainer = binding.imgscroll
@@ -75,5 +87,20 @@ class HomeFragment : Fragment() {
                 imageContainer.addView(imageView)
             }
         }
+    }
+    private fun SearchView.setUpSearchView(onQueryTextChange: (String)->Unit) {
+
+        this.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                return false
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+                newText?.let { onQueryTextChange(it) }
+                return true
+            }
+
+        })
+
     }
 }
