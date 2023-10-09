@@ -33,7 +33,6 @@ id action_product_to_itemDetailsFragment
 id address
 id bottomNav
 id btnAddress
-id btnadd
 id btnedit
 id cancel
 id cart

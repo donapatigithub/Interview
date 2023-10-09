@@ -17,9 +17,6 @@ import java.lang.Object;
 
 public abstract class FragmentAddressBinding extends ViewDataBinding {
   @NonNull
-  public final Button btnadd;
-
-  @NonNull
   public final Button btnedit;
 
   @NonNull
@@ -35,10 +32,8 @@ public abstract class FragmentAddressBinding extends ViewDataBinding {
   public final TextView savedText;
 
   protected FragmentAddressBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button btnadd, Button btnedit, Button delbtn, EditText edtText, Button savebtn,
-      TextView savedText) {
+      Button btnedit, Button delbtn, EditText edtText, Button savebtn, TextView savedText) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.btnadd = btnadd;
     this.btnedit = btnedit;
     this.delbtn = delbtn;
     this.edtText = edtText;

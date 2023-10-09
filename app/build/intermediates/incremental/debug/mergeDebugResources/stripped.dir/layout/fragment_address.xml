@@ -11,24 +11,21 @@
        android:id="@+id/edtText"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:hint="Enter Address"/>
-    <Button
-        android:id="@+id/btnadd"
+       android:hint="Edit Address"/>
+        <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edtText"
-        android:text="Add Address"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnadd"
         android:id="@+id/btnedit"
-        android:text="edit Address"/>
+        android:text="edit Address"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentStart="true"/>
     <Button
         android:id="@+id/delbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnedit"
+        android:layout_below="@id/edtText"
+        android:layout_alignParentEnd="true"
         android:text="Delete Address"/>
     <Button
         android:layout_width="match_parent"
@@ -40,6 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/savebtn"
+        android:textSize="15sp"
+        android:textStyle="italic"
         android:id="@+id/savedText"/>
 
 </RelativeLayout>
