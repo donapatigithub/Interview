@@ -42,7 +42,7 @@ class AddressFragment : Fragment() {
             }
         }
         binding.delbtn.setOnClickListener {
-            currentAddress = null
+            viewModel.saveAddress(null)
             binding.edtText.text.clear()
             binding.savedText.text = ""
             showToast("Address deleted")

@@ -10,7 +10,7 @@ class AddressViewModel : ViewModel() {
     fun getAddress(): String? {
         return _addressLiveData.value
     }
-    fun saveAddress(address : String){
+    fun saveAddress(address : String?){
         _addressLiveData.value=address
     }
 }

@@ -3187,7 +3187,6 @@ int id bounceBoth 0x7f080068
 int id bounceEnd 0x7f080069
 int id bounceStart 0x7f08006a
 int id btnAddress 0x7f08006b
-int id btnedit 0x7f08006c
 int id buttonPanel 0x7f08006d
 int id cache_measures 0x7f08006e
 int id callMeasure 0x7f08006f
