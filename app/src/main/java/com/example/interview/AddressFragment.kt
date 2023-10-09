@@ -8,11 +8,14 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import com.example.interview.databinding.FragmentAddressBinding
+import com.example.interview.model.AddressViewModel
 
 
 class AddressFragment : Fragment() {
     private var currentAddress : String? = null
     private lateinit var binding: FragmentAddressBinding
+    private lateinit var viewModel: AddressViewModel
+    private var isEditing = false
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -27,12 +30,16 @@ class AddressFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        viewModel = ViewModelProvider(requireActivity()).get(AddressViewModel::class.java)
 
-        binding.btnedit.setOnClickListener {
-            currentAddress?.let { address->
-                binding.edtText.setText(address)
-                showToast("Edit Address : $address")
-            }?: showToast("No address to edit")
+        binding.edtText.setOnClickListener {
+            if (!isEditing){
+                val saveddata = viewModel.getAddress()
+                if (!isEditing){
+                    binding.edtText.setText(saveddata)
+                    isEditing = true
+                }
+            }
         }
         binding.delbtn.setOnClickListener {
             currentAddress = null
@@ -43,10 +50,11 @@ class AddressFragment : Fragment() {
         binding.savebtn.setOnClickListener {
            val editAddress =  binding.edtText.text.toString().trim()
             if (editAddress.isNotEmpty()) {
-                currentAddress = editAddress
-                binding.savedText.text="Saved Address : $currentAddress"
+                viewModel.saveAddress(editAddress)
+                binding.savedText.text="Saved Address : $editAddress"
                 showToast("Address saved : $editAddress")
                 binding.edtText.text.clear()
+                isEditing=false
             } else {
                 showToast("No address to save")
             }
@@ -59,6 +67,16 @@ class AddressFragment : Fragment() {
     }
     private fun showToast(message: String){
         Toast.makeText(requireContext(),message,Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        val lastData = viewModel.getAddress()
+        if (!lastData.isNullOrBlank()) {
+            binding.savedText.text = "Saved Address : $lastData"
+        } else {
+            binding.savedText.text = ""
+        }
     }
 
 }
