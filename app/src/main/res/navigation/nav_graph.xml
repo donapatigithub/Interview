@@ -31,6 +31,11 @@
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile"/>
     <fragment
+        android:id="@+id/itemDetailsFragment"
+        android:name="com.example.interview.ItemDetailsFragment"
+        android:label="fragment_itemDetails"
+        tools:layout="@layout/fragment_item_details"/>
+    <fragment
         android:id="@+id/product"
         android:name="com.example.interview.ProductsListFragment"
         android:label="fragment_product"
@@ -38,6 +43,14 @@
         <action
             android:id="@+id/action_product_to_cartFragment"
             app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_product_to_itemDetailsFragment"
+            app:destination="@id/itemDetailsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/address"
+        android:name="com.example.interview.AddressFragment"
+        android:label="fragment_address"
+        tools:layout="@layout/fragment_address"/>
 
 </navigation>

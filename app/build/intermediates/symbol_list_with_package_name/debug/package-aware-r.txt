@@ -3151,10 +3151,12 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_product_to_cartFragment
+id action_product_to_itemDetailsFragment
 id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address
 id alertTitle
 id aligned
 id all
@@ -3185,6 +3187,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAddress
+id btnadd
+id btnedit
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3192,6 +3197,7 @@ id cancel
 id cancel_button
 id carryVelocity
 id cart
+id cartButton
 id cartFragment
 id center
 id centerCrop
@@ -3236,6 +3242,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delbtn
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3267,6 +3274,7 @@ id east
 id edge
 id edit_query
 id edit_text_id
+id edtText
 id elastic
 id embed
 id end
@@ -3330,6 +3338,10 @@ id invisible
 id inward
 id is_pooling_container_tag
 id italic
+id itemDetailsFragment
+id itemImage
+id itemName
+id itemPrice
 id item_touch_helper_previous_elevation
 id itemname
 id itemprice
@@ -3479,6 +3491,8 @@ id row_index_key
 id rtl
 id save_non_transition_alpha
 id save_overlay_view
+id savebtn
+id savedText
 id sawtooth
 id scale
 id screen
@@ -3760,8 +3774,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_address
 layout fragment_cart
 layout fragment_home
+layout fragment_item_details
 layout fragment_products_list
 layout fragment_profile
 layout ime_base_split_test_activity

@@ -6,6 +6,7 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import com.example.interview.databinding.FragmentAddressBindingImpl;
 import com.example.interview.databinding.FragmentHomeBindingImpl;
 import com.example.interview.databinding.FragmentProductsListBindingImpl;
 import com.example.interview.databinding.ItemDashboardBindingImpl;
@@ -21,17 +22,20 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_FRAGMENTHOME = 1;
+  private static final int LAYOUT_FRAGMENTADDRESS = 1;
 
-  private static final int LAYOUT_FRAGMENTPRODUCTSLIST = 2;
+  private static final int LAYOUT_FRAGMENTHOME = 2;
 
-  private static final int LAYOUT_ITEMDASHBOARD = 3;
+  private static final int LAYOUT_FRAGMENTPRODUCTSLIST = 3;
 
-  private static final int LAYOUT_PRODUCTSLISTIEM = 4;
+  private static final int LAYOUT_ITEMDASHBOARD = 4;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
+  private static final int LAYOUT_PRODUCTSLISTIEM = 5;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(5);
 
   static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_address, LAYOUT_FRAGMENTADDRESS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_home, LAYOUT_FRAGMENTHOME);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_products_list, LAYOUT_FRAGMENTPRODUCTSLIST);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.item_dashboard, LAYOUT_ITEMDASHBOARD);
@@ -47,6 +51,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
+        case  LAYOUT_FRAGMENTADDRESS: {
+          if ("layout/fragment_address_0".equals(tag)) {
+            return new FragmentAddressBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_address is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTHOME: {
           if ("layout/fragment_home_0".equals(tag)) {
             return new FragmentHomeBindingImpl(component, view);
@@ -129,9 +139,10 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(5);
 
     static {
+      sKeys.put("layout/fragment_address_0", com.example.interview.R.layout.fragment_address);
       sKeys.put("layout/fragment_home_0", com.example.interview.R.layout.fragment_home);
       sKeys.put("layout/fragment_products_list_0", com.example.interview.R.layout.fragment_products_list);
       sKeys.put("layout/item_dashboard_0", com.example.interview.R.layout.item_dashboard);
