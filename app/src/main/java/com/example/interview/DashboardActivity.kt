@@ -41,7 +41,6 @@ class DashboardActivity : AppCompatActivity() {
                         .commit()
                     true
                 }
-
                 else -> false
             }
         }
