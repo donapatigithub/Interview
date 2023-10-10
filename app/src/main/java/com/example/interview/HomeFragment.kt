@@ -72,7 +72,6 @@ class HomeFragment : Fragment() {
                 R.drawable.toys,
                 R.drawable.furniture
             )
-            Log.d("Sizeimg", image.size.toString())
             val imageSpace = resources.getDimensionPixelSize(R.dimen.img_space)
 
             for (i in image) {

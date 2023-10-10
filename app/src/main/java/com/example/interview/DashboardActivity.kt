@@ -21,7 +21,7 @@ class DashboardActivity : AppCompatActivity() {
                 .commit()
         }
         val bind = findViewById<BottomNavigationView>(R.id.bottomNav)
-            bind.setOnItemSelectedListener {
+            .setOnItemSelectedListener {
             when(it.itemId){
                 R.id.profile-> {
                     supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ProfileFragment())
