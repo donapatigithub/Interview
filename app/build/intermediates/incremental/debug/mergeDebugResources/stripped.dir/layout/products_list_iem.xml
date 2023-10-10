@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+    
+                 
+                          
+                                                              
+           
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp" android:tag="layout/products_list_iem_0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/imgid"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:tag="binding_1"       
+        android:contentDescription="Product Image"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_2"       
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/itemprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_3"        
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+         
