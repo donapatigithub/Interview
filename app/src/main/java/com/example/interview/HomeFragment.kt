@@ -107,7 +107,6 @@ class HomeFragment : Fragment() {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 return false
             }
-
             override fun onQueryTextChange(newText: String?): Boolean {
                 newText?.let { onQueryTextChange(it) }
                 return true
