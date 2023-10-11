@@ -74,9 +74,9 @@ class HomeFragment : Fragment() {
             )
             val imageSpace = resources.getDimensionPixelSize(R.dimen.img_space)
 
-            for (i in image) {
+            for (i in image.indices) {
                 val imageView = ImageView(requireContext())
-                imageView.setImageResource(i)
+                imageView.setImageResource(image[i])
                 val layoutParams = LinearLayoutCompat.LayoutParams(
                     LinearLayoutCompat.LayoutParams.WRAP_CONTENT,
                     LinearLayoutCompat.LayoutParams.WRAP_CONTENT
@@ -84,6 +84,20 @@ class HomeFragment : Fragment() {
                 layoutParams.marginEnd = imageSpace
                 imageView.layoutParams = layoutParams
                 imageContainer.addView(imageView)
+                imageView.setOnClickListener {
+                    when(i){
+                        0 ->{
+                            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ProductsListFragment())
+                                .addToBackStack(null)
+                                .commit()
+                        }
+                        2 ->{
+                            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ItemDetailsFragment())
+                                .addToBackStack(null)
+                                .commit()
+                        }
+                    }
+                }
             }
         }
     }
