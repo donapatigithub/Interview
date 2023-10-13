@@ -10,6 +10,7 @@ class UserRepo(conext:Context) {
     fun registerUser(user: RegisterModel):Long{
         val db = userDB.writableDatabase
         val values = ContentValues()
+
         values.put(AppDB.COLUMN_NAME, user.name)
         values.put(AppDB.COLUMN_MOBILE, user.mobile)
         values.put(AppDB.COLUMN_EMAIL, user.email)
