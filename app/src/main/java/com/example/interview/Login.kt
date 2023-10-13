@@ -7,11 +7,14 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.fragment.app.FragmentManager
+import com.example.interview.dB.UserRepo
 
 class Login : AppCompatActivity() {
    private lateinit var userName : EditText
    private lateinit var userPassword : EditText
    private lateinit var login: Button
+   private lateinit var register: Button
+   private lateinit var userRepo: UserRepo
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,24 +23,22 @@ class Login : AppCompatActivity() {
         userName = findViewById(R.id.userid)
         userPassword = findViewById(R.id.password)
         login = findViewById(R.id.loginbtn)
+        register = findViewById(R.id.register)
+        userRepo=UserRepo(this)
         onClick()
     }
     fun onClick(){
         login.setOnClickListener {
-            val user = userName.text.toString()
+            val email = userName.text.toString()
             val password = userPassword.text.toString()
 
-            if (user == "1" && password=="1"){
+            val user = userRepo.getUserByEmail(email)
+
+            if (user != null && user.password == password){
                 val isLoginsuccess= true
                 if (isLoginsuccess) {
-                    /*val fragment = HomeFragment()
-                    val fragmentManager = supportFragmentManager
-                    val transaction = fragmentManager.beginTransaction()
-                    transaction.replace(R.id.fragmentcontainer, fragment)
-                    transaction.commit()
-                    finish()*/
+
                     val intent = Intent(this,DashboardActivity::class.java)
-                    //intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                     startActivity(intent)
                     finish()
                 }

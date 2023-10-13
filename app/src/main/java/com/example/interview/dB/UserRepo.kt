@@ -1,5 +1,6 @@
 package com.example.interview.dB
 
+import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
 import com.example.interview.model.RegisterModel
@@ -18,6 +19,7 @@ class UserRepo(conext:Context) {
         db.close()
         return result
     }
+    @SuppressLint("Range")
     fun getUserByEmail(email: String):RegisterModel?{
         val db = userDB.readableDatabase
         val cursor =db.query(AppDB.TABLE_NAME,null,"${AppDB.COLUMN_EMAIL}=?", arrayOf(email),null,null,null)
