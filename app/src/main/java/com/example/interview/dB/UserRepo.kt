@@ -3,6 +3,7 @@ package com.example.interview.dB
 import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
+import android.util.Log
 import com.example.interview.model.RegisterModel
 
 class UserRepo(conext:Context) {
@@ -18,6 +19,7 @@ class UserRepo(conext:Context) {
 
         val result = db.insert(AppDB.TABLE_NAME,null,values)
         db.close()
+        Log.d("user_Reg","User:${user.email},Name:${user.name},Mobile:${user.mobile},Password:${user.password}")
         return result
     }
     @SuppressLint("Range")
