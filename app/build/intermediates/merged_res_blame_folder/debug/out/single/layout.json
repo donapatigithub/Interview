@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_home.xml",
+        "source": "com.example.interview.app-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_registration_dialog.xml",
+        "source": "com.example.interview.app-main-6:/layout/fragment_registration_dialog.xml"
+    },
+    {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_address.xml",
+        "source": "com.example.interview.app-main-6:/layout/fragment_address.xml"
+    },
+    {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/item_dashboard.xml",
+        "source": "com.example.interview.app-main-6:/layout/item_dashboard.xml"
+    },
+    {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_products_list.xml",
+        "source": "com.example.interview.app-main-6:/layout/fragment_products_list.xml"
+    },
+    {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_item_details.xml",
+        "source": "com.example.interview.app-main-6:/layout/fragment_item_details.xml"
+    },
+    {
+        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/products_list_iem.xml",
+        "source": "com.example.interview.app-main-6:/layout/products_list_iem.xml"
+    }
+]

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment"
+    android:id="@+id/navigation">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.interview.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_product"
+            app:destination="@id/product" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.interview.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart"/>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.interview.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/itemDetailsFragment"
+        android:name="com.example.interview.ItemDetailsFragment"
+        android:label="fragment_itemDetails"
+        tools:layout="@layout/fragment_item_details"/>
+    <fragment
+        android:id="@+id/product"
+        android:name="com.example.interview.ProductsListFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_products_list">
+        <action
+            android:id="@+id/action_product_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_product_to_itemDetailsFragment"
+            app:destination="@id/itemDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/address"
+        android:name="com.example.interview.AddressFragment"
+        android:label="fragment_address"
+        tools:layout="@layout/fragment_address"/>
+
+</navigation>
