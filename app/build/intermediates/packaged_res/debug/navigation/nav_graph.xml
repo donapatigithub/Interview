@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_homeFragment_to_cartFragment"
             app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_address"
+            app:destination="@id/address" />
     </fragment>
     <fragment
         android:id="@+id/cartFragment"
@@ -51,6 +54,15 @@
         android:id="@+id/address"
         android:name="com.example.interview.AddressFragment"
         android:label="fragment_address"
-        tools:layout="@layout/fragment_address"/>
+        tools:layout="@layout/fragment_address">
+        <action
+            android:id="@+id/action_address_to_profileDetails"
+            app:destination="@id/profileDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileDetails"
+        android:name="com.example.interview.ProfileDetailsFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile_details"/>
 
 </navigation>

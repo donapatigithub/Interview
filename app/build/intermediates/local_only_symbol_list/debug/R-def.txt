@@ -25,6 +25,8 @@ drawable logo
 drawable mobile
 drawable shoe
 drawable toys
+id action_address_to_profileDetails
+id action_homeFragment_to_address
 id action_homeFragment_to_cartFragment
 id action_homeFragment_to_product
 id action_homeFragment_to_profileFragment
@@ -33,6 +35,7 @@ id action_product_to_itemDetailsFragment
 id address
 id bottomNav
 id btnAddress
+id btnprofiledetails
 id buttons
 id c_itemName
 id c_itemPrice
@@ -46,6 +49,8 @@ id dashRV
 id delbtn
 id description
 id edtText
+id email
+id firstName
 id flatNo
 id fragmentContainer
 id home
@@ -61,9 +66,12 @@ id itemPrice
 id itemname
 id itemprice
 id landmark
+id lastName
 id loginbtn
 id logo
 id logoName
+id midName
+id mobile
 id navigation
 id offertitle
 id password
@@ -75,6 +83,7 @@ id prodname
 id product
 id productsRecycle
 id profile
+id profileDetails
 id profileFragment
 id quantity
 id regCnfPassword
@@ -103,6 +112,7 @@ layout fragment_home
 layout fragment_item_details
 layout fragment_products_list
 layout fragment_profile
+layout fragment_profile_details
 layout item_dashboard
 layout products_list_iem
 menu menu

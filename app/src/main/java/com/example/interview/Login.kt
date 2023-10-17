@@ -1,5 +1,6 @@
 package com.example.interview
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -47,6 +48,9 @@ class Login : AppCompatActivity() {
                     val intent = Intent(this, DashboardActivity::class.java)
                     startActivity(intent)
                     finish()
+
+                    val sharedPreferences = getSharedPreferences("Pref", Context.MODE_PRIVATE)
+                    sharedPreferences.edit().putString("userEmail",email).apply()
                 }
             } else {
                 Toast.makeText(this, "Invalid Input", Toast.LENGTH_LONG).show()

@@ -18,6 +18,7 @@ class ProfileFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_profile, container, false)
         val btnAddress = view.findViewById<Button>(R.id.btnAddress)
         val cancel = view.findViewById<ImageButton>(R.id.cancel)
+        val profile = view.findViewById<Button>(R.id.btnprofiledetails)
         cancel.setOnClickListener {
             requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,HomeFragment())
                 .addToBackStack(null)
@@ -28,6 +29,12 @@ class ProfileFragment : Fragment() {
                 .addToBackStack(null)
                 .commit()
         }
+        profile.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,ProfileDetailsFragment())
+                .addToBackStack(null)
+                .commit()
+        }
+
 
 
         return view
