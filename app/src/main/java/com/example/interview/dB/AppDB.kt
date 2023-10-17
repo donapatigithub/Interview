@@ -3,9 +3,7 @@ package com.example.interview.dB
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import androidx.room.Database
-import androidx.room.RoomDatabase
-import com.example.interview.model.RegisterModel
+
 
 class AppDB(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME,null,DATABASE_VERSION){
     companion object{
@@ -14,7 +12,7 @@ class AppDB(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME,null,DAT
         const val TABLE_NAME = "users"
         const val COLUMN_NAME = "name"
         const val COLUMN_MIDNAME ="mName"
-        const val COLUMN_LNAME="lName"
+        const val COLUMN_LASTNAME="lName"
         const val COLUMN_MOBILE = "mobile"
         const val COLUMN_EMAIL = "email"
         const val COLUMN_FLAT ="flat"
@@ -29,7 +27,7 @@ class AppDB(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME,null,DAT
         val createTable = "CREATE TABLE $TABLE_NAME("+"_id INTEGER PRIMARY KEY AUTOINCREMENT,"+"" +
                 "$COLUMN_NAME TEXT,"+
                 "$COLUMN_MIDNAME TEXT,"+
-                "$COLUMN_LNAME TEXT,"+
+                "$COLUMN_LASTNAME TEXT,"+
                 "$COLUMN_MOBILE TEXT,"+
                 "$COLUMN_EMAIL TEXT,"+
                 "$COLUMN_FLAT TEXT,"+

@@ -16,7 +16,7 @@ class UserRepo(conext:Context) {
 
         values.put(AppDB.COLUMN_NAME, user.name?.firstName)
         values.put(AppDB.COLUMN_MIDNAME, user.name?.middleName)
-        values.put(AppDB.COLUMN_LNAME, user.name?.lastName)
+        values.put(AppDB.COLUMN_LASTNAME, user.name?.lastName)
         values.put(AppDB.COLUMN_MOBILE, user.mobile)
         values.put(AppDB.COLUMN_EMAIL, user.email)
         values.put(AppDB.COLUMN_FLAT, user.address?.flatno)
@@ -28,7 +28,7 @@ class UserRepo(conext:Context) {
 
         val result = db.insert(AppDB.TABLE_NAME,null,values)
         db.close()
-        Log.d("user_Reg","User:${user.email},Name:${user.name?.firstName},mName:${user.name?.middleName},lName:${user.name?.lastName},Flat:${user.address?.flatno},street:${user.address?.street},land:${user.address?.landmark},city:${user.address?.city},pin:${user.address?.pincode},Mobile:${user.mobile},Password:${user.password}")
+        Log.d("user_Reg","User:${user.email},Name:${user.name?.firstName},mName:${user.name?.middleName},lName:${user.name?.lastName},Flat:${user.address?.flatno},street:${user.address?.street},city:${user.address?.city},pin:${user.address?.pincode},Mobile:${user.mobile},Password:${user.password}")
         return result
     }
     @SuppressLint("Range")
@@ -38,7 +38,7 @@ class UserRepo(conext:Context) {
         val  user = if (cursor.moveToFirst()){
             val name = cursor.getString(cursor.getColumnIndex(AppDB.COLUMN_NAME))
             val mName = cursor.getString(cursor.getColumnIndex(AppDB.COLUMN_MIDNAME))
-            val lName = cursor.getString(cursor.getColumnIndex(AppDB.COLUMN_LNAME))
+            val lName = cursor.getString(cursor.getColumnIndex(AppDB.COLUMN_LASTNAME))
             val mobile = cursor.getString(cursor.getColumnIndex(AppDB.COLUMN_MOBILE))
             val flat = cursor.getString(cursor.getColumnIndex(AppDB.COLUMN_FLAT))
             val street = cursor.getString(cursor.getColumnIndex(AppDB.COLUMN_STREET))

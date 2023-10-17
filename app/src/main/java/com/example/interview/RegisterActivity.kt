@@ -50,7 +50,7 @@ class RegisterActivity : AppCompatActivity() {
         register.setOnClickListener {
             val fname=nameEditText.text.toString()
             val middleName=midnameEditText.text.toString()
-            val lastName=landmarkEditText.text.toString()
+            val lastName=lastnameEditText.text.toString()
             val mobile=mobileEditText.text.toString()
             val email=emailEditText.text.toString()
             val flatno=flatEditText.text.toString()
