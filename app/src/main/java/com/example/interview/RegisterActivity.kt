@@ -11,7 +11,6 @@ import com.example.interview.model.RegisterModel
 
 class RegisterActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityRegisterBinding
     private lateinit var nameEditText: EditText
     private lateinit var mobileEditText: EditText
     private lateinit var emailEditText: EditText
@@ -24,7 +23,7 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         userRepo = UserRepo(this)
         setContentView(R.layout.activity_register)
-        nameEditText=findViewById(R.id.regName)
+        nameEditText=findViewById(R.id.regfirstName)
         mobileEditText=findViewById(R.id.regMobile)
         emailEditText=findViewById(R.id.regEmail)
         newPasswordEditText=findViewById(R.id.regPassword)

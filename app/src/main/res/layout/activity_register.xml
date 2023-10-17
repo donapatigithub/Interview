@@ -4,52 +4,135 @@
     xmlns:tools="http://schemas.android.com/tools">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:context=".RegistrationDialog">
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/registertitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="REGISTER"/>
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_above="@+id/buttons"/>
-        <EditText
-            android:id="@+id/regName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Name"
-            android:layout_margin="10dp"
-            android:inputType="text"/>
-        <EditText
-            android:id="@+id/regMobile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/regName"
-            android:hint="Mobile Number"
-            android:layout_margin="10dp"
-            android:inputType="phone"/>
-        <EditText
-            android:id="@+id/regEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Email"
-            android:layout_below="@id/regMobile"
-            android:layout_margin="10dp"
-            android:inputType="textEmailAddress"/>
-        <EditText
-            android:id="@+id/regPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Password"
-            android:layout_below="@id/regEmail"
-            android:layout_margin="10dp"
-            android:inputType="textPassword"/>
-        <EditText
-            android:id="@+id/regCnfPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/regPassword"
-            android:hint="Confirm Password"
-            android:layout_margin="10dp"
-            android:inputType="textPassword"/>
+            android:layout_height="match_parent"
+            android:layout_above="@id/buttons"
+            android:layout_below="@id/registertitle">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/personaldetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:layout_margin="5dp"
+                    android:paddingStart="5dp"
+                    android:text="Personal Details"/>
+                <EditText
+                    android:id="@+id/regfirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="First Name"
+                    android:layout_margin="10dp"
+                    android:inputType="text"/>
+                <EditText
+                    android:id="@+id/regmidName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Middle Name"
+                    android:layout_margin="10dp"
+                    android:inputType="text"/>
+                <EditText
+                    android:id="@+id/reglastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last Name"
+                    android:layout_margin="10dp"
+                    android:inputType="text"/>
+                <EditText
+                    android:id="@+id/regMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mobile Number"
+                    android:layout_margin="10dp"
+                    android:inputType="phone"/>
+                <EditText
+                    android:id="@+id/regEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:layout_below="@id/regMobile"
+                    android:layout_margin="10dp"
+                    android:inputType="textEmailAddress"/>
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:layout_margin="5dp"
+                    android:paddingStart="5dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"/>
+                <EditText
+                    android:id="@+id/flatNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="Door No/ Flat No and Floor"/>
+                <EditText
+                    android:id="@+id/street"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Street Name"
+                    android:layout_margin="10dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Landmark"
+                    android:layout_margin="10dp"
+                    android:id="@+id/landmark"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="City"
+                    android:layout_margin="10dp"
+                    android:id="@+id/city"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pincode"
+                    android:layout_margin="10dp"
+                    android:id="@+id/pincode"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passwordtag"
+                    android:layout_margin="5dp"
+                    android:paddingStart="5dp"
+                    android:textColor="@color/Red"
+                    android:textStyle="bold"
+                    android:text="Password must contain atleast 1 Numeric, 1 Alphabet, 1 Special Character" />
+
+                <EditText
+                    android:id="@+id/regPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:layout_margin="10dp"
+                    android:inputType="textPassword"/>
+                <EditText
+                    android:id="@+id/regCnfPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password"
+                    android:layout_margin="10dp"
+                    android:inputType="textPassword"/>
+            </LinearLayout>
+        </ScrollView>
         <LinearLayout
             android:id="@+id/buttons"
             android:layout_width="match_parent"
@@ -74,6 +157,5 @@
                 android:text="Cancel"
                 android:background="@color/Red"/>
         </LinearLayout>
-
     </RelativeLayout>
 </layout>

@@ -8,10 +8,6 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\item_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_registration_dialog.xml",
-        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_registration_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_products_list.xml",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_products_list.xml"
     },
@@ -32,7 +28,7 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_item_details.xml"
     },
     {
-        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_register.xml",
-        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_register.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\activity_register.xml"
     }
 ]

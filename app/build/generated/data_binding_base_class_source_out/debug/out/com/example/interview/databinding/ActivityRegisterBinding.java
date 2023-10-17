@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
@@ -17,10 +18,31 @@ import java.lang.Object;
 
 public abstract class ActivityRegisterBinding extends ViewDataBinding {
   @NonNull
+  public final TextView address;
+
+  @NonNull
   public final LinearLayout buttons;
 
   @NonNull
   public final Button cancel;
+
+  @NonNull
+  public final EditText city;
+
+  @NonNull
+  public final EditText flatNo;
+
+  @NonNull
+  public final EditText landmark;
+
+  @NonNull
+  public final TextView passwordtag;
+
+  @NonNull
+  public final TextView personaldetails;
+
+  @NonNull
+  public final EditText pincode;
 
   @NonNull
   public final EditText regCnfPassword;
@@ -32,26 +54,52 @@ public abstract class ActivityRegisterBinding extends ViewDataBinding {
   public final EditText regMobile;
 
   @NonNull
-  public final EditText regName;
+  public final EditText regPassword;
 
   @NonNull
-  public final EditText regPassword;
+  public final EditText regfirstName;
 
   @NonNull
   public final Button register;
 
+  @NonNull
+  public final TextView registertitle;
+
+  @NonNull
+  public final EditText reglastName;
+
+  @NonNull
+  public final EditText regmidName;
+
+  @NonNull
+  public final EditText street;
+
   protected ActivityRegisterBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      LinearLayout buttons, Button cancel, EditText regCnfPassword, EditText regEmail,
-      EditText regMobile, EditText regName, EditText regPassword, Button register) {
+      TextView address, LinearLayout buttons, Button cancel, EditText city, EditText flatNo,
+      EditText landmark, TextView passwordtag, TextView personaldetails, EditText pincode,
+      EditText regCnfPassword, EditText regEmail, EditText regMobile, EditText regPassword,
+      EditText regfirstName, Button register, TextView registertitle, EditText reglastName,
+      EditText regmidName, EditText street) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.address = address;
     this.buttons = buttons;
     this.cancel = cancel;
+    this.city = city;
+    this.flatNo = flatNo;
+    this.landmark = landmark;
+    this.passwordtag = passwordtag;
+    this.personaldetails = personaldetails;
+    this.pincode = pincode;
     this.regCnfPassword = regCnfPassword;
     this.regEmail = regEmail;
     this.regMobile = regMobile;
-    this.regName = regName;
     this.regPassword = regPassword;
+    this.regfirstName = regfirstName;
     this.register = register;
+    this.registertitle = registertitle;
+    this.reglastName = reglastName;
+    this.regmidName = regmidName;
+    this.street = street;
   }
 
   @NonNull

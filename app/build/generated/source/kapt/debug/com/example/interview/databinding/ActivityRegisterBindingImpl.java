@@ -14,14 +14,25 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.regName, 1);
-        sViewsWithIds.put(R.id.regMobile, 2);
-        sViewsWithIds.put(R.id.regEmail, 3);
-        sViewsWithIds.put(R.id.regPassword, 4);
-        sViewsWithIds.put(R.id.regCnfPassword, 5);
-        sViewsWithIds.put(R.id.buttons, 6);
-        sViewsWithIds.put(R.id.register, 7);
-        sViewsWithIds.put(R.id.cancel, 8);
+        sViewsWithIds.put(R.id.registertitle, 1);
+        sViewsWithIds.put(R.id.personaldetails, 2);
+        sViewsWithIds.put(R.id.regfirstName, 3);
+        sViewsWithIds.put(R.id.regmidName, 4);
+        sViewsWithIds.put(R.id.reglastName, 5);
+        sViewsWithIds.put(R.id.regMobile, 6);
+        sViewsWithIds.put(R.id.regEmail, 7);
+        sViewsWithIds.put(R.id.address, 8);
+        sViewsWithIds.put(R.id.flatNo, 9);
+        sViewsWithIds.put(R.id.street, 10);
+        sViewsWithIds.put(R.id.landmark, 11);
+        sViewsWithIds.put(R.id.city, 12);
+        sViewsWithIds.put(R.id.pincode, 13);
+        sViewsWithIds.put(R.id.passwordtag, 14);
+        sViewsWithIds.put(R.id.regPassword, 15);
+        sViewsWithIds.put(R.id.regCnfPassword, 16);
+        sViewsWithIds.put(R.id.buttons, 17);
+        sViewsWithIds.put(R.id.register, 18);
+        sViewsWithIds.put(R.id.cancel, 19);
     }
     // views
     @NonNull
@@ -32,18 +43,29 @@ public class ActivityRegisterBindingImpl extends ActivityRegisterBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityRegisterBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
     }
     private ActivityRegisterBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.LinearLayout) bindings[6]
-            , (android.widget.Button) bindings[8]
-            , (android.widget.EditText) bindings[5]
+            , (android.widget.TextView) bindings[8]
+            , (android.widget.LinearLayout) bindings[17]
+            , (android.widget.Button) bindings[19]
+            , (android.widget.EditText) bindings[12]
+            , (android.widget.EditText) bindings[9]
+            , (android.widget.EditText) bindings[11]
+            , (android.widget.TextView) bindings[14]
+            , (android.widget.TextView) bindings[2]
+            , (android.widget.EditText) bindings[13]
+            , (android.widget.EditText) bindings[16]
+            , (android.widget.EditText) bindings[7]
+            , (android.widget.EditText) bindings[6]
+            , (android.widget.EditText) bindings[15]
             , (android.widget.EditText) bindings[3]
-            , (android.widget.EditText) bindings[2]
-            , (android.widget.EditText) bindings[1]
+            , (android.widget.Button) bindings[18]
+            , (android.widget.TextView) bindings[1]
+            , (android.widget.EditText) bindings[5]
             , (android.widget.EditText) bindings[4]
-            , (android.widget.Button) bindings[7]
+            , (android.widget.EditText) bindings[10]
             );
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView0.setTag(null);

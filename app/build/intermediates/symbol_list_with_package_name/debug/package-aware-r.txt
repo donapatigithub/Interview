@@ -3252,6 +3252,7 @@ id checkbox
 id checked
 id chronometer
 id circle_center
+id city
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -3337,6 +3338,7 @@ id fitStart
 id fitToContents
 id fitXY
 id fixed
+id flatNo
 id flip
 id floating
 id forever
@@ -3390,6 +3392,7 @@ id itemprice
 id jumpToEnd
 id jumpToStart
 id labeled
+id landmark
 id layout
 id left
 id leftToRight
@@ -3516,11 +3519,14 @@ id parentRelative
 id parent_matrix
 id password
 id password_toggle
+id passwordtag
 id path
 id pathRelative
 id peekHeight
 id percent
+id personaldetails
 id pin
+id pincode
 id pooling_container_listener_holder_tag
 id position
 id postLayout
@@ -3540,9 +3546,12 @@ id rectangles
 id regCnfPassword
 id regEmail
 id regMobile
-id regName
 id regPassword
+id regfirstName
 id register
+id registertitle
+id reglastName
+id regmidName
 id report_drawn
 id reverseSawtooth
 id right
@@ -3614,6 +3623,7 @@ id startVertical
 id staticLayout
 id staticPostLayout
 id stop
+id street
 id stretch
 id submenuarrow
 id submit_area
