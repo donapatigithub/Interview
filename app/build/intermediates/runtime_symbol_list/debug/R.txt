@@ -3227,6 +3227,7 @@ int id bounceEnd 0x7f080069
 int id bounceStart 0x7f08006a
 int id btnAddress 0x7f08006b
 int id buttonPanel 0x7f08006c
+int id buttons 0x7f08023c
 int id c_itemName 0x7f08006d
 int id c_itemPrice 0x7f08006e
 int id cache_measures 0x7f08006f
@@ -3807,6 +3808,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_dashboard 0x7f0b001c
 int layout activity_login 0x7f0b001d
+int layout activity_register 0x7f0b0078
 int layout cart_item 0x7f0b001e
 int layout custom_dialog 0x7f0b001f
 int layout design_bottom_navigation_item 0x7f0b0020
@@ -3830,6 +3832,7 @@ int layout fragment_home 0x7f0b0031
 int layout fragment_item_details 0x7f0b0032
 int layout fragment_products_list 0x7f0b0033
 int layout fragment_profile 0x7f0b0034
+int layout fragment_register 0x7f0b0077
 int layout fragment_registration_dialog 0x7f0b0035
 int layout ime_base_split_test_activity 0x7f0b0036
 int layout ime_secondary_split_test_activity 0x7f0b0037

@@ -33,6 +33,7 @@ id action_product_to_itemDetailsFragment
 id address
 id bottomNav
 id btnAddress
+id buttons
 id c_itemName
 id c_itemPrice
 id cancel
@@ -84,6 +85,7 @@ id txt
 id userid
 layout activity_dashboard
 layout activity_login
+layout activity_register
 layout cart_item
 layout fragment_address
 layout fragment_cart
@@ -91,6 +93,7 @@ layout fragment_home
 layout fragment_item_details
 layout fragment_products_list
 layout fragment_profile
+layout fragment_register
 layout fragment_registration_dialog
 layout item_dashboard
 layout products_list_iem

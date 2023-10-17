@@ -3228,6 +3228,7 @@ id bounceEnd
 id bounceStart
 id btnAddress
 id buttonPanel
+id buttons
 id c_itemName
 id c_itemPrice
 id cache_measures
@@ -3808,6 +3809,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_dashboard
 layout activity_login
+layout activity_register
 layout cart_item
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3831,6 +3833,7 @@ layout fragment_home
 layout fragment_item_details
 layout fragment_products_list
 layout fragment_profile
+layout fragment_register
 layout fragment_registration_dialog
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
