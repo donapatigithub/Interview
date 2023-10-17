@@ -52,10 +52,5 @@
         android:name="com.example.interview.AddressFragment"
         android:label="fragment_address"
         tools:layout="@layout/fragment_address"/>
-    <fragment
-        android:id="@+id/register"
-        android:name="com.example.interview.RegisterFragment"
-        android:label="registerFragment"
-        tools:layout="@layout/fragment_register"/>
 
 </navigation>

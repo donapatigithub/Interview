@@ -15,7 +15,7 @@ import com.example.interview.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
-public abstract class FragmentRegisterBinding extends ViewDataBinding {
+public abstract class ActivityRegisterBinding extends ViewDataBinding {
   @NonNull
   public final LinearLayout buttons;
 
@@ -40,7 +40,7 @@ public abstract class FragmentRegisterBinding extends ViewDataBinding {
   @NonNull
   public final Button register;
 
-  protected FragmentRegisterBinding(Object _bindingComponent, View _root, int _localFieldCount,
+  protected ActivityRegisterBinding(Object _bindingComponent, View _root, int _localFieldCount,
       LinearLayout buttons, Button cancel, EditText regCnfPassword, EditText regEmail,
       EditText regMobile, EditText regName, EditText regPassword, Button register) {
     super(_bindingComponent, _root, _localFieldCount);
@@ -55,7 +55,7 @@ public abstract class FragmentRegisterBinding extends ViewDataBinding {
   }
 
   @NonNull
-  public static FragmentRegisterBinding inflate(@NonNull LayoutInflater inflater,
+  public static ActivityRegisterBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup root, boolean attachToRoot) {
     return inflate(inflater, root, attachToRoot, DataBindingUtil.getDefaultComponent());
   }
@@ -65,17 +65,17 @@ public abstract class FragmentRegisterBinding extends ViewDataBinding {
    * type DataBindingComponent to avoid causing too many compilation errors if
    * compilation fails for another reason.
    * https://issuetracker.google.com/issues/116541301
-   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.fragment_register, root, attachToRoot, component)
+   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.activity_register, root, attachToRoot, component)
    */
   @NonNull
   @Deprecated
-  public static FragmentRegisterBinding inflate(@NonNull LayoutInflater inflater,
+  public static ActivityRegisterBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup root, boolean attachToRoot, @Nullable Object component) {
-    return ViewDataBinding.<FragmentRegisterBinding>inflateInternal(inflater, R.layout.fragment_register, root, attachToRoot, component);
+    return ViewDataBinding.<ActivityRegisterBinding>inflateInternal(inflater, R.layout.activity_register, root, attachToRoot, component);
   }
 
   @NonNull
-  public static FragmentRegisterBinding inflate(@NonNull LayoutInflater inflater) {
+  public static ActivityRegisterBinding inflate(@NonNull LayoutInflater inflater) {
     return inflate(inflater, DataBindingUtil.getDefaultComponent());
   }
 
@@ -84,16 +84,16 @@ public abstract class FragmentRegisterBinding extends ViewDataBinding {
    * type DataBindingComponent to avoid causing too many compilation errors if
    * compilation fails for another reason.
    * https://issuetracker.google.com/issues/116541301
-   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.fragment_register, null, false, component)
+   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.activity_register, null, false, component)
    */
   @NonNull
   @Deprecated
-  public static FragmentRegisterBinding inflate(@NonNull LayoutInflater inflater,
+  public static ActivityRegisterBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable Object component) {
-    return ViewDataBinding.<FragmentRegisterBinding>inflateInternal(inflater, R.layout.fragment_register, null, false, component);
+    return ViewDataBinding.<ActivityRegisterBinding>inflateInternal(inflater, R.layout.activity_register, null, false, component);
   }
 
-  public static FragmentRegisterBinding bind(@NonNull View view) {
+  public static ActivityRegisterBinding bind(@NonNull View view) {
     return bind(view, DataBindingUtil.getDefaultComponent());
   }
 
@@ -105,7 +105,7 @@ public abstract class FragmentRegisterBinding extends ViewDataBinding {
    * @Deprecated Use DataBindingUtil.bind(view, component)
    */
   @Deprecated
-  public static FragmentRegisterBinding bind(@NonNull View view, @Nullable Object component) {
-    return (FragmentRegisterBinding)bind(component, view, R.layout.fragment_register);
+  public static ActivityRegisterBinding bind(@NonNull View view, @Nullable Object component) {
+    return (ActivityRegisterBinding)bind(component, view, R.layout.activity_register);
   }
 }

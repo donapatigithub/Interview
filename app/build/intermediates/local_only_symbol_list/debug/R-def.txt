@@ -93,8 +93,6 @@ layout fragment_home
 layout fragment_item_details
 layout fragment_products_list
 layout fragment_profile
-layout fragment_register
-layout fragment_registration_dialog
 layout item_dashboard
 layout products_list_iem
 menu menu

@@ -8,7 +8,6 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.interview.dB.UserRepo
-import com.example.interview.model.RegisterModel
 
 class Login : AppCompatActivity() {
     private lateinit var userName: EditText
@@ -16,13 +15,6 @@ class Login : AppCompatActivity() {
     private lateinit var login: Button
     private lateinit var register: TextView
     private lateinit var userRepo: UserRepo
-    private lateinit var registered: Button
-    private lateinit var cancel: Button
-    private lateinit var nameEditText: EditText
-    private lateinit var mobileEditText: EditText
-    private lateinit var emailEditText: EditText
-    private lateinit var newPasswordEditText: EditText
-    private lateinit var confirmPasswordEditText: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -59,43 +51,6 @@ class Login : AppCompatActivity() {
             } else {
                 Toast.makeText(this, "Invalid Input", Toast.LENGTH_LONG).show()
             }
-        }
-    }
-
-    private fun showRegistrationDialog() {
-        val dialogView = layoutInflater.inflate(R.layout.fragment_register, null)
-
-        nameEditText = dialogView.findViewById(R.id.regName)
-        mobileEditText = dialogView.findViewById(R.id.regMobile)
-        emailEditText = dialogView.findViewById(R.id.regEmail)
-        newPasswordEditText = dialogView.findViewById(R.id.regPassword)
-        confirmPasswordEditText = dialogView.findViewById(R.id.regCnfPassword)
-        registered = dialogView.findViewById(R.id.register)
-        cancel = dialogView.findViewById(R.id.cancel)
-
-
-        register.setOnClickListener {
-            val name = nameEditText.text.toString()
-            val mobile = mobileEditText.text.toString()
-            val email = emailEditText.text.toString()
-            val newPassword = newPasswordEditText.text.toString()
-            val confirmPassword = confirmPasswordEditText.text.toString()
-
-            if (newPassword == confirmPassword) {
-                val user = RegisterModel(name, mobile, email, newPassword)
-                val result = userRepo.registerUser(user)
-                if (result != -1L) {
-                    Toast.makeText(this, "Registration Successful", Toast.LENGTH_SHORT).show()
-                    finish()
-                } else {
-                    Toast.makeText(this, "Registration Failed", Toast.LENGTH_SHORT).show()
-                }
-            } else {
-                Toast.makeText(this, "Passwords do not match", Toast.LENGTH_SHORT).show()
-            }
-        }
-        cancel.setOnClickListener {
-            finish()
         }
     }
 }

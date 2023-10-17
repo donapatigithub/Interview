@@ -11,8 +11,6 @@ import com.example.interview.databinding.FragmentAddressBindingImpl;
 import com.example.interview.databinding.FragmentHomeBindingImpl;
 import com.example.interview.databinding.FragmentItemDetailsBindingImpl;
 import com.example.interview.databinding.FragmentProductsListBindingImpl;
-import com.example.interview.databinding.FragmentRegisterBindingImpl;
-import com.example.interview.databinding.FragmentRegistrationDialogBindingImpl;
 import com.example.interview.databinding.ItemDashboardBindingImpl;
 import com.example.interview.databinding.ProductsListIemBindingImpl;
 import java.lang.IllegalArgumentException;
@@ -36,15 +34,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTPRODUCTSLIST = 5;
 
-  private static final int LAYOUT_FRAGMENTREGISTER = 6;
+  private static final int LAYOUT_ITEMDASHBOARD = 6;
 
-  private static final int LAYOUT_FRAGMENTREGISTRATIONDIALOG = 7;
+  private static final int LAYOUT_PRODUCTSLISTIEM = 7;
 
-  private static final int LAYOUT_ITEMDASHBOARD = 8;
-
-  private static final int LAYOUT_PRODUCTSLISTIEM = 9;
-
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(9);
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(7);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.activity_register, LAYOUT_ACTIVITYREGISTER);
@@ -52,8 +46,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_home, LAYOUT_FRAGMENTHOME);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_item_details, LAYOUT_FRAGMENTITEMDETAILS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_products_list, LAYOUT_FRAGMENTPRODUCTSLIST);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_register, LAYOUT_FRAGMENTREGISTER);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_registration_dialog, LAYOUT_FRAGMENTREGISTRATIONDIALOG);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.item_dashboard, LAYOUT_ITEMDASHBOARD);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.products_list_iem, LAYOUT_PRODUCTSLISTIEM);
   }
@@ -96,18 +88,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentProductsListBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_products_list is invalid. Received: " + tag);
-        }
-        case  LAYOUT_FRAGMENTREGISTER: {
-          if ("layout/fragment_register_0".equals(tag)) {
-            return new FragmentRegisterBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for fragment_register is invalid. Received: " + tag);
-        }
-        case  LAYOUT_FRAGMENTREGISTRATIONDIALOG: {
-          if ("layout/fragment_registration_dialog_0".equals(tag)) {
-            return new FragmentRegistrationDialogBindingImpl(component, view);
-          }
-          throw new IllegalArgumentException("The tag for fragment_registration_dialog is invalid. Received: " + tag);
         }
         case  LAYOUT_ITEMDASHBOARD: {
           if ("layout/item_dashboard_0".equals(tag)) {
@@ -179,7 +159,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(9);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(7);
 
     static {
       sKeys.put("layout/activity_register_0", com.example.interview.R.layout.activity_register);
@@ -187,8 +167,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/fragment_home_0", com.example.interview.R.layout.fragment_home);
       sKeys.put("layout/fragment_item_details_0", com.example.interview.R.layout.fragment_item_details);
       sKeys.put("layout/fragment_products_list_0", com.example.interview.R.layout.fragment_products_list);
-      sKeys.put("layout/fragment_register_0", com.example.interview.R.layout.fragment_register);
-      sKeys.put("layout/fragment_registration_dialog_0", com.example.interview.R.layout.fragment_registration_dialog);
       sKeys.put("layout/item_dashboard_0", com.example.interview.R.layout.item_dashboard);
       sKeys.put("layout/products_list_iem_0", com.example.interview.R.layout.products_list_iem);
     }

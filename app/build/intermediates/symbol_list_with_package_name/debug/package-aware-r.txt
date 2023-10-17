@@ -3833,8 +3833,6 @@ layout fragment_home
 layout fragment_item_details
 layout fragment_products_list
 layout fragment_profile
-layout fragment_register
-layout fragment_registration_dialog
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_dashboard

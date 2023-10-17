@@ -3832,8 +3832,6 @@ int layout fragment_home 0x7f0b0031
 int layout fragment_item_details 0x7f0b0032
 int layout fragment_products_list 0x7f0b0033
 int layout fragment_profile 0x7f0b0034
-int layout fragment_register 0x7f0b0077
-int layout fragment_registration_dialog 0x7f0b0035
 int layout ime_base_split_test_activity 0x7f0b0036
 int layout ime_secondary_split_test_activity 0x7f0b0037
 int layout item_dashboard 0x7f0b0038
