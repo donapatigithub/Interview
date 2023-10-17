@@ -13,16 +13,30 @@ class AppDB(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME,null,DAT
         const val DATABASE_VERSION = 2
         const val TABLE_NAME = "users"
         const val COLUMN_NAME = "name"
+        const val COLUMN_MIDNAME ="mName"
+        const val COLUMN_LNAME="lName"
         const val COLUMN_MOBILE = "mobile"
         const val COLUMN_EMAIL = "email"
+        const val COLUMN_FLAT ="flat"
+        const val COLUMN_STREET ="street"
+        const val COLUMN_LANDMARK = "landmark"
+        const val COLUMN_CITY ="city"
+        const val COLUMN_PINCODE ="pincode"
         const val COLUMN_PASSWORD = "password"
     }
 
     override fun onCreate(db: SQLiteDatabase?) {
         val createTable = "CREATE TABLE $TABLE_NAME("+"_id INTEGER PRIMARY KEY AUTOINCREMENT,"+"" +
                 "$COLUMN_NAME TEXT,"+
+                "$COLUMN_MIDNAME TEXT,"+
+                "$COLUMN_LNAME TEXT,"+
                 "$COLUMN_MOBILE TEXT,"+
                 "$COLUMN_EMAIL TEXT,"+
+                "$COLUMN_FLAT TEXT,"+
+                "$COLUMN_STREET TEXT,"+
+                "$COLUMN_LANDMARK TEXT,"+
+                "$COLUMN_CITY TEXT,"+
+                "$COLUMN_PINCODE INTEGER,"+
                 "$COLUMN_PASSWORD TEXT)"
         db?.execSQL(createTable)
     }
