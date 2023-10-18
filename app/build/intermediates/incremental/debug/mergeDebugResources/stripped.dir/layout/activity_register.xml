@@ -106,6 +106,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Pincode"
                     android:inputType="number"
+                    android:maxLength="6"
                     android:layout_margin="10dp"
                     android:id="@+id/pincode"/>
                 <TextView
@@ -116,7 +117,7 @@
                     android:paddingStart="5dp"
                     android:textColor="@color/Red"
                     android:textStyle="bold"
-                    android:text="Password must contain atleast 1 Numeric, 1 Alphabet, 1 Special Character" />
+                    android:text="Password must contain at least 1 Numeric, 1 Alphabet(Capital and Small), 1 Special Character and be 8 to 16 char's long" />
 
                 <EditText
                     android:id="@+id/regPassword"

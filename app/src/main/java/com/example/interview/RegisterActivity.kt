@@ -57,7 +57,7 @@ class RegisterActivity : AppCompatActivity() {
             val street = streetEditText.text.toString()
             val landmark = landmarkEditText.text.toString()
             val city = cityEditText.text.toString()
-            val pincode = pincodeEditText.id
+            val pincode = pincodeEditText.text.toString().toInt()
             val newPassword = newPasswordEditText.text.toString()
             val confirmPassword = confirmPasswordEditText.text.toString()
 
@@ -67,7 +67,7 @@ class RegisterActivity : AppCompatActivity() {
                 if (newPassword.matches(Regex(passwordPattern))) {
                     val user = RegisterModel(
                         NameModel(fname, middleName, lastName), mobile, email,
-                        Address(flatno, street, landmark, city, pincode), newPassword
+                        Address(flatno, street, landmark, city, pincode.toString().toInt()), newPassword
                     )
                     val result = userRepo.registerUser(user)
                     if (result != -1L) {
