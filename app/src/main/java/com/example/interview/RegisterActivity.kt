@@ -48,32 +48,39 @@ class RegisterActivity : AppCompatActivity() {
         cancel=findViewById(R.id.cancel)
 
         register.setOnClickListener {
-            val fname=nameEditText.text.toString()
-            val middleName=midnameEditText.text.toString()
-            val lastName=lastnameEditText.text.toString()
-            val mobile=mobileEditText.text.toString()
-            val email=emailEditText.text.toString()
-            val flatno=flatEditText.text.toString()
-            val street=streetEditText.text.toString()
-            val landmark=landmarkEditText.text.toString()
+            val fname = nameEditText.text.toString()
+            val middleName = midnameEditText.text.toString()
+            val lastName = lastnameEditText.text.toString()
+            val mobile = mobileEditText.text.toString()
+            val email = emailEditText.text.toString()
+            val flatno = flatEditText.text.toString()
+            val street = streetEditText.text.toString()
+            val landmark = landmarkEditText.text.toString()
             val city = cityEditText.text.toString()
-            val pincode=pincodeEditText.id
-            val newPassword=newPasswordEditText.text.toString()
-            val confirmPassword=confirmPasswordEditText.text.toString()
+            val pincode = pincodeEditText.id
+            val newPassword = newPasswordEditText.text.toString()
+            val confirmPassword = confirmPasswordEditText.text.toString()
 
-            if (newPassword == confirmPassword){
-                val user = RegisterModel(NameModel(fname,middleName,lastName),mobile,email,
-                    Address(flatno,street,landmark,city,pincode),newPassword
-                )
-                val result = userRepo.registerUser(user)
-                if (result != -1L){
-                    Toast.makeText(this,"Registration Successful", Toast.LENGTH_SHORT).show()
-                    finish()
-                }else{
-                    Toast.makeText(this,"Registration Failed", Toast.LENGTH_SHORT).show()
+            val passwordPattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@#\$%^&+=]).{8,16}\$"
+
+            if (newPassword == confirmPassword) {
+                if (newPassword.matches(Regex(passwordPattern))) {
+                    val user = RegisterModel(
+                        NameModel(fname, middleName, lastName), mobile, email,
+                        Address(flatno, street, landmark, city, pincode), newPassword
+                    )
+                    val result = userRepo.registerUser(user)
+                    if (result != -1L) {
+                        Toast.makeText(this, "Registration Successful", Toast.LENGTH_SHORT).show()
+                        finish()
+                    } else {
+                        Toast.makeText(this, "Registration Failed", Toast.LENGTH_SHORT).show()
+                    }
+                } else {
+                    Toast.makeText(this, "Password must contain at least 1 Numeric, 1 Alphabet(Capital and Small), 1 Special Character and be 8 to 16 char's long", Toast.LENGTH_LONG).show()
                 }
-            }else{
-                Toast.makeText(this,"Passwords do not match", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "Passwords do not match", Toast.LENGTH_SHORT).show()
             }
         }
             cancel.setOnClickListener {
