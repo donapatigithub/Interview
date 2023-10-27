@@ -1,11 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_furniture.jpg.flat",
-        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\furniture.jpg"
+        "merged": "com.example.interview.app-merged_res-4:/layout_activity_login.xml.flat",
+        "source": "com.example.interview.app-main-6:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_home_24.xml.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_furniture.jpg.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\furniture.jpg"
     },
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
@@ -28,12 +32,12 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_item_dashboard.xml.flat",
-        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\item_dashboard.xml"
-    },
-    {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_cart_item.xml.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\cart_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_item_dashboard.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\item_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -50,10 +54,6 @@
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_logo.webp.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\logo.webp"
-    },
-    {
-        "merged": "com.example.interview.app-merged_res-4:/layout_activity_register.xml.flat",
-        "source": "com.example.interview.app-main-6:/layout/activity_register.xml"
     },
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_fragment_item_details.xml.flat",

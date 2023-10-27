@@ -24,6 +24,7 @@
         android:layout_below="@id/logoName"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:contentDescription="goCart Logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:src="@drawable/logo"/>
@@ -35,12 +36,16 @@
         android:layout_below="@id/logo"
         android:layout_marginTop="15dp"
         android:textSize="25sp"
-        android:hint="User name"
+        android:inputType="textEmailAddress"
+        android:hint="User Id"
+        android:contentDescription="Enter User Id"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="8dp"/>
     <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/password"
+        android:id="@+id/passwordid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/userid"
@@ -49,14 +54,15 @@
         android:layout_marginEnd="10dp"
         android:textSize="25sp"
         android:inputType="textPassword"
-        android:hint="Password"
+        android:contentDescription="Enter Password"
         android:layout_marginBottom="8dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/password"
+        android:layout_below="@id/passwordid"
         android:id="@+id/register"
         android:layout_alignParentStart="true"
+        android:contentDescription="Double tap to register as new user"
         android:text="New to goCart? Create an account"
         android:textColor="@color/Orange"/>
     <androidx.appcompat.widget.AppCompatButton
@@ -66,6 +72,7 @@
         android:layout_below="@id/register"
         android:layout_marginTop="15dp"
         android:text="Login"
+        android:contentDescription="Login Button to enter into application"
         android:textSize="35dp"
         android:layout_centerInParent="true"
         android:background="@color/Orange"

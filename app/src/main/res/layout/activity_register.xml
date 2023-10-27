@@ -35,7 +35,8 @@
                     android:id="@+id/regfirstName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="First Name"
+                    android:contentDescription="First HI Name"
+                    android:hint="First"
                     android:layout_margin="10dp"
                     android:inputType="text"/>
                 <EditText
