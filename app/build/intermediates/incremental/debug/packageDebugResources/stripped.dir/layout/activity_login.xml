@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Login">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/logoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:text="goCart"
+        android:textColor="@color/Orange"
+        android:textSize="50sp">
+    </androidx.appcompat.widget.AppCompatTextView>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/logo"
+        android:layout_below="@id/logoName"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="goCart Logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/logo"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:inputType="textEmailAddress"
+        android:hint="User Id"
+        android:contentDescription="Enter User Id"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="8dp"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/passwordid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userid"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:contentDescription="Enter Password"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordid"
+        android:id="@+id/register"
+        android:layout_alignParentStart="true"
+        android:contentDescription="Double tap to register as new user"
+        android:text="New to goCart? Create an account"
+        android:textColor="@color/Orange"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register"
+        android:layout_marginTop="15dp"
+        android:text="Login"
+        android:contentDescription="Login Button to enter into application"
+        android:textSize="35dp"
+        android:layout_centerInParent="true"
+        android:background="@color/Orange"
+        android:textColor="@color/white"/>
+</RelativeLayout>
