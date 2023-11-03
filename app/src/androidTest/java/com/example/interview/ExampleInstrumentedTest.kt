@@ -14,11 +14,14 @@ import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.rule.ActivityTestRule
 import org.hamcrest.core.Is.`is`
-
+import androidx.test.espresso.accessibility.AccessibilityChecks
+import androidx.test.espresso.matcher.ViewMatchers.hasFocus
 import org.junit.Test
 import org.junit.runner.RunWith
 
 import org.junit.Assert.*
+import org.junit.Before
+import org.junit.BeforeClass
 import org.junit.Rule
 import java.util.function.Predicate.not
 
@@ -31,6 +34,7 @@ import java.util.function.Predicate.not
 class ExampleInstrumentedTest {
     @get:Rule
     val activityRule = ActivityTestRule(Login::class.java)
+
     @Test fun testLoginSuccess() {
     // Type a valid user id and password
         onView(withId(R.id.userid)).perform(typeText("donapati@gmail.com"))
@@ -38,5 +42,14 @@ class ExampleInstrumentedTest {
         Espresso.closeSoftKeyboard()
         onView(withId(R.id.loginbtn)).perform(click())
         onView(withId(R.id.search)).check(ViewAssertions.matches(isDisplayed()))
+        onView(withId(R.id.search)).check(ViewAssertions.matches(hasFocus()))
+    }
+
+    companion object {
+        @JvmStatic
+        @BeforeClass
+        fun setup(): Unit {
+            AccessibilityChecks.enable().setRunChecksFromRootView(true)
+        }
     }
 }
