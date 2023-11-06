@@ -75,3 +75,4 @@ com.example.interview.app-databinding-runtime-8.1.0-73 C:\Users\DO20329591\.grad
 com.example.interview.app-savedstate-1.2.1-74 C:\Users\DO20329591\.gradle\caches\transforms-3\fb288e821a294d738f2c8ad65a4a266e\transformed\savedstate-1.2.1\res
 com.example.interview.app-fragment-1.6.0-75 C:\Users\DO20329591\.gradle\caches\transforms-3\fbb59be52750d821234f3dd231737393\transformed\fragment-1.6.0\res
 com.example.interview.app-material-icons-core-1.4.0-76 C:\Users\DO20329591\.gradle\caches\transforms-3\fe97465199916cec9c1b1b6b460e78dc\transformed\material-icons-core-1.4.0\res
+com.example.interview.app-core-1.5.0-77 C:\Users\DO20329591\.gradle\caches\transforms-3\ffa3fc2076326754579ee79745224495\transformed\core-1.5.0\res

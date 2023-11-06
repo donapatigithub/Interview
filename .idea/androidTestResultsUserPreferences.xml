@@ -8,7 +8,9 @@
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
                 <map>
-                  <entry key="Duration" value="90" />
+                  <entry key="Duration" value="114" />
+                  <entry key="Pixel_7_Pro_API_UpsideDownCakePrivacySandbox" value="120" />
+                  <entry key="Pixel_XL_API_33" value="144" />
                   <entry key="Resizable_Experimental_API_33" value="120" />
                   <entry key="Tests" value="360" />
                   <entry key="samsung SM-A525F" value="120" />
