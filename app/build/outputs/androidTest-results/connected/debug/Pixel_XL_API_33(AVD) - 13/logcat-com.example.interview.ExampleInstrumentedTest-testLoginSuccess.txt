@@ -1,0 +1,830 @@
+11-03 16:47:58.237  4551  4570 I TestRunner: started: testLoginSuccess(com.example.interview.ExampleInstrumentedTest)
+11-03 16:47:58.274  4551  4570 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-03 16:47:58.276  1638  2176 D TrafficStats: tagSocket(6) with statsTag=0x20004901, statsUid=10115
+11-03 16:47:58.726   650  1276 W system_server: Long monitor contention with owner binder:650_C (1592) at android.window.TaskSnapshot com.android.server.wm.TaskSnapshotCache.getSnapshot(int, int, boolean, boolean)(TaskSnapshotCache.java:68) waiters=2 in void com.android.server.wm.ActivityClientController.activityTopResumedStateLost() for 112ms
+11-03 16:47:58.761  1638  4323 D TrafficStats: tagSocket(6) with statsTag=0x20004901, statsUid=10115
+11-03 16:47:58.775   868   991 D SplashScreenView: Build android.window.SplashScreenView{562dc5d V.E...... ......ID 0,0-0,0}
+11-03 16:47:58.775   868   991 D SplashScreenView: Icon: view: null drawable: null size: 0
+11-03 16:47:58.775   868   991 D SplashScreenView: Branding: view: android.view.View{72a59d2 G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-03 16:47:58.930   412   412 D goldfish-address-space: claimShared: Ask to claim region [0x3f43aa000 0x3f4d8e000]
+11-03 16:47:59.146   412   412 D goldfish-address-space: claimShared: Ask to claim region [0x3f4d8e000 0x3f5772000]
+11-03 16:47:59.166   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f5772000 0x3f6156000]
+11-03 16:47:59.190  1205  1660 D EGL_emulation: app_time_stats: avg=6648.13ms min=6648.13ms max=6648.13ms count=1
+11-03 16:47:59.310  1503  1503 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+11-03 16:47:59.324  4551  4573 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-03 16:47:59.330   868  1007 W Parcel  : Expecting binder but got null!
+11-03 16:47:59.400  4551  4573 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-03 16:47:59.509  4551  4573 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-03 16:47:59.707  1503  2278 E HwDetectorWithState: a: 3
+11-03 16:47:59.709  1638  4461 D TrafficStats: tagSocket(6) with statsTag=0x20004901, statsUid=10115
+11-03 16:47:59.728   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f6156000 0x3f63cf000]
+11-03 16:47:59.790  4551  4551 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-03 16:47:59.817   650  4576 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-03 16:47:59.819   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc6d530
+11-03 16:47:59.829   650  4576 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-03 16:47:59.846   650  4576 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-03 16:47:59.862  4551  4551 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@af29197 in: PRE_ON_CREATE
+11-03 16:47:59.865  4551  4551 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-03 16:47:59.954   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc70ad0
+11-03 16:47:59.954   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc70890
+11-03 16:48:00.071   650  4576 D HostConnection: createUnique: call
+11-03 16:48:00.075   650  4576 D HostConnection: HostConnection::get() New Host Connection established 0x7f04375d2dd0, tid 4576
+11-03 16:48:00.089   650  4576 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+11-03 16:48:00.099   650  4576 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-03 16:48:00.099   650  4576 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-03 16:48:00.151   650  4576 D EGL_emulation: eglCreateContext: 0x7f04375d2c50: maj 3 min 1 rcv 4
+11-03 16:48:00.172   650  4576 D EGL_emulation: eglMakeCurrent: 0x7f04375d2c50: ver 3 1 (tinfo 0x7f0651694080) (first time)
+11-03 16:48:00.195   650  1278 D HostConnection: createUnique: call
+11-03 16:48:00.197   650  1278 D HostConnection: HostConnection::get() New Host Connection established 0x7f04375c1790, tid 1278
+11-03 16:48:00.206   868  1007 D EGL_emulation: app_time_stats: avg=3119.51ms min=78.81ms max=6160.22ms count=2
+11-03 16:48:00.217   650  1278 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+11-03 16:48:00.296  4551  4551 W ample.interview: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+11-03 16:48:00.300  4551  4551 W ample.interview: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+11-03 16:48:00.325   464   483 D PermissionCache: checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (937 us)
+11-03 16:48:00.328   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f63cf000 0x3f6a23000]
+11-03 16:48:00.329  4551  4551 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10174; state: ENABLED
+11-03 16:48:00.475  1638  1991 D TrafficStats: tagSocket(6) with statsTag=0x20004901, statsUid=10115
+11-03 16:48:00.581  4551  4551 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@af29197 in: CREATED
+11-03 16:48:00.582  4551  4551 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.interview.Login@af29197
+11-03 16:48:00.594  4551  4551 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@af29197 in: STARTED
+11-03 16:48:00.596  4551  4551 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.interview.Login@af29197
+11-03 16:48:00.602  4551  4551 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@af29197 in: RESUMED
+11-03 16:48:00.603  4551  4551 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.interview.Login@af29197
+11-03 16:48:00.789  1638  2176 D TrafficStats: tagSocket(6) with statsTag=0x20004901, statsUid=10115
+11-03 16:48:00.834   464   483 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10174 pid=0
+11-03 16:48:00.836   464   483 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10174 => denied (2244 us)
+11-03 16:48:00.842   464   484 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10174 pid=4551
+11-03 16:48:00.842   464   484 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10174 => denied (8956 us)
+11-03 16:48:00.846   464   483 W ServiceManager: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10174 pid=0
+11-03 16:48:00.846   464   483 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10174 => denied (10052 us)
+11-03 16:48:00.848   464   483 W ServiceManager: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10174 pid=0
+11-03 16:48:00.848   464   483 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10174 => denied (1942 us)
+11-03 16:48:00.851   464   484 W ServiceManager: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10174 pid=4551
+11-03 16:48:00.852   464   484 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10174 => denied (10292 us)
+11-03 16:48:00.859  4551  4572 D HostConnection: createUnique: call
+11-03 16:48:00.863  4551  4572 D HostConnection: HostConnection::get() New Host Connection established 0x7f04375add50, tid 4572
+11-03 16:48:00.877   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc6ce10
+11-03 16:48:00.878   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc6f4b0
+11-03 16:48:00.897  4551  4551 D AutofillManager: Trigger fill request at view entered
+11-03 16:48:00.908  4551  4572 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+11-03 16:48:00.919  4551  4572 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-03 16:48:00.921  4551  4572 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-03 16:48:00.958  4551  4572 D EGL_emulation: eglCreateContext: 0x7f04375ae350: maj 3 min 1 rcv 4
+11-03 16:48:00.969  4551  4572 D EGL_emulation: eglMakeCurrent: 0x7f04375ae350: ver 3 1 (tinfo 0x7f06515d7080) (first time)
+11-03 16:48:01.074   241   241 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-03 16:48:01.075  4551  4572 I Gralloc4: mapper 4.x is not supported
+11-03 16:48:01.081  4551  4572 D HostConnection: createUnique: call
+11-03 16:48:01.086  4551  4572 D HostConnection: HostConnection::get() New Host Connection established 0x7f04375aed10, tid 4572
+11-03 16:48:01.087  4551  4572 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-03 16:48:01.089  4551  4572 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f3ffe000 size 0x2000
+11-03 16:48:01.099   241   241 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+11-03 16:48:01.106   239   239 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+11-03 16:48:01.106  4551  4572 W Gralloc4: allocator 4.x is not supported
+11-03 16:48:01.112   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f6a23000 0x3f7407000]
+11-03 16:48:01.263  4551  4572 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+11-03 16:48:01.288  1327  4404 D TrafficStats: tagSocket(82) with statsTag=0x20008100, statsUid=-1
+11-03 16:48:01.310  1327  4404 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-03 16:48:01.332  1327  4404 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@225014047@22.50.14 (190800-499278674):2)
+11-03 16:48:01.332  1327  4404 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@225014047@22.50.14 (190800-499278674):0)
+11-03 16:48:01.372   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f7407000 0x3f7deb000]
+11-03 16:48:01.523   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3fa790000 0x3fb174000]
+11-03 16:48:01.830  1327  4578 D TrafficStats: tagSocket(82) with statsTag=0x20008100, statsUid=-1
+11-03 16:48:01.846  1327  4578 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-03 16:48:01.849  1327  4578 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@225014047@22.50.14 (190800-499278674):2)
+11-03 16:48:01.853  1327  4578 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@225014047@22.50.14 (190800-499278674):0)
+11-03 16:48:01.971  4551  4572 W Parcel  : Expecting binder but got null!
+11-03 16:48:02.034   650   679 W ziparchive: Unable to open '/data/app/~~CY9Dv82I4CEZ3LIwMsMz2g==/com.example.interview-PpvvShS9s6akqNJC49xcaw==/base.dm': No such file or directory
+11-03 16:48:02.059  4551  4566 I OpenGLRenderer: Davey! duration=1233ms; Flags=1, FrameTimelineVsyncId=17935, IntendedVsync=295359837204, Vsync=295359837204, InputEventId=0, HandleInputStart=295364663730, AnimationStart=295364670988, PerformTraversalsStart=295364679351, DrawStart=296079700462, FrameDeadline=295376503870, FrameInterval=295364637865, FrameStartTime=16666666, SyncQueued=296104296741, SyncStart=296243487831, IssueDrawCommandsStart=296249283854, SwapBuffers=296654779977, FrameCompleted=296732740568, DequeueBufferDuration=60837, QueueBufferDuration=3001744, GpuCompleted=296732740568, SwapBuffersCompleted=296664826140, DisplayPresentTime=65865148860530689, CommandSubmissionCompleted=296654779977,
+11-03 16:48:02.088   650   679 I ActivityTaskManager: Displayed com.example.interview/.Login: +3s692ms
+11-03 16:48:02.106  4551  4551 I Choreographer: Skipped 85 frames!  The application may be doing too much work on its main thread.
+11-03 16:48:02.147  4551  4551 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10174; state: ENABLED
+11-03 16:48:02.173  4551  4566 I OpenGLRenderer: Davey! duration=1454ms; Flags=0, FrameTimelineVsyncId=17958, IntendedVsync=295393170536, Vsync=296809837146, InputEventId=0, HandleInputStart=296815500390, AnimationStart=296815507840, PerformTraversalsStart=296818182406, DrawStart=296824459083, FrameDeadline=296759837148, FrameInterval=296814256990, FrameStartTime=16666666, SyncQueued=296826978451, SyncStart=296841639059, IssueDrawCommandsStart=296841735114, SwapBuffers=296843743094, FrameCompleted=296862533110, DequeueBufferDuration=2653540, QueueBufferDuration=1158875, GpuCompleted=296859749443, SwapBuffersCompleted=296862533110, DisplayPresentTime=48132229609750530, CommandSubmissionCompleted=296843743094,
+11-03 16:48:02.179  4551  4551 I AssistStructure: Flattened final assist data: 2004 bytes, containing 1 windows, 11 views
+11-03 16:48:02.367  1327  4405 D TrafficStats: tagSocket(82) with statsTag=0x20008100, statsUid=-1
+11-03 16:48:02.430  1439  1439 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+11-03 16:48:02.435  1327  2876 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-03 16:48:02.468   650  1278 W InputManager-JNI: Input channel object '7864fc7 Splash Screen com.example.interview (client)' was disposed without first being removed with the input manager!
+11-03 16:48:02.489  1327  2876 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-03 16:48:02.510   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc6f450
+11-03 16:48:02.510   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc6e130
+11-03 16:48:02.545  1439  1439 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+11-03 16:48:02.577  1327  2876 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-03 16:48:02.643  4551  4570 W FileTestStorage: Output properties is not supported.
+11-03 16:48:02.655   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc701d0
+11-03 16:48:02.655   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc6fe70
+11-03 16:48:02.655   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc70b90
+11-03 16:48:02.657  4551  4570 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+11-03 16:48:02.675  1327  2876 I FontLog : Pulling font file for id = 11, cache size = 9 [CONTEXT service_id=132 ]
+11-03 16:48:02.701  4551  4570 D EventInjectionStrategy: Creating injection strategy with input manager.
+11-03 16:48:02.701  4551  4570 W ample.interview: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+11-03 16:48:02.702  4551  4570 W ample.interview: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+11-03 16:48:02.702  4551  4570 W ample.interview: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+11-03 16:48:02.740  1327  2876 I FontLog : Pulling font file for id = 11, cache size = 9 [CONTEXT service_id=132 ]
+11-03 16:48:02.752  1439  1439 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10125; state: ENABLED
+11-03 16:48:02.770  4551  4570 W ample.interview: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+11-03 16:48:02.808  4551  4551 W ample.interview: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+11-03 16:48:02.809  4551  4551 W ample.interview: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+11-03 16:48:02.810  4551  4551 W ample.interview: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+11-03 16:48:02.828  4551  4551 W ample.interview: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+11-03 16:48:02.829  4551  4551 W ample.interview: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+11-03 16:48:02.829  4551  4551 W ample.interview: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+11-03 16:48:02.838  4551  4551 I ViewInteraction: Performing 'Running view assertions[Accessibility Checks, ] and then running: type text(donapati@gmail.com)' action on view view.getId() is <2131231292/com.example.interview:id/userid>
+11-03 16:48:02.852  4551  4551 I ViewAssertion: Asserting Accessibility Checks
+11-03 16:48:02.863  1327  1341 I .gms.persistent: Background young concurrent copying GC freed 144867(6157KB) AllocSpace objects, 0(0B) LOS objects, 17% free, 27MB/33MB, paused 1.115ms,44us total 525.168ms
+11-03 16:48:02.867  1439  1439 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.interview fieldId=-1 fieldName=null extras=null}, false)
+11-03 16:48:02.872  1439  1439 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+11-03 16:48:02.995  1327  1327 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=18692 trafficStatsUid=-1
+11-03 16:48:03.182  1327  1327 W svc     : Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+11-03 16:48:03.640  4551  4591 D ProfileInstaller: Installing profile for com.example.interview
+11-03 16:48:03.666  1127  1127 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:581426208
+11-03 16:48:03.766  4551  4592 V UiAutomation: Init UiAutomation@66c01bc[id=1, flags=0]
+11-03 16:48:03.777  4551  4551 D takeScreenshot: Found 1 global views to redraw
+11-03 16:48:03.799  4551  4572 D EGL_emulation: app_time_stats: avg=613.42ms min=159.39ms max=1485.73ms count=3
+11-03 16:48:03.851   464   999 D PermissionCache: checking android.permission.READ_FRAME_BUFFER for uid=2000 => granted (752 us)
+11-03 16:48:03.866   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f43aa000 0x3f4d8e000]
+11-03 16:48:03.903   464   999 W ServiceManager: Permission failure: android.permission.CAPTURE_BLACKOUT_CONTENT from uid=2000 pid=4537
+11-03 16:48:03.903   464   999 D PermissionCache: checking android.permission.CAPTURE_BLACKOUT_CONTENT for uid=2000 => denied (4501 us)
+11-03 16:48:03.925  1764  1967 I A       : NGA disabled due to not being eligible.
+11-03 16:48:03.941   241   241 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-03 16:48:03.943  4537  4549 I Gralloc4: mapper 4.x is not supported
+11-03 16:48:04.105  4537  4549 D HostConnection: createUnique: call
+11-03 16:48:04.109  4537  4549 D HostConnection: HostConnection::get() New Host Connection established 0x76cfb4c06510, tid 4549
+11-03 16:48:04.109  4537  4549 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-03 16:48:04.110  4537  4549 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f3ffe000 size 0x2000
+11-03 16:48:04.127  4537  4549 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+11-03 16:48:04.159  4537  4596 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-03 16:48:04.162  4537  4596 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-03 16:48:04.171  4537  4596 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-03 16:48:04.230  4537  4596 D HostConnection: createUnique: call
+11-03 16:48:04.232  4537  4596 D HostConnection: HostConnection::get() New Host Connection established 0x76cfb4c06990, tid 4596
+11-03 16:48:04.245  4537  4596 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+11-03 16:48:04.248  4537  4596 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-03 16:48:04.248  4537  4596 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-03 16:48:04.284  4537  4596 D EGL_emulation: eglCreateContext: 0x76cfb4c065d0: maj 3 min 1 rcv 4
+11-03 16:48:04.291  4537  4596 D EGL_emulation: eglMakeCurrent: 0x76cfb4c065d0: ver 3 1 (tinfo 0x76d1e6f2a080) (first time)
+11-03 16:48:04.623  1498  1822 W MediaProvider: isAppCloneUserPair for user 0: false
+11-03 16:48:04.663  1498  1822 V MediaProvider: Inserted id:1000000039 less than next row id backup:1000001000.
+11-03 16:48:04.900  1327  4589 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 299 [CONTEXT service_id=218 ]
+11-03 16:48:04.944  1327  4590 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 116 uptime_millis: 116 exec_start_elapsed_seconds: 299 [CONTEXT service_id=218 ]
+11-03 16:48:05.083  1327  1327 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.nearby.exposurenotification.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+11-03 16:48:05.496  4551  4551 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@af29197 in: PAUSED
+11-03 16:48:05.497  4551  4551 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.interview.Login@af29197
+11-03 16:48:05.550  4551  4551 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2 in: PRE_ON_CREATE
+11-03 16:48:05.551  4551  4551 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2
+11-03 16:48:05.587  4551  4551 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2 in: CREATED
+11-03 16:48:05.587  4551  4551 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2
+11-03 16:48:05.610  4551  4551 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2 in: STARTED
+11-03 16:48:05.611  4551  4551 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2
+11-03 16:48:05.623  4551  4551 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2 in: RESUMED
+11-03 16:48:05.623  4551  4551 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2
+11-03 16:48:05.719   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f4d8e000 0x3f5772000]
+11-03 16:48:05.745   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f5772000 0x3f6156000]
+11-03 16:48:05.819  1638  4461 I GCM-GMS : Registering GMS 745476177629
+11-03 16:48:05.820  1327  4578 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gcm.gmsproc.GcmInGmsTaskService started execution. cause:5 exec_start_elapsed_seconds: 300 [CONTEXT service_id=218 ]
+11-03 16:48:05.872   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f8000000 0x3f89e4000]
+11-03 16:48:06.019  1638  4461 W GCM-GMS : Failed to get registration: java.io.IOException: SERVICE_NOT_AVAILABLE
+11-03 16:48:06.057  1327  4590 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gcm.gmsproc.GcmInGmsTaskService finished executing. cause:5 result: 3 elapsed_millis: 398 uptime_millis: 398 exec_start_elapsed_seconds: 300 [CONTEXT service_id=218 ]
+11-03 16:48:06.116  4551  4572 W Parcel  : Expecting binder but got null!
+11-03 16:48:06.146   650   679 I ActivityTaskManager: Displayed com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +714ms
+11-03 16:48:06.218  4551  4572 D EGL_emulation: app_time_stats: avg=2418.82ms min=2418.82ms max=2418.82ms count=1
+11-03 16:48:06.226  4551  4551 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@af29197 in: STOPPED
+11-03 16:48:06.229  4551  4551 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.interview.Login@af29197
+11-03 16:48:06.238  4551  4551 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+11-03 16:48:06.242  4551  4551 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@af29197 in: DESTROYED
+11-03 16:48:06.243  4551  4551 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-03 16:48:06.265   650  1278 W InputManager-JNI: Input channel object 'f300d43 com.example.interview/com.example.interview.Login (client)' was disposed without first being removed with the input manager!
+11-03 16:48:06.314  1439  1439 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+11-03 16:48:06.315  1439  1439 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+11-03 16:48:06.315  1439  1439 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.interview fieldId=-1 fieldName=null extras=null}, false)
+11-03 16:48:06.316  1439  1439 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+11-03 16:48:06.322   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f6a23000 0x3f7077000]
+11-03 16:48:06.469   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc70050
+11-03 16:48:06.487  4551  4551 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2 in: PAUSED
+11-03 16:48:06.490  4551  4551 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@dda6cf2
+11-03 16:48:06.500   650  4602 D HostConnection: createUnique: call
+11-03 16:48:06.512   650  4602 D HostConnection: HostConnection::get() New Host Connection established 0x7f04375d3190, tid 4602
+11-03 16:48:06.515  4551  4570 E TestRunner: failed: testLoginSuccess(com.example.interview.ExampleInstrumentedTest)
+11-03 16:48:06.522  4551  4570 E TestRunner: ----- begin exception -----
+11-03 16:48:06.560   650  4602 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+11-03 16:48:06.591   650  4602 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-03 16:48:06.602   650  4602 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-03 16:48:06.622   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f7077000 0x3f7a5b000]
+11-03 16:48:06.636  1047  1252 D BtGatt.ScanManager: uid 10115 isForeground true scanMode 1
+11-03 16:48:06.654  1047  1252 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+11-03 16:48:06.660  1047  1252 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+11-03 16:48:06.667   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f89e4000 0x3f93c8000]
+11-03 16:48:06.673   650  4602 D EGL_emulation: eglCreateContext: 0x7f04375d6850: maj 3 min 1 rcv 4
+11-03 16:48:06.675   412   461 E android.hardware.graphics.allocator@3.0-service: allocateCb:391 failed with 'Error3::NO_RESOURCES'
+11-03 16:48:06.679   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f89e4000 0x3f93c8000]
+11-03 16:48:06.685   412   461 E android.hardware.graphics.allocator@3.0-service: allocateCb:391 failed with 'Error3::NO_RESOURCES'
+11-03 16:48:06.687  1764  4603 E GraphicBufferAllocator: Failed to allocate (1080 x 2400) layerCount 1 format 1 usage b00: 5
+11-03 16:48:06.687  1764  4603 E BufferQueueProducer: [VRI[NexusLauncherActivity]#1(BLAST Consumer)1](id:6e400000001,api:1,p:1764,c:1764) allocateBuffers: failed to allocate buffer (0 x 0, format 1, usage 0xb00)
+11-03 16:48:06.690  1205  1660 E GraphicBufferAllocator: Failed to allocate (1080 x 2400) layerCount 1 format 1 usage b00: 5
+11-03 16:48:06.690  1205  1660 E BufferQueueProducer: [VRI[NexusLauncherActivity]#1(BLAST Consumer)1](id:4b500000004,api:1,p:1205,c:1205) dequeueBuffer: createGraphicBuffer failed
+11-03 16:48:06.690  1205  1660 E BufferQueueProducer: [VRI[NexusLauncherActivity]#1(BLAST Consumer)1](id:4b500000004,api:1,p:1205,c:1205) requestBuffer: slot 0 is not owned by the producer (state = FREE)
+11-03 16:48:06.690  1205  1660 E Surface : dequeueBuffer: IGraphicBufferProducer::requestBuffer failed: -22
+11-03 16:48:06.690  1205  1660 E BufferQueueProducer: [VRI[NexusLauncherActivity]#1(BLAST Consumer)1](id:4b500000004,api:1,p:1205,c:1205) cancelBuffer: slot 0 is not owned by the producer (state = FREE)
+11-03 16:48:06.690  1205  1660 E EGL_emulation: tid 1660: init(491): error 0x3003 (EGL_BAD_ALLOC)
+11-03 16:48:06.690  1205  1660 E EGL_emulation: tid 1660: eglCreateWindowSurface(1282): error 0x3003 (EGL_BAD_ALLOC)
+11-03 16:48:06.707   650  4602 E EGL_emulation: rcCreateColorBuffer returned 0
+11-03 16:48:06.707   650  4602 E EGL_emulation: tid 4602: eglCreatePbufferSurface(1345): error 0x3003 (EGL_BAD_ALLOC)
+11-03 16:48:06.707   650  4602 F OpenGLRenderer: Failed to create a pixel buffer display=0x7f030b438610, mEglConfig=0x3, error=EGL_BAD_ALLOC
+11-03 16:48:06.711   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f89e4000 0x3f93c8000]
+11-03 16:48:06.716   412   461 E android.hardware.graphics.allocator@3.0-service: allocateCb:391 failed with 'Error3::NO_RESOURCES'
+11-03 16:48:06.718  1205  4604 E GraphicBufferAllocator: Failed to allocate (1080 x 2400) layerCount 1 format 1 usage 900: 5
+11-03 16:48:06.718  1205  4604 E BufferQueueProducer: [VRI[NexusLauncherActivity]#1(BLAST Consumer)1](id:4b500000004,api:0,p:-1,c:1205) allocateBuffers: failed to allocate buffer (0 x 0, format 0, usage 0)
+11-03 16:48:06.743   412   461 D goldfish-address-space: claimShared: Ask to claim region [0x3f89e4000 0x3f93c8000]
+11-03 16:48:06.767  1047  1252 D BtGatt.ScanManager: uid 10115 isForeground true scanMode 1
+11-03 16:48:06.768  1047  1252 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+11-03 16:48:06.768  1047  1252 D BtGatt.ScanManager: uid 10115 isForeground true scanMode -1
+11-03 16:48:06.921   650  2364 W system_server: Long monitor contention with owner binder:650_A (1278) at int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, int, java.lang.String, boolean, int, java.lang.String, java.lang.String, int)(ActivityManagerService.java:12676) waiters=0 in int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, int, java.lang.String, boolean, int, java.lang.String, java.lang.String, int) for 168ms
+11-03 16:48:06.924   650   671 W system_server: Long monitor contention with owner binder:650_A (1278) at int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, int, java.lang.String, boolean, int, java.lang.String, java.lang.String, int)(ActivityManagerService.java:12676) waiters=1 in void com.android.server.am.ActivityManagerService.trimApplications(boolean, java.lang.String) for 251ms
+11-03 16:48:06.932   650   682 W system_server: Long monitor contention with owner binder:650_13 (2331) at void com.android.server.inputmethod.InputMethodManagerService.reportStartInput(android.os.IBinder, android.os.IBinder)(InputMethodManagerService.java:3367) waiters=0 in void com.android.server.inputmethod.InputMethodManagerService$LocalServiceImpl.reportImeControl(android.os.IBinder) for 422ms
+11-03 16:48:06.947  1205  1660 F OpenGLRenderer: drawRenderNode called on a context with no surface!
+11-03 16:48:07.022   464   485 W TransactionTracing: Could not find layer handle 0x7a456fc6ca50
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] Runtime aborting...
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] Dumping all threads without mutator lock held
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] All threads:
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] DALVIK THREADS (30):
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "RenderThread" prio=10 tid=6 Runnable
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=0 ucsCount=0 flags=0 obj=0x135c1078 self=0x7f05175e3a10
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1660 nice=-10 cgrp=top-app sched=0/0 handle=0x7f0337e45cf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=R schedstat=( 1971567106 2390916189 969 ) utm=34 stm=162 core=2 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0337d4f000-0x7f0337d51000 stackSize=987KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes= "abort lock" "mutator lock"(shared held)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000071ed04  /apex/com.android.art/lib64/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, BacktraceMap*, char const*, art::ArtMethod*, void*, bool)+132) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000842dfe  /apex/com.android.art/lib64/libart.so (art::Thread::DumpStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, bool, BacktraceMap*, bool) const+334) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000862cf8  /apex/com.android.art/lib64/libart.so (art::DumpCheckpoint::Run(art::Thread*)+1256) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 000000000085bfad  /apex/com.android.art/lib64/libart.so (art::ThreadList::RunCheckpoint(art::Closure*, art::Closure*)+493) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 000000000085b1cf  /apex/com.android.art/lib64/libart.so (art::ThreadList::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, bool)+2367) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 000000000080551e  /apex/com.android.art/lib64/libart.so (art::AbortState::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+174) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 00000000007ed875  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1381) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 0000000000019cfc  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+60) (BuildId: 0aa332cd750579dec074c73abcd15956)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #08 pc 0000000000008712  /system/lib64/liblog.so (__android_log_assert+338) (BuildId: 6b5490b5683793c72167e11556e0b7d9)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #09 pc 0000000000672327  /system/lib64/libhwui.so (android::uirenderer::skiapipeline::SkiaOpenGLPipeline::getFrame()+343) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #10 pc 000000000046dc3b  /system/lib64/libhwui.so (android::uirenderer::renderthread::CanvasContext::draw()+411) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #11 pc 00000000004ff58e  /system/lib64/libhwui.so (std::__1::__function::__func<android::uirenderer::renderthread::DrawFrameTask::postAndWait()::$_0, std::__1::allocator<android::uirenderer::renderthread::DrawFrameTask::postAndWait()::$_0>, void ()>::operator()() (.__uniq.264041412789356548918088680803242235290.c1671e787f244890c877724752face20)+974) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #12 pc 00000000005e0fdf  /system/lib64/libhwui.so (android::uirenderer::renderthread::RenderThread::threadLoop()+847) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #13 pc 000000000001377f  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+175) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #14 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #15 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "main" prio=10 tid=1 Native
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x71b30f58 self=0x7f05175b1380
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1205 nice=-10 cgrp=top-app sched=0/0 handle=0x7f065d2f14f8
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 2547072240 5285539989 2168 ) utm=123 stm=131 core=1 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7ffe1e91a000-0x7ffe1e91c000 stackSize=8188KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000060442  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+146) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 00000000000cc0c2  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_cond_wait+50) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 000000000005491e  /system/lib64/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+14) (BuildId: bd55c1b7bc078938968bb8dafd7aa33e)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 000000000005485a  /system/lib64/libc++.so (std::__1::__assoc_sub_state::copy()+90) (BuildId: bd55c1b7bc078938968bb8dafd7aa33e)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 00000000000547c5  /system/lib64/libc++.so (std::__1::future<void>::get()+21) (BuildId: bd55c1b7bc078938968bb8dafd7aa33e)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 000000000059cf9e  /system/lib64/libhwui.so (android::uirenderer::renderthread::RenderProxy::setStopped(bool)+318) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.graphics.HardwareRenderer.nSetStopped(Native method)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.graphics.HardwareRenderer.setStopped(HardwareRenderer.java:498)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.view.ViewRootImpl.performDraw(ViewRootImpl.java:4414)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3600)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2328)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:9087)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1231)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1239)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.view.Choreographer.doCallbacks(Choreographer.java:899)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.view.Choreographer.doFrame(Choreographer.java:832)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1214)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Handler.handleCallback(Handler.java:942)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Handler.dispatchMessage(Handler.java:99)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:201)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.app.ActivityThread.main(ActivityThread.java:7872)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.reflect.Method.invoke(Native method)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "Signal Catcher" prio=10 tid=5 WaitingInMainSignalCatcherLoop
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c01c0 self=0x7f05175bd630
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1213 nice=-20 cgrp=top-app sched=0/0 handle=0x7f038d037cf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 4588247 1592049 1 ) utm=0 stm=0 core=2 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f038cf41000-0x7f038cf43000 stackSize=987KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b833a  /apex/com.android.runtime/lib64/bionic/libc.so (__rt_sigtimedwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 000000000006e4ef  /apex/com.android.runtime/lib64/bionic/libc.so (sigwait64+111) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000816aca  /apex/com.android.art/lib64/libart.so (art::SignalCatcher::WaitForSignal(art::Thread*, art::SignalSet&)+186) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000815692  /apex/com.android.art/lib64/libart.so (art::SignalCatcher::Run(void*)+466) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "perfetto_hprof_listener" prio=10 tid=7 Native (still starting up)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x0 self=0x7f05175b2f50
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1214 nice=-20 cgrp=top-app sched=0/0 handle=0x7f038cf3acf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 2250895 16770036 3 ) utm=0 stm=0 core=3 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f038ce44000-0x7f038ce46000 stackSize=987KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b7655  /apex/com.android.runtime/lib64/bionic/libc.so (read+5) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000023490  /apex/com.android.art/lib64/libperfetto_hprof.so (void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, ArtPlugin_Initialize::$_34> >(void*)+288) (BuildId: ac6c0ed1e166cc5a49a872280592bea5)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "ADB-JDWP Connection Control Thread" prio=10 tid=8 WaitingInMainDebuggerLoop
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0238 self=0x7f05175b4b20
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1215 nice=-20 cgrp=top-app sched=0/0 handle=0x7f038ce3dcf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 8415977 22148092 14 ) utm=0 stm=0 core=2 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f038cd47000-0x7f038cd49000 stackSize=987KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b8a1a  /apex/com.android.runtime/lib64/bionic/libc.so (__ppoll+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 000000000006b94a  /apex/com.android.runtime/lib64/bionic/libc.so (poll+74) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000000a601  /apex/com.android.art/lib64/libadbconnection.so (adbconnection::AdbConnectionState::RunPollLoop(art::Thread*)+849) (BuildId: 586428a7914adf459e534c0392d5ee0c)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000008acb  /apex/com.android.art/lib64/libadbconnection.so (adbconnection::CallbackFunction(void*)+1451) (BuildId: 586428a7914adf459e534c0392d5ee0c)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "Jit thread pool worker thread 0" prio=5 tid=9 Native
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c02b0 self=0x7f05175d9330
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1216 nice=9 cgrp=top-app sched=0/0 handle=0x7f03797fbcf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 63553187 170871548 41 ) utm=3 stm=2 core=0 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f03796fd000-0x7f03796ff000 stackSize=1019KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000003f9d4e  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000864857  /apex/com.android.art/lib64/libart.so (art::ThreadPool::GetTask(art::Thread*)+103) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000863b81  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Run()+113) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 0000000000863615  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+149) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "HeapTaskDaemon" prio=5 tid=10 WaitingForTaskProcessor
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c1f38 self=0x7f05175d7760
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1217 nice=4 cgrp=top-app sched=0/0 handle=0x7f0339668cf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 105857231 371666373 56 ) utm=6 stm=3 core=1 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0339566000-0x7f0339568000 stackSize=1035KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000003f9d4e  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000054ec31  /apex/com.android.art/lib64/libart.so (art::gc::TaskProcessor::GetTask(art::Thread*)+305) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 000000000054f512  /apex/com.android.art/lib64/libart.so (art::gc::TaskProcessor::RunAllTasks(art::Thread*)+66) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at dalvik.system.VMRuntime.runHeapTasks(Native method)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:609)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Daemons$Daemon.run(Daemons.java:140)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Thread.run(Thread.java:1012)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "ReferenceQueueDaemon" prio=5 tid=11 Waiting
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0328 self=0x7f05175daf00
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1218 nice=4 cgrp=top-app sched=0/0 handle=0x7f033955fcf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 20654361 332271460 9 ) utm=0 stm=1 core=0 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f033945d000-0x7f033945f000 stackSize=1035KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000003f9d4e  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000719ee9  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+601) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 000000000071b77c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+316) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Object.wait(Native method)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   - waiting on <0x0b924407> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Object.wait(Object.java:442)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Object.wait(Object.java:568)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:232)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   - locked <0x0b924407> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Daemons$Daemon.run(Daemons.java:140)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Thread.run(Thread.java:1012)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "FinalizerDaemon" prio=5 tid=12 Waiting
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c03a0 self=0x7f05175d5b90
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1219 nice=4 cgrp=top-app sched=0/0 handle=0x7f0339456cf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 20848625 55767560 11 ) utm=0 stm=1 core=0 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0339354000-0x7f0339356000 stackSize=1035KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000003f9d4e  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000719ee9  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+601) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 000000000071b77c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+316) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Object.wait(Native method)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   - waiting on <0x026b4934> (a java.lang.Object)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Object.wait(Object.java:442)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:203)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   - locked <0x026b4934> (a java.lang.Object)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:224)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:300)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Daemons$Daemon.run(Daemons.java:140)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Thread.run(Thread.java:1012)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "FinalizerWatchdogDaemon" prio=5 tid=13 Waiting
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0418 self=0x7f05175e1e40
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1220 nice=4 cgrp=top-app sched=0/0 handle=0x7f033934dcf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 235292 3479424 3 ) utm=0 stm=0 core=1 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f033924b000-0x7f033924d000 stackSize=1035KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000003f9d4e  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000719ee9  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, long, int, bool, art::ThreadState)+601) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 000000000071b77c  /apex/com.android.art/lib64/libart.so (art::Monitor::Wait(art::Thread*, art::ObjPtr<art::mirror::Object>, long, int, bool, art::ThreadState)+316) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Object.wait(Native method)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   - waiting on <0x0a34335d> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Object.wait(Object.java:442)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Object.wait(Object.java:568)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded(Daemons.java:385)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   - locked <0x0a34335d> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:365)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Daemons$Daemon.run(Daemons.java:140)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Thread.run(Thread.java:1012)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "binder:1205_1" prio=5 tid=14 Native
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0490 self=0x7f05175de6a0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1226 nice=0 cgrp=top-app sched=0/0 handle=0x7f0339146cf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 32910599 139203915 65 ) utm=0 stm=2 core=2 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0339050000-0x7f0339052000 stackSize=987KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b7937  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+7) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000069258  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+216) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000084737  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+295) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000084607  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+23) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 000000000001377f  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+175) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 00000000000e1cec  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+140) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "binder:1205_2" prio=5 tid=15 Native
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0508 self=0x7f05175dcad0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1229 nice=0 cgrp=top-app sched=0/0 handle=0x7f0339049cf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 45184923 454120763 137 ) utm=1 stm=3 core=1 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0338f53000-0x7f0338f55000 stackSize=987KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b7937  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+7) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000069258  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+216) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000084737  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+295) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000084607  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+23) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 000000000001377f  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+175) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 00000000000e1cec  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+140) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "binder:1205_3" prio=5 tid=16 Native
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0580 self=0x7f05175e0270
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1237 nice=0 cgrp=top-app sched=0/0 handle=0x7f0338f4ccf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 23686691 224254079 101 ) utm=1 stm=1 core=1 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0338e56000-0x7f0338e58000 stackSize=987KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b7937  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+7) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000069258  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+216) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000084737  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+295) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000084607  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+23) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 000000000001377f  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+175) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 00000000000e1cec  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+140) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "Profile Saver" prio=5 tid=17 Native
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c05f8 self=0x7f05175e71b0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1254 nice=9 cgrp=top-app sched=0/0 handle=0x7f03387cbcf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 22764149 65647744 21 ) utm=1 stm=1 core=0 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f03386d5000-0x7f03386d7000 stackSize=987KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000003f9d4e  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 00000000005c5cde  /apex/com.android.art/lib64/libart.so (art::ProfileSaver::Run()+510) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 00000000005cc02b  /apex/com.android.art/lib64/libart.so (art::ProfileSaver::RunProfileSaverThread(void*)+171) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "UiThreadHelper" prio=6 tid=18 Native
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0670 self=0x7f05175e8d80
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1286 nice=-2 cgrp=top-app sched=0/0 handle=0x7f033835acf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 48176944 297861716 75 ) utm=2 stm=2 core=3 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0338258000-0x7f033825a000 stackSize=1035KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b891a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000000104d5  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+229) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000016c4f3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.nativePollOnce(Native method)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.next(MessageQueue.java:335)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:161)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.HandlerThread.run(HandlerThread.java:67)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "launcher-loader" prio=5 tid=19 Native
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0750 self=0x7f05175e55e0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1287 nice=0 cgrp=top-app sched=0/0 handle=0x7f0338251cf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 1750995156 6137176389 1603 ) utm=91 stm=83 core=2 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f033814f000-0x7f0338151000 stackSize=1035KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b891a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000000104d5  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+229) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000016c4f3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.nativePollOnce(Native method)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.next(MessageQueue.java:335)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:161)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.HandlerThread.run(HandlerThread.java:67)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676] "binder:1205_4" prio=5 tid=2 Native
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0f20 self=0x7f05175bf200
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1401 nice=0 cgrp=top-app sched=0/0 handle=0x7f0338148cf0
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 24533595 283921526 57 ) utm=0 stm=1 core=2 HZ=100
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0338052000-0x7f0338054000 stackSize=987KB
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b7937  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+7) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000069258  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+216) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000084737  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+295) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000084607  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+23) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.563  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 000000000001377f  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+175) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 00000000000e1cec  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+140) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "InteractionJankMonitor-Worker" prio=5 tid=3 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c0f98 self=0x7f05175b66f0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1633 nice=0 cgrp=top-app sched=0/0 handle=0x7f033804bcf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 2787732 2656063 4 ) utm=0 stm=0 core=1 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0337f49000-0x7f0337f4b000 stackSize=1035KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b891a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000000104d5  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+229) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000016c4f3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.nativePollOnce(Native method)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.next(MessageQueue.java:335)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:161)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.HandlerThread.run(HandlerThread.java:67)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "queued-work-looper" prio=6 tid=4 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c10f0 self=0x7f05175b82c0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1702 nice=-2 cgrp=top-app sched=0/0 handle=0x7f0336a47cf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 9285317 38803172 14 ) utm=0 stm=0 core=1 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0336945000-0x7f0336947000 stackSize=1035KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b891a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000000104d5  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+229) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000016c4f3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.nativePollOnce(Native method)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.next(MessageQueue.java:335)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:161)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.HandlerThread.run(HandlerThread.java:67)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "pool-2-thread-1" prio=5 tid=20 Waiting
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c11d0 self=0x7f05175f5030
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1746 nice=0 cgrp=top-app sched=0/0 handle=0x7f033693ecf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 1191052 2554179 3 ) utm=0 stm=0 core=0 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f033683c000-0x7f033683e000 stackSize=1035KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000838e0a  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+330) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000075bdc6  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+678) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at jdk.internal.misc.Unsafe.park(Native method)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   - waiting on an unknown object
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1063)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1123)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Thread.run(Thread.java:1012)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "qsb-experiments" prio=5 tid=22 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c1340 self=0x7f05175fdb40
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1750 nice=0 cgrp=top-app sched=0/0 handle=0x7f03361b6cf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 10023881 116487982 14 ) utm=0 stm=1 core=1 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f03360b4000-0x7f03360b6000 stackSize=1035KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b891a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000000104d5  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+229) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000016c4f3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.nativePollOnce(Native method)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.next(MessageQueue.java:335)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:161)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at com.android.launcher3.util.BgObjectWithLooper.runOnThread(unavailable:10)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at com.android.launcher3.util.BgObjectWithLooper.a(unavailable:0)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at i1.b.run(unavailable:2)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Thread.run(Thread.java:1012)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "hwuiTask1" prio=6 tid=21 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c1668 self=0x7f05175f3460
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1894 nice=-2 cgrp=top-app sched=0/0 handle=0x7f03360adcf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 4578420 40789899 17 ) utm=0 stm=0 core=0 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0335fb7000-0x7f0335fb9000 stackSize=987KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000060442  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+146) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 00000000000cc0c2  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_cond_wait+50) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 000000000005491e  /system/lib64/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+14) (BuildId: bd55c1b7bc078938968bb8dafd7aa33e)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 00000000006820b0  /system/lib64/libhwui.so (android::uirenderer::CommonPool::workerLoop()+80) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 000000000068230d  /system/lib64/libhwui.so (android::uirenderer::CommonPool::CommonPool()::$_0::operator()() const (.__uniq.99815402873434996937524029735804459536)+173) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 0000000000682255  /system/lib64/libhwui.so (void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, android::uirenderer::CommonPool::CommonPool()::$_0> >(void*) (.__uniq.99815402873434996937524029735804459536)+37) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #08 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "hwuiTask0" prio=6 tid=23 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c16e0 self=0x7f05175f6c00
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1893 nice=-2 cgrp=top-app sched=0/0 handle=0x7f03362bfcf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 2953393 202296984 19 ) utm=0 stm=0 core=2 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f03361c9000-0x7f03361cb000 stackSize=987KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000060442  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+146) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 00000000000cc0c2  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_cond_wait+50) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 000000000005491e  /system/lib64/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+14) (BuildId: bd55c1b7bc078938968bb8dafd7aa33e)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 00000000006820b0  /system/lib64/libhwui.so (android::uirenderer::CommonPool::workerLoop()+80) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 000000000068230d  /system/lib64/libhwui.so (android::uirenderer::CommonPool::CommonPool()::$_0::operator()() const (.__uniq.99815402873434996937524029735804459536)+173) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 0000000000682255  /system/lib64/libhwui.so (void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, android::uirenderer::CommonPool::CommonPool()::$_0> >(void*) (.__uniq.99815402873434996937524029735804459536)+37) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #08 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "com.google.android.apps.wallpaper.recents" prio=5 tid=24 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c1758 self=0x7f05176012e0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1933 nice=0 cgrp=top-app sched=0/0 handle=0x7f0335a39cf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 8793140 200697138 13 ) utm=0 stm=0 core=1 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0335937000-0x7f0335939000 stackSize=1035KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b891a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000000104d5  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+229) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000016c4f3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.nativePollOnce(Native method)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.next(MessageQueue.java:335)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:161)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.HandlerThread.run(HandlerThread.java:67)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "WellbeingHandler" prio=5 tid=25 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x135c1af8 self=0x7f05175ff710
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1936 nice=0 cgrp=top-app sched=0/0 handle=0x7f0334471cf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 27251020 178083115 40 ) utm=0 stm=2 core=0 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f033436f000-0x7f0334371000 stackSize=1035KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b891a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000000104d5  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+229) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000016c4f3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.nativePollOnce(Native method)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.next(MessageQueue.java:335)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:161)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at com.android.launcher3.util.BgObjectWithLooper.runOnThread(unavailable:10)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at com.android.launcher3.util.BgObjectWithLooper.a(unavailable:0)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at i1.b.run(unavailable:2)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Thread.run(Thread.java:1012)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "binder:1205_5" prio=5 tid=26 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x13080308 self=0x7f0517619840
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=2158 nice=0 cgrp=top-app sched=0/0 handle=0x7f033410ecf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 13731293 232911949 36 ) utm=0 stm=0 core=0 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0334018000-0x7f033401a000 stackSize=987KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b7937  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+7) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000069258  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+216) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000084737  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+295) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000084607  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+23) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 000000000001377f  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+175) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 00000000000e1cec  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+140) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "TaskThumbnailIconCache-1" prio=4 tid=27 Waiting
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x13080380 self=0x7f051761ebb0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=2239 nice=10 cgrp=top-app sched=0/0 handle=0x7f032d387cf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 10901741 113961662 11 ) utm=0 stm=0 core=2 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f032d285000-0x7f032d287000 stackSize=1035KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000838e0a  /apex/com.android.art/lib64/libart.so (art::Thread::Park(bool, long)+330) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000075bdc6  /apex/com.android.art/lib64/libart.so (art::Unsafe_park(_JNIEnv*, _jobject*, unsigned char, long)+678) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at jdk.internal.misc.Unsafe.park(Native method)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   - waiting on an unknown object
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1063)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1123)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at com.android.launcher3.util.Executors$SimpleThreadFactory.lambda$newThread$0(unavailable:5)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at com.android.launcher3.util.Executors$SimpleThreadFactory.a(unavailable:0)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at i1.j.run(unavailable:4)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at java.lang.Thread.run(Thread.java:1012)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "binder:1205_6" prio=5 tid=28 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x12f00020 self=0x7f051761b410
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=4430 nice=0 cgrp=top-app sched=0/0 handle=0x7f0333e3ccf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 48613424 182932364 117 ) utm=2 stm=2 core=2 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0333d46000-0x7f0333d48000 stackSize=987KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000005bdc6  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+22) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000003f9d4e  /apex/com.android.art/lib64/libart.so (art::ConditionVariable::WaitHoldingLocks(art::Thread*)+110) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 00000000006154ce  /apex/com.android.art/lib64/libart.so (art::JNI<false>::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, __va_list_tag*)+510) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 00000000000d84f4  /system/lib64/libandroid_runtime.so (_JNIEnv::CallBooleanMethod(_jobject*, _jmethodID*, ...)+164) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 000000000017e390  /system/lib64/libandroid_runtime.so (JavaBBinder::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+160) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 000000000006ab66  /system/lib64/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+166) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 000000000006895f  /system/lib64/libbinder.so (android::IPCThreadState::executeCommand(int)+719) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 000000000008482e  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+542) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #08 pc 0000000000084607  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+23) (BuildId: b3a72b1c424e4f5102278f425945a7c8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #09 pc 000000000001377f  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+175) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #10 pc 00000000000e1cec  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+140) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #11 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #12 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "com.google.android.googlequicksearchbox" prio=5 tid=29 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x12defa90 self=0x7f05175ec520
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=4585 nice=0 cgrp=top-app sched=0/0 handle=0x7f033584acf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 1297408 569877 2 ) utm=0 stm=0 core=0 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0335748000-0x7f033574a000 stackSize=1035KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b891a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000000104d5  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+229) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000016c4f3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.nativePollOnce(Native method)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.next(MessageQueue.java:335)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:161)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.HandlerThread.run(HandlerThread.java:67)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676] "com.android.vending" prio=5 tid=30 Native
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=1 ucsCount=0 flags=1 obj=0x12defda8 self=0x7f0517610d30
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=4586 nice=0 cgrp=top-app sched=0/0 handle=0x7f0335741cf0
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=S schedstat=( 816880 3653258 2 ) utm=0 stm=0 core=1 HZ=100
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f033563f000-0x7f0335641000 stackSize=1035KB
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes=
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 00000000000b891a  /apex/com.android.runtime/lib64/bionic/libc.so (__epoll_pwait+10) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 00000000000104d5  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+229) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 000000000016c4f3  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+35) (BuildId: 2a86b9a46fcc5a9ee4faac00b9a926e8)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.nativePollOnce(Native method)
+11-03 16:48:07.564  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.MessageQueue.next(MessageQueue.java:335)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loopOnce(Looper.java:161)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   at android.os.HandlerThread.run(HandlerThread.java:67)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676] Aborting thread:
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676] "RenderThread" prio=10 tid=6 Native
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   | group="" sCount=0 ucsCount=0 flags=0 obj=0x135c1078 self=0x7f05175e3a10
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   | sysTid=1660 nice=-10 cgrp=top-app sched=0/0 handle=0x7f0337e45cf0
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   | state=R schedstat=( 2134382714 2429456571 1108 ) utm=43 stm=170 core=0 HZ=100
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   | stack=0x7f0337d4f000-0x7f0337d51000 stackSize=987KB
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   | held mutexes= "abort lock" "mutator lock"(shared held)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #00 pc 000000000071ed04  /apex/com.android.art/lib64/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, BacktraceMap*, char const*, art::ArtMethod*, void*, bool)+132) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #01 pc 0000000000842dfe  /apex/com.android.art/lib64/libart.so (art::Thread::DumpStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, bool, BacktraceMap*, bool) const+334) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #02 pc 0000000000805989  /apex/com.android.art/lib64/libart.so (art::AbortState::DumpThread(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, art::Thread*) const+57) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #03 pc 0000000000805615  /apex/com.android.art/lib64/libart.so (art::AbortState::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+421) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #04 pc 00000000007ed875  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1381) (BuildId: 44bc52550248fc712a381bef164b75c7)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #05 pc 0000000000019cfc  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+60) (BuildId: 0aa332cd750579dec074c73abcd15956)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #06 pc 0000000000008712  /system/lib64/liblog.so (__android_log_assert+338) (BuildId: 6b5490b5683793c72167e11556e0b7d9)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #07 pc 0000000000672327  /system/lib64/libhwui.so (android::uirenderer::skiapipeline::SkiaOpenGLPipeline::getFrame()+343) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #08 pc 000000000046dc3b  /system/lib64/libhwui.so (android::uirenderer::renderthread::CanvasContext::draw()+411) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #09 pc 00000000004ff58e  /system/lib64/libhwui.so (std::__1::__function::__func<android::uirenderer::renderthread::DrawFrameTask::postAndWait()::$_0, std::__1::allocator<android::uirenderer::renderthread::DrawFrameTask::postAndWait()::$_0>, void ()>::operator()() (.__uniq.264041412789356548918088680803242235290.c1671e787f244890c877724752face20)+974) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #10 pc 00000000005e0fdf  /system/lib64/libhwui.so (android::uirenderer::renderthread::RenderThread::threadLoop()+847) (BuildId: 90c5ddb5e9d0c65dee5a6be3c94f6ebc)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #11 pc 000000000001377f  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+175) (BuildId: bf3f66fd6f5b7c78306a1c8270331f22)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #12 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   native: #13 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]   (no managed stack frames)
+11-03 16:48:07.565  1205  1660 F s.nexuslauncher: runtime.cc:676]
+--------- beginning of crash
+11-03 16:48:07.565  1205  1660 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 1660 (RenderThread), pid 1205 (s.nexuslauncher)
+11-03 16:48:07.802   390  4611 I resolv  : GetAddrInfoHandler::run: {100 100 100 983140 10139 0}
+11-03 16:48:07.807   390  4613 I resolv  : res_nmkquery: (QUERY, IN, A)
+11-03 16:48:07.808   390  4612 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+11-03 16:48:07.808   390  4613 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x77f6edc369b0
+11-03 16:48:07.808   390  4613 I resolv  : doQuery: rcode=0, ancount=16, return value=310
+11-03 16:48:07.810   390  4612 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x77f6cdc42c10
+11-03 16:48:07.810   390  4612 I resolv  : doQuery: rcode=0, ancount=4, return value=166
+11-03 16:48:07.816  1829  4609 D TrafficStats: tagSocket(131) with statsTag=0x8003, statsUid=-1
+11-03 16:48:07.903  4610  4610 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+11-03 16:48:07.918   293   293 I tombstoned: received crash request for pid 1660
+11-03 16:48:07.935  4610  4610 I crash_dump64: performing dump of process 1205 (target tid = 1660)
+11-03 16:48:08.346   650   683 I Choreographer: Skipped 87 frames!  The application may be doing too much work on its main thread.
+11-03 16:48:08.424  1829  4609 D TrafficStats: tagSocket(131) with statsTag=0x8003, statsUid=-1
+11-03 16:48:08.442   650  1593 W system_server: Long monitor contention with owner android.anim (683) at android.window.TaskSnapshot com.android.server.wm.TaskSnapshotCache.getSnapshot(int, int, boolean, boolean)(TaskSnapshotCache.java:66) waiters=2 in int com.android.server.wm.WindowManagerService$LocalService.getDisplayIdForWindow(android.os.IBinder) for 1.473s
+11-03 16:48:08.445   650   682 W system_server: Long monitor contention with owner android.anim (683) at android.window.TaskSnapshot com.android.server.wm.TaskSnapshotCache.getSnapshot(int, int, boolean, boolean)(TaskSnapshotCache.java:66) waiters=3 in void com.android.server.wm.WindowManagerService.reportFocusChanged(android.os.IBinder, android.os.IBinder) for 1.279s
+11-03 16:48:08.455   650   671 W system_server: Long monitor contention with owner android.anim (683) at android.window.TaskSnapshot com.android.server.wm.TaskSnapshotCache.getSnapshot(int, int, boolean, boolean)(TaskSnapshotCache.java:66) waiters=4 in void com.android.server.wm.ActivityClientController.activityResumed(android.os.IBinder, boolean) for 1.287s
+11-03 16:48:08.474  4551  4570 E TestRunner: com.google.android.apps.common.testing.accessibility.framework.integrations.espresso.AccessibilityViewCheckException: There were 2 accessibility results:
+11-03 16:48:08.474  4551  4570 E TestRunner: AppCompatTextView{id=2131231158, res-name=register, desc=Double tap to register as new user, visibility=VISIBLE, width=996, height=51, has-focus=false, has-focusable=true, has-window-focus=false, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=42.0, y=1076.0, text=New to goCart? Create an account, input-type=0, ime-target=false, has-links=false}: This item's height is 19dp. Consider making the height of this touch target 48dp or larger. Reported by com.google.android.apps.common.testing.accessibility.framework.checks.TouchTargetSizeCheck,
+11-03 16:48:08.474  4551  4570 E TestRunner: AppCompatEditText{id=2131231292, res-name=userid, desc=Enter User Id, visibility=VISIBLE, width=944, height=143, has-focus=false, has-focusable=true, has-window-focus=false, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x21 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=User Id label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=8, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null contentMimeTypes=null ], x=68.0, y=709.0, text=, hint=User Id, input-type=33, ime-target=false, has-links=false}: This editable TextView has an android:contentDescription. A screen reader may read this attribute instead of the editable content when the user is navigating. Reported by com.google.android.apps.common.testing.accessibility.framework.checks.EditableContentDescCheck
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at com.google.android.apps.common.testing.accessibility.framework.integrations.espresso.AccessibilityValidator.processResults(AccessibilityValidator.java:272)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at com.google.android.apps.common.testing.accessibility.framework.integrations.espresso.AccessibilityValidator.runAccessibilityChecks(AccessibilityValidator.java:228)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at com.google.android.apps.common.testing.accessibility.framework.integrations.espresso.AccessibilityValidator.checkAndReturnResults(AccessibilityValidator.java:87)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at androidx.test.espresso.accessibility.AccessibilityChecks$2.check(AccessibilityChecks.java:65)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at androidx.test.espresso.action.ViewActions$1.perform(ViewActions.java:3)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at android.os.Handler.handleCallback(Handler.java:942)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at android.os.Looper.loopOnce(Looper.java:201)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at android.os.Looper.loop(Looper.java:288)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at android.app.ActivityThread.main(ActivityThread.java:7872)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+11-03 16:48:08.474  4551  4570 E TestRunner: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+11-03 16:48:08.474  4551  4570 E TestRunner: ----- end exception -----
+11-03 16:48:08.549  4551  4570 I TestRunner: finished: testLoginSuccess(com.example.interview.ExampleInstrumentedTest)
