@@ -2,6 +2,7 @@ package com.example.interview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.get
 import androidx.navigation.fragment.NavHostFragment
@@ -36,7 +37,7 @@ class DashboardActivity : AppCompatActivity() {
                 .replace(R.id.fragmentContainer, homeFragment)
                 .commit()
         }
-        val bind = findViewById<BottomNavigationView>(R.id.bottomNav)
+        findViewById<BottomNavigationView>(R.id.bottomNav)
             .setOnItemSelectedListener {
             when(it.itemId){
                 R.id.profile-> {
