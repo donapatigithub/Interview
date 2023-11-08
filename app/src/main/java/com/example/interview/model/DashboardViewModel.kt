@@ -25,7 +25,7 @@ class DashboardViewModel: ViewModel() {
             val type = object : TypeToken<List<DashboardModel>>() {}.type
             return Gson().fromJson(json, type)
         }else{
-            return getDashItems()
+            return emptyList()
         }
     }
     fun saveDashboardItems(){
@@ -41,21 +41,10 @@ class DashboardViewModel: ViewModel() {
         saveDashboardItems()
     }
 
-    private fun getDashItems():List<DashboardModel>{
-        return listOf(
-            DashboardModel(R.drawable.electronics,"Electronics"),
-            DashboardModel(R.drawable.mobile,"Mobiles"),
-            DashboardModel(R.drawable.clothes,"Clothes"),
-            DashboardModel(R.drawable.shoe,"Footwear"),
-            DashboardModel(R.drawable.furniture,"Furniture"),
-            DashboardModel(R.drawable.toys,"Toys"),
-            DashboardModel(R.drawable.kitchen,"Kitchen")
-        )
-    }
     fun filterItems(query : String): List<DashboardModel>{
-        return getDashItems().filter {
+        return _dashboardItems.value?.filter {
         it.name.contains(query, ignoreCase = true)
-        }
+        }?: emptyList()
     }
     companion object{
         private lateinit var context: Context
