@@ -1,0 +1,396 @@
+11-09 11:35:22.493  5267  5290 I TestRunner: started: testLoginSuccess(com.example.interview.ExampleInstrumentedTest)
+11-09 11:35:22.512  5267  5290 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-09 11:35:22.595   424   424 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-09 11:35:22.605   799   902 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-09 11:35:22.665  5267  5294 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-09 11:35:22.676  5267  5294 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-09 11:35:22.685  5267  5294 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-09 11:35:22.692  1512  1512 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+11-09 11:35:22.710  1073  1601 D EGL_emulation: app_time_stats: avg=133.18ms min=4.12ms max=2618.53ms count=23
+11-09 11:35:22.768  5267  5267 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-09 11:35:22.804  5267  5267 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@3ef6b57 in: PRE_ON_CREATE
+11-09 11:35:22.806  5267  5267 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-09 11:35:22.946  5267  5267 W ample.interview: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+11-09 11:35:22.947  5267  5267 W ample.interview: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+11-09 11:35:22.955  5267  5267 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10187; state: ENABLED
+11-09 11:35:22.975   799   812 I ndroid.systemui: Background young concurrent copying GC freed 185248(8803KB) AllocSpace objects, 0(0B) LOS objects, 38% free, 12MB/21MB, paused 11.716ms,18us total 57.953ms
+11-09 11:35:23.067  5267  5267 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@3ef6b57 in: CREATED
+11-09 11:35:23.068  5267  5267 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.interview.Login@3ef6b57
+11-09 11:35:23.073  5267  5267 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@3ef6b57 in: STARTED
+11-09 11:35:23.074  5267  5267 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.interview.Login@3ef6b57
+11-09 11:35:23.084  5267  5267 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@3ef6b57 in: RESUMED
+11-09 11:35:23.085  5267  5267 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.interview.Login@3ef6b57
+11-09 11:35:23.092  5267  5267 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10187; state: DISABLED
+11-09 11:35:23.097  5267  5267 W OpenGLRenderer: Unknown dataspace 0
+11-09 11:35:23.153   424   777 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10187 pid=0
+11-09 11:35:23.153   424   777 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10187 => denied (782 us)
+11-09 11:35:23.153   424   566 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10187 pid=5267
+11-09 11:35:23.153   424   566 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10187 => denied (382 us)
+11-09 11:35:23.154   424   777 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10187 pid=0
+11-09 11:35:23.154   424   777 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10187 => denied (450 us)
+11-09 11:35:23.154   424   566 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10187 pid=5267
+11-09 11:35:23.154   424   566 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10187 => denied (457 us)
+11-09 11:35:23.154   424   566 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10187 pid=5267
+11-09 11:35:23.155   424   566 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10187 => denied (646 us)
+11-09 11:35:23.155   424   777 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10187 pid=0
+11-09 11:35:23.155   424   777 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10187 => denied (782 us)
+11-09 11:35:23.173  5267  5292 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-09 11:35:23.173  5267  5292 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-09 11:35:23.244   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-09 11:35:23.244  5267  5292 I Gralloc4: mapper 4.x is not supported
+11-09 11:35:23.258  5267  5292 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-09 11:35:23.389   579  2647 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10187 pid=0
+11-09 11:35:23.389   579  2647 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10187 => denied (204 us)
+11-09 11:35:23.389   579  2647 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10187 pid=0
+11-09 11:35:23.389   579  2647 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10187 => denied (27 us)
+11-09 11:35:23.389   579  2647 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10187 pid=0
+11-09 11:35:23.389   579  2647 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10187 => denied (11 us)
+11-09 11:35:23.392   579   602 W ziparchive: Unable to open '/data/app/~~SxHC4JK6a8ZLJViRX6hEEw==/com.example.interview-oRBH8j_v9SO1Qse7OBeuOQ==/base.dm': No such file or directory
+11-09 11:35:23.395   579   602 I ActivityTaskManager: Displayed com.example.interview/.Login for user 0: +867ms
+11-09 11:35:23.479   579  2647 I ImeTracker: com.example.interview:ee76d548: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-09 11:35:23.479   579  2647 I ImeTracker: com.example.interview:ee76d548: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-09 11:35:23.493  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-09 11:35:23.503  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-09 11:35:23.503  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.interview fieldId=0 fieldName=null extras=null}, false)
+11-09 11:35:23.504  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-09 11:35:23.512  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-09 11:35:23.552  1073  1148 I ImeTracker: com.google.android.apps.nexuslauncher:c8287e47: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+11-09 11:35:23.552  1073  1148 I ImeTracker: com.google.android.apps.nexuslauncher:c8287e47: onFailed at PHASE_CLIENT_VIEW_SERVED
+11-09 11:35:23.553  1073  1781 D OneSearchSuggestProvider: Shut down the binder channel
+11-09 11:35:23.556  1073  1475 I IPCThreadState: oneway function results for code 2 on binder at 0x7e60c407f570 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-09 11:35:23.591  5267  5290 W FileTestStorage: Output properties is not supported.
+11-09 11:35:23.592  5267  5290 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+11-09 11:35:23.615  5267  5290 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10187; state: ENABLED
+11-09 11:35:23.629  5267  5290 D EventInjectionStrategy: Creating injection strategy with input manager.
+11-09 11:35:23.629  5267  5290 W ample.interview: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+11-09 11:35:23.630  5267  5290 W ample.interview: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+11-09 11:35:23.631  5267  5290 W ample.interview: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+11-09 11:35:23.659  1317  1716 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-09 11:35:23.660  1317  1716 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-09 11:35:23.667  1317  1716 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-09 11:35:23.692  1317  2808 I FontLog : Pulling font file for id = 19, cache size = 6 [CONTEXT service_id=132 ]
+11-09 11:35:23.697   799   880 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@65cf090
+11-09 11:35:23.703   579  2647 W InputManager-JNI: Input channel object '2a4489c Splash Screen com.example.interview (client)' was disposed without first being removed with the input manager!
+11-09 11:35:23.736  1317  2808 I FontLog : Pulling font file for id = 19, cache size = 6 [CONTEXT service_id=132 ]
+11-09 11:35:23.747  5267  5290 W ample.interview: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+11-09 11:35:23.773  5267  5267 W ample.interview: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+11-09 11:35:23.774  5267  5267 W ample.interview: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+11-09 11:35:23.775  5267  5267 W ample.interview: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+11-09 11:35:23.789  5267  5267 W ample.interview: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+11-09 11:35:23.790  5267  5267 W ample.interview: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+11-09 11:35:23.791  5267  5267 W ample.interview: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+11-09 11:35:23.810  5267  5267 I ViewInteraction: Performing 'type text(donapati@gmail.com)' action on view view.getId() is <2131231292/com.example.interview:id/userid>
+11-09 11:35:23.922  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-09 11:35:23.924  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-09 11:35:23.924  5267  5267 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10187; state: ENABLED
+11-09 11:35:23.924  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x21(EmailAddress) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231292 fieldName=null extras=null}, false)
+11-09 11:35:23.924  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-09 11:35:23.926  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-09 11:35:23.936  5267  5267 I ImeTracker: com.example.interview:b01e11b1: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+11-09 11:35:23.939  5267  5267 D InputMethodManager: showSoftInput() view=androidx.appcompat.widget.AppCompatEditText{94c6345 VFED..CL. .F.P..ID 91,944-1349,1134 #7f08023c app:id/userid aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+11-09 11:35:23.947  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-09 11:35:23.948  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1995 onStartInputView(EditorInfo{inputType=0x21(EmailAddress) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231292 fieldName=null extras=null}, false)
+11-09 11:35:23.950  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-09 11:35:23.951  1393  1393 W ModuleManager: ModuleManager.loadModule():450 Module erj is not available
+11-09 11:35:23.954  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():189 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+11-09 11:35:23.954  1393  1393 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=0x21(EmailAddress) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231292 fieldName=null extras=null, IncognitoMode = false, DeviceLocked = false
+11-09 11:35:23.956  1393  1393 I Delight5Facilitator: Delight5Facilitator.initializeForIme():777 initializeForIme() : Locale = [en_US], layout = qwerty
+11-09 11:35:23.957  1393  1393 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+11-09 11:35:23.957  1393  1393 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+11-09 11:35:23.959  1393  1393 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1003 inline flag updated to:false
+11-09 11:35:23.966  1393  4584 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():205 maybeScheduleAutoPackDownloadForFallback()
+11-09 11:35:23.968  1393  4584 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():195 maybeScheduleAutoPackDownload() for language tag en-US
+11-09 11:35:23.969  1393  1840 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-09 11:35:23.972  1393  1393 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+11-09 11:35:23.974  5267  5267 I AssistStructure: Flattened final assist data: 2004 bytes, containing 1 windows, 11 views
+11-09 11:35:24.009  1317  1317 W AutofillChimeraService: Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+11-09 11:35:24.013  1393  1406 I putmethod.latin: JIT allocated 51KB for compiled code of mzo hod.d(java.util.List)
+11-09 11:35:24.024  1029  1029 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:767103539
+11-09 11:35:24.037  1317  1716 I IPCThreadState: oneway function results for code 1 on binder at 0x7e60c412cfd0 will be dropped but finished with status UNKNOWN_TRANSACTION and reply parcel size 80
+11-09 11:35:24.046  1393  1393 I KeyboardViewHelper: KeyboardViewHelper.getView():170 Get view with height ratio:1.000000
+11-09 11:35:24.053  1700  1700 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.api.phone.service.SmsRetrieverApiService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-09 11:35:24.053  1700  1700 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.api.phone.service.SmsRetrieverApiService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-09 11:35:24.090  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 473 height for app when screen height:2952, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2325
+11-09 11:35:24.094  1393  1393 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-09 11:35:24.095  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_OPTIONAL
+11-09 11:35:24.096  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:24.096  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = BODY, shownType = SHOW_MANDATORY
+11-09 11:35:24.096  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:24.096  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = FLOATING_CANDIDATES, shownType = HIDE
+11-09 11:35:24.096  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = false
+11-09 11:35:24.098  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 473 height for app when screen height:2952, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2325
+11-09 11:35:24.100  1393  1393 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-09 11:35:24.110  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-09 11:35:24.110  1393  1393 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-09 11:35:24.111  1393  1393 I KeyboardModeManager: KeyboardModeManager.setInputView():364 setInputView() : supportsOneHandedMode=true
+11-09 11:35:24.111  1393  1393 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-09 11:35:24.111  1393  1393 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 168
+11-09 11:35:24.112  1393  1393 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-09 11:35:24.114  1393  1393 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 168
+11-09 11:35:24.114  1393  1393 I KeyboardModeManager: KeyboardModeManager.setInputView():356 setInputView() : entry=hwn{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_adaptive_text_editing=false_enable_inline_suggestions_on_client_side=false_enable_large_tablet_batch_1=false_enable_large_tablet_batch_2=false_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign=false_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+11-09 11:35:24.117  1393  1393 I CurrentMicStatusHolder: CurrentMicStatusHolder.onStartInputView():79 Current Mic status = {MicIconHidden-EmailInputType,}
+11-09 11:35:24.117  1393  1393 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():383 No private IME option set to start voice input.
+11-09 11:35:24.162  1393  1989 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-09 11:35:24.215  5267  5267 D UiControllerImpl: Injecting string: "donapati@gmail.com"
+11-09 11:35:24.220  5267  5267 D InsetsController: show(ime(), fromIme=true)
+11-09 11:35:24.226  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-09 11:35:24.227  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-09 11:35:24.228  1393  1393 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-09 11:35:24.233  1393  2190 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():457 setKeyboardLayout()
+11-09 11:35:24.237  1393  2190 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():457 setKeyboardLayout()
+11-09 11:35:24.406  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-09 11:35:24.407  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:24.471   799   902 D EGL_emulation: app_time_stats: avg=4310.55ms min=13.60ms max=38461.64ms count=9
+11-09 11:35:24.491  5267  5292 D EGL_emulation: app_time_stats: avg=137.98ms min=25.10ms max=382.45ms count=8
+11-09 11:35:24.512  5267  5267 I ImeTracker: com.example.interview:b01e11b1: onShown
+11-09 11:35:24.526  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-09 11:35:24.526  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:24.630  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-09 11:35:24.631  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:24.780  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-09 11:35:24.782  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:24.888  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-09 11:35:24.890  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:24.971  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-09 11:35:24.972  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:25.063  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-09 11:35:25.063  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:25.137  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-09 11:35:25.138  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:25.260  1393  1989 D EGL_emulation: app_time_stats: avg=80.72ms min=12.28ms max=141.18ms count=13
+11-09 11:35:25.485   799   902 D EGL_emulation: app_time_stats: avg=8.00ms min=1.88ms max=19.73ms count=61
+11-09 11:35:25.563  5267  5292 D EGL_emulation: app_time_stats: avg=66.97ms min=20.80ms max=113.86ms count=16
+11-09 11:35:25.806  5267  5267 I ViewInteraction: Performing 'type text(Siva@123)' action on view view.getId() is <2131231127/com.example.interview:id/passwordid>
+11-09 11:35:25.875   579  2646 I ImeTracker: com.example.interview:a38da004: onRequestShow at ORIGIN_SERVER_START_INPUT reason ATTACH_NEW_INPUT
+11-09 11:35:25.876  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2241
+11-09 11:35:25.892  5267  5267 I ImeTracker: com.example.interview:ce5335ea: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+11-09 11:35:25.894  5267  5267 D InputMethodManager: showSoftInput() view=androidx.appcompat.widget.AppCompatEditText{8237a9a VFED..CL. .F.P..ID 91,1215-1349,1405 #7f080197 app:id/passwordid aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+11-09 11:35:25.896  1393  1393 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+11-09 11:35:25.898  1393  1393 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+11-09 11:35:25.908  1393  1393 I AndroidIME: AbstractIme.onDeactivate():207 LatinIme.onDeactivate()
+11-09 11:35:25.909  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-09 11:35:25.912  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-09 11:35:25.915  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x81(Password) imeOptions=0x4000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231127 fieldName=null extras=Bundle[mParcelledData.dataSize=240]}, false)
+11-09 11:35:25.916  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-09 11:35:25.920  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-09 11:35:25.922  1393  1393 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():88 Unregister key sequence hox{callback=bxi@4efd0f7, lastModifier=0, keyCodes=[57, 57], actions=[1, 0]}
+11-09 11:35:25.923  1393  1393 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():88 Unregister key sequence hox{callback=bxi@4efd0f7, lastModifier=0, keyCodes=[58, 58], actions=[1, 0]}
+11-09 11:35:25.923  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1995 onStartInputView(EditorInfo{inputType=0x81(Password) imeOptions=0x4000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231127 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}]}, false)
+11-09 11:35:25.925  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-09 11:35:25.931  1393  1393 W ModuleManager: ModuleManager.loadModule():450 Module erj is not available
+11-09 11:35:25.941  5267  5267 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@66980270 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@eb2a252
+11-09 11:35:25.943  1393  1840 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-09 11:35:25.950  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():189 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+11-09 11:35:25.952  1393  1393 I AndroidIME: AbstractIme.onActivate():86 PasswordIme.onActivate() : EditorInfo = inputType=0x81(Password) imeOptions=0x4000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231127 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}], IncognitoMode = false, DeviceLocked = false
+11-09 11:35:25.975  1393  1393 I KeyboardViewHelper: KeyboardViewHelper.getView():170 Get view with height ratio:1.000000
+11-09 11:35:26.020  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 473 height for app when screen height:2952, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2325
+11-09 11:35:26.024  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY
+11-09 11:35:26.024  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:26.026  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = BODY, shownType = SHOW_MANDATORY
+11-09 11:35:26.027  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-09 11:35:26.027  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = FLOATING_CANDIDATES, shownType = HIDE
+11-09 11:35:26.028  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = false
+11-09 11:35:26.030  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 473 height for app when screen height:2952, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2325
+11-09 11:35:26.034  1393  1393 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-09 11:35:26.036  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-09 11:35:26.037  1393  1393 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-09 11:35:26.037  1393  1393 I KeyboardModeManager: KeyboardModeManager.setInputView():364 setInputView() : supportsOneHandedMode=true
+11-09 11:35:26.038  1393  1393 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-09 11:35:26.039  1393  1393 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 168
+11-09 11:35:26.039  1393  1393 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-09 11:35:26.043  1393  1393 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 168
+11-09 11:35:26.043  1393  1393 I KeyboardModeManager: KeyboardModeManager.setInputView():356 setInputView() : entry=hwn{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_adaptive_text_editing=false_enable_inline_suggestions_on_client_side=false_enable_large_tablet_batch_1=false_enable_large_tablet_batch_2=false_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign=false_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+11-09 11:35:26.047  1393  1393 I CurrentMicStatusHolder: CurrentMicStatusHolder.onStartInputView():79 Current Mic status = {MicIconHidden-SettingOff,MicIconHidden-PasswordOrNumberOrDateInputType,}
+11-09 11:35:26.047  1393  1393 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():383 No private IME option set to start voice input.
+11-09 11:35:26.049  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-09 11:35:26.057  5267  5267 D InsetsController: show(ime(), fromIme=true)
+11-09 11:35:26.058  5267  5267 I ImeTracker: com.example.interview:a38da004: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+11-09 11:35:26.078  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-09 11:35:26.088  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-09 11:35:26.089  1393  1393 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-09 11:35:26.093  5267  5267 D InsetsController: show(ime(), fromIme=true)
+11-09 11:35:26.094  5267  5267 I ImeTracker: com.example.interview:ce5335ea: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+11-09 11:35:26.175  5267  5267 D UiControllerImpl: Injecting string: "Siva@123"
+11-09 11:35:26.270  1393  1989 D EGL_emulation: app_time_stats: avg=168.02ms min=14.18ms max=702.14ms count=6
+11-09 11:35:26.576  5267  5292 D EGL_emulation: app_time_stats: avg=52.95ms min=19.18ms max=255.26ms count=19
+11-09 11:35:26.584  5267  5267 I ViewInteraction: Performing 'close keyboard' action on view view.getRootView() to equal view
+11-09 11:35:26.585  5267  5267 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@ea33676]
+11-09 11:35:26.587  5267  5267 I ImeTracker: com.example.interview:43981f1f: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+11-09 11:35:26.589  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2241
+11-09 11:35:26.592  1393  1393 I AndroidIME: AbstractIme.onDeactivate():207 PasswordIme.onDeactivate()
+11-09 11:35:26.599  5267  5267 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@66980270 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@b5a5477
+11-09 11:35:26.801   799   902 D EGL_emulation: app_time_stats: avg=23.62ms min=2.21ms max=667.74ms count=39
+11-09 11:35:26.819  5267  5267 I ImeTracker: com.example.interview:5eb61fbf: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+11-09 11:35:26.821   579  2647 I ImeTracker: com.example.interview:5eb61fbf: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-09 11:35:26.823  5267  5267 I ImeTracker: com.example.interview:43981f1f: onHidden
+11-09 11:35:26.901  5267  5267 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@ea33676]
+11-09 11:35:26.909  5267  5267 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231010/com.example.interview:id/loginbtn>
+11-09 11:35:26.961   420   981 D audioserver: FGS Logger Transaction failed
+11-09 11:35:26.961   420   981 D audioserver: -129
+11-09 11:35:26.971   420   519 D AudioFlinger: mixer(0x738c9e41d930) throttle end: throttle time(35)
+11-09 11:35:27.008  5267  5267 D CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10187; state: ENABLED
+11-09 11:35:27.059   799   902 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-09 11:35:27.083   420   519 D audioserver: FGS Logger Transaction failed
+11-09 11:35:27.083   420   519 D audioserver: -129
+11-09 11:35:27.284  5267  5267 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231183/com.example.interview:id/search>
+11-09 11:35:27.293  5267  5290 I UiAutomation: Initialized for user 0 on display 0
+11-09 11:35:27.306  1491  1511 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-09 11:35:27.308  1491  1780 I AiAiEcho: Predicting[0]:
+11-09 11:35:27.308  1491  1780 I AiAiEcho: EchoTargets:
+11-09 11:35:27.308  1491  1780 I AiAiEcho: Filtered by AiAi flag check:
+11-09 11:35:27.309  1491  1780 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+11-09 11:35:27.314  1491  1780 I AiAiEcho: Predicting[0]:
+11-09 11:35:27.315  1491  1780 I AiAiEcho: EchoTargets:
+11-09 11:35:27.315  1491  1780 I AiAiEcho: Filtered by AiAi flag check:
+11-09 11:35:27.315  1491  1780 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+11-09 11:35:27.315  1491  1780 I AiAiEcho: Predicting[0]:
+11-09 11:35:27.316  1491  1780 I AiAiEcho: EchoTargets:
+11-09 11:35:27.316  1491  1780 I AiAiEcho: Filtered by AiAi flag check:
+11-09 11:35:27.316  1491  1780 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+11-09 11:35:27.317  1491  1780 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+11-09 11:35:27.319  1637  1969 I A       : NGA disabled due to not being eligible.
+11-09 11:35:27.320  1491  1780 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-09 11:35:27.325  1491  1780 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-09 11:35:27.339  5267  5267 D takeScreenshot: Found 1 global views to redraw
+11-09 11:35:27.355   799   799 D SsMediaDataProvider: Forwarding Smartspace updates []
+11-09 11:35:27.356   799   799 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-09 11:35:27.380   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-09 11:35:27.380  5253  5265 I Gralloc4: mapper 4.x is not supported
+11-09 11:35:27.427  5253  5315 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-09 11:35:27.429  5253  5315 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-09 11:35:27.433  5253  5315 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-09 11:35:27.456  5253  5315 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-09 11:35:27.457  5253  5315 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-09 11:35:27.588  5267  5316 D ProfileInstaller: Installing profile for com.example.interview
+11-09 11:35:27.603  5267  5292 D EGL_emulation: app_time_stats: avg=102.43ms min=9.93ms max=360.31ms count=10
+11-09 11:35:27.612  1443  1817 W MediaProvider: isAppCloneUserPair for user 0: false
+11-09 11:35:27.804   799   902 D EGL_emulation: app_time_stats: avg=9.47ms min=1.68ms max=56.02ms count=54
+11-09 11:35:27.956  1443  2716 W MediaProvider: isAppCloneUserPair for user 0: false
+11-09 11:35:27.967  5267  5290 W ViewHierarchyExceptionHandler: The complete view hierarchy is available in artifact file 'view-hierarchy-1.txt'.
+11-09 11:35:28.019  5267  5267 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@3ef6b57 in: PAUSED
+11-09 11:35:28.020  5267  5267 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.interview.Login@3ef6b57
+11-09 11:35:28.029   424   424 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-09 11:35:28.040  5267  5267 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55 in: PRE_ON_CREATE
+11-09 11:35:28.042  5267  5267 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55
+11-09 11:35:28.057  5267  5267 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55 in: CREATED
+11-09 11:35:28.058  5267  5267 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55
+11-09 11:35:28.060  5267  5267 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55 in: STARTED
+11-09 11:35:28.062  5267  5267 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55
+11-09 11:35:28.068  5267  5267 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55 in: RESUMED
+11-09 11:35:28.070  5267  5267 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55
+11-09 11:35:28.124  5267  5292 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-09 11:35:28.163   579   602 I ActivityTaskManager: Displayed com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +146ms
+11-09 11:35:28.212  5267  5267 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@3ef6b57 in: STOPPED
+11-09 11:35:28.213  5267  5267 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.interview.Login@3ef6b57
+11-09 11:35:28.221  5267  5267 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@3ef6b57 in: DESTROYED
+11-09 11:35:28.222  5267  5267 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-09 11:35:28.223  5267  5267 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@209e2d7
+11-09 11:35:28.231   579  1485 W InputManager-JNI: Input channel object 'f147bcd com.example.interview/com.example.interview.Login (client)' was disposed without first being removed with the input manager!
+11-09 11:35:28.251   579  1485 I ImeTracker: com.example.interview:c2bc0a8f: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-09 11:35:28.252   579  1485 I ImeTracker: com.example.interview:c2bc0a8f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-09 11:35:28.255  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-09 11:35:28.256  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-09 11:35:28.256  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.interview fieldId=0 fieldName=null extras=null}, false)
+11-09 11:35:28.256  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-09 11:35:28.257  1393  1393 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-09 11:35:28.258  1393  1393 I HardKeyTracker: HardKeyTracker.registerKeySequence():62 Register key sequence hox{callback=eac@11f9c99, lastModifier=0, keyCodes=[57, 57], actions=[1, 0]}
+11-09 11:35:28.259  1393  1393 I HardKeyTracker: HardKeyTracker.registerKeySequence():62 Register key sequence hox{callback=eac@133c0c, lastModifier=0, keyCodes=[58, 58], actions=[1, 0]}
+11-09 11:35:28.263  5267  5267 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55 in: PAUSED
+11-09 11:35:28.263  5267  5267 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@6fbee55
+11-09 11:35:28.279  5267  5290 E TestRunner: failed: testLoginSuccess(com.example.interview.ExampleInstrumentedTest)
+11-09 11:35:28.279  5267  5290 E TestRunner: ----- begin exception -----
+11-09 11:35:28.279   424   424 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-09 11:35:28.291  5267  5290 E TestRunner: androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131231183/com.example.interview:id/search>
+11-09 11:35:28.291  5267  5290 E TestRunner:
+11-09 11:35:28.291  5267  5290 E TestRunner: View Hierarchy:
+11-09 11:35:28.291  5267  5290 E TestRunner: +>DecorView{id=-1, visibility=VISIBLE, width=1440, height=3120, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x10302fe
+11-09 11:35:28.291  5267  5290 E TestRunner:   fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
+11-09 11:35:28.291  5267  5290 E TestRunner:   pfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED
+11-09 11:35:28.291  5267  5290 E TestRunner:   bhv=DEFAULT
+11-09 11:35:28.291  5267  5290 E TestRunner:   fitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +->LinearLayout{id=-1, visibility=VISIBLE, width=1440, height=3036, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +-->ViewStub{id=16908746, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +-->FrameLayout{id=-1, visibility=VISIBLE, width=1440, height=2892, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=144.0, child-count=1}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +--->ActionBarOverlayLayout{id=2131230886, res-name=decor_content_parent, visibility=VISIBLE, width=1440, height=2892, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1440, height=2696, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.ActionBarOverlayLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=196.0, child-count=1}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +----->RelativeLayout{id=-1, visibility=VISIBLE, width=1440, height=2696, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=6}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +------>AppCompatTextView{id=2131231012, res-name=logoName, visibility=VISIBLE, width=528, height=233, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=786.0, y=126.0, text=goCart, input-type=0, ime-target=false, has-links=false}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +------>AppCompatImageView{id=2131231011, res-name=logo, desc=goCart Logo, visibility=VISIBLE, width=350, height=350, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=545.0, y=541.0}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +------>AppCompatEditText{id=2131231292, res-name=userid, desc=Enter User Id, visibility=VISIBLE, width=1258, height=190, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x21 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=18 initialSelEnd=18 initialToolType=0 initialCapsMode=0x0 hintText=User Id label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE contentMimeTypes=null ], x=91.0, y=944.0, text=donapati@gmail.com, hint=User Id, input-type=33, ime-target=false, has-links=false}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +------>AppCompatEditText{id=2131231127, res-name=passwordid, visibility=VISIBLE, width=1258, height=190, has-focus=true, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=true, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x81 imeOptions=0x4000006 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=8 initialSelEnd=8 initialToolType=0 initialCapsMode=0x0 hintText=Password label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE contentMimeTypes=null ], x=91.0, y=1215.0, text=Siva@123, hint=Password, input-type=129, ime-target=true, has-links=false}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +------>AppCompatTextView{id=2131231158, res-name=register, desc=Double tap to register as new user, visibility=VISIBLE, width=1328, height=66, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=56.0, y=1433.0, text=New to goCart? Create an account, input-type=0, ime-target=false, has-links=false}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +------>AppCompatButton{id=2131231010, res-name=loginbtn, desc=Login Button to enter into application, visibility=VISIBLE, width=354, height=168, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=543.0, y=1552.0, text=Login, input-type=0, ime-target=false, has-links=false}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +---->ActionBarContainer{id=2131230774, res-name=action_bar_container, visibility=VISIBLE, width=1440, height=196, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.ActionBarOverlayLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +----->Toolbar{id=2131230772, res-name=action_bar, visibility=VISIBLE, width=1440, height=196, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +------>AppCompatTextView{id=-1, visibility=VISIBLE, width=289, height=93, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.Toolbar$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=56.0, y=51.0, text=Interview, input-type=0, ime-target=false, has-links=false}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +------>ActionMenuView{id=-1, visibility=VISIBLE, width=0, height=196, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.Toolbar$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=1440.0, y=0.0, child-count=0}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +----->ActionBarContextView{id=2131230780, res-name=action_context_bar, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=0}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1440, height=84, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=3036.0}
+11-09 11:35:28.291  5267  5290 E TestRunner: |
+11-09 11:35:28.291  5267  5290 E TestRunner: +->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1440, height=144, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+11-09 11:35:28.291  5267  5290 E TestRunner: The complete view hierarchy is available in artifact file 'view-hierarchy-1.txt'.
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at com.example.interview.ExampleInstrumentedTest.testLoginSuccess(ExampleInstrumentedTest.kt:38)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:446)
+11-09 11:35:28.291  5267  5290 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+11-09 11:35:28.291  5267  5290 E TestRunner: ----- end exception -----
+11-09 11:35:28.321  5267  5290 I TestRunner: finished: testLoginSuccess(com.example.interview.ExampleInstrumentedTest)
