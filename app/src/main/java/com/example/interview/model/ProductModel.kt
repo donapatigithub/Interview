@@ -7,7 +7,7 @@ data class ProductModel (
     val name: String,
     val price: String,
     val image: Int,
-    val filepath : String?
+    val filepath : String
 )
 class ShoppingCart{
     val items : MutableList<ProductModel> = mutableListOf()

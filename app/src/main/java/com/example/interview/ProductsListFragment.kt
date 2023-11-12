@@ -6,6 +6,7 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.os.Environment
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -92,15 +93,11 @@ class ProductsListFragment : Fragment() {
         return file.exists()
     }
     private fun openFile(filePath: String){
-        Log.d("Fragment", "Opening file at: $filePath")
         val file = File(filePath)
-        val exists = file.exists()
-        Log.d("Fragment", "File at $filePath exists.")
-
         if (file.exists()){
             val intent = Intent(Intent.ACTION_VIEW)
             val uri = FileProvider.getUriForFile(requireContext(),"com.example.interview.fileprovider",file)
-            intent.setDataAndType(uri,"text/plain")
+            intent.setDataAndType(uri,"application/pdf")
             intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             try {
                 startActivity(intent)
@@ -108,7 +105,6 @@ class ProductsListFragment : Fragment() {
                 Toast.makeText(requireContext(),"No application available to open the file",Toast.LENGTH_SHORT).show()
             }
         }else{
-            Log.d("Fragment", "File at $filePath does not exists.")
             Toast.makeText(requireContext(),"File does not exist",Toast.LENGTH_SHORT).show()
         }
     }
