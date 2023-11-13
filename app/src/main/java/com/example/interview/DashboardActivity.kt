@@ -1,15 +1,12 @@
 package com.example.interview
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
 import androidx.navigation.fragment.NavHostFragment
 import com.example.interview.model.DashboardModel
 import com.example.interview.model.DashboardViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.gson.Gson
 
 
 class DashboardActivity : AppCompatActivity() {

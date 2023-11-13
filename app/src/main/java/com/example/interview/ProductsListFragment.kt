@@ -1,31 +1,23 @@
 package com.example.interview
 
-import android.content.ActivityNotFoundException
-import android.content.Intent
-import android.content.pm.PackageManager
-import android.net.Uri
-import android.os.Build
 import android.os.Bundle
 import android.os.Environment
-import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
-import androidx.core.content.FileProvider
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.interview.databinding.FragmentProductsListBinding
 import com.example.interview.model.ProductModel
 import com.example.interview.model.ProductViewModel
+import com.google.gson.Gson
+import java.io.BufferedWriter
 import java.io.File
 import java.io.FileOutputStream
-import java.io.ObjectOutputStream
+import java.io.OutputStreamWriter
 
 class ProductsListFragment : Fragment() {
 
@@ -76,11 +68,12 @@ class ProductsListFragment : Fragment() {
 
         try {
             FileOutputStream(file).use { fileOutputStream->
-                ObjectOutputStream(fileOutputStream).use { onjectOuputStream->
-                    onjectOuputStream.writeObject(products)
+                BufferedWriter(OutputStreamWriter(fileOutputStream)).use { writer->
+                    val gson = Gson()
+                    val json = gson.toJson(products)
+                    writer.write(json)
                 }
             }
-            Toast.makeText(requireContext(),"Products data are in external storage",Toast.LENGTH_SHORT).show()
         }catch (e : Exception){
             e.printStackTrace()
             Toast.makeText(requireContext(),"Error saving products data",Toast.LENGTH_SHORT).show()
