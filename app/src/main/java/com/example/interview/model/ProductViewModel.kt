@@ -17,17 +17,9 @@ class ProductViewModel : ViewModel() {
         }
     private fun getProducts() : List<ProductModel>{
         return listOf(
-            ProductModel("Hp ProBook","58999",R.drawable.electronics,generateFilePath("Hp_ProBook.pdf")),
-            ProductModel("Dell","250",R.drawable.toys,"Dell.pdf")
+            ProductModel("Hp ProBook","58999",R.drawable.electronics),
+            ProductModel("Dell","250",R.drawable.toys)
 
-        ).map { product->
-            val fileName = "${product.name}_file.pdf"
-            val filePath=generateFilePath(fileName)
-            ProductModel(product.name,product.price,product.image,filePath)
-        }
-    }
-    private fun generateFilePath(fileName: String): String{
-        val directoryPath = "/storage/emulated/0/Downloads/"
-        return "$directoryPath$fileName"
+        )
     }
 }
