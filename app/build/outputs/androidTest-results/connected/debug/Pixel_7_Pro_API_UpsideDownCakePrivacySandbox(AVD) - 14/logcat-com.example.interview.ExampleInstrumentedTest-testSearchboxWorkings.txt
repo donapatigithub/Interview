@@ -1,0 +1,285 @@
+11-15 12:41:43.689  6310  6335 I TestRunner: started: testSearchboxWorkings(com.example.interview.ExampleInstrumentedTest)
+11-15 12:41:43.697  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: DESTROYED
+11-15 12:41:43.698  6310  6310 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@4d2e59
+11-15 12:41:43.711   567  2488 W InputManager-JNI: Input channel object '4788393 com.example.interview/com.example.interview.DashboardActivity (client)' was disposed without first being removed with the input manager!
+11-15 12:41:43.769  6310  6335 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-15 12:41:43.851   419   419 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-15 12:41:43.862  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@ae4aa77 in: PRE_ON_CREATE
+11-15 12:41:43.862  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-15 12:41:43.936  1592  1592 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+11-15 12:41:43.951  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@ae4aa77 in: CREATED
+11-15 12:41:43.955  6310  6310 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.interview.Login@ae4aa77
+11-15 12:41:43.963   796   861 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:43.970  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@ae4aa77 in: STARTED
+11-15 12:41:43.971  6310  6310 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.interview.Login@ae4aa77
+11-15 12:41:43.979  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@ae4aa77 in: RESUMED
+11-15 12:41:43.981  6310  6310 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.interview.Login@ae4aa77
+11-15 12:41:44.133  6310  6338 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:44.191   356  5076 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 2325312
+11-15 12:41:44.249   796   861 D skia    : Shader compilation error
+11-15 12:41:44.251   796   861 D skia    : ------------------------
+11-15 12:41:44.251   796   861 D skia    :    1	#version 300 es
+11-15 12:41:44.251   796   861 D skia    :    2
+11-15 12:41:44.251   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:44.251   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:44.251   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:44.252   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:44.252   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:44.253   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:44.253   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:44.253   796   861 D skia    :   10	void main() {
+11-15 12:41:44.254   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:44.254   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:44.254   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:44.254   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:44.254   796   861 D skia    :   15	    {
+11-15 12:41:44.254   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:44.254   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:44.254   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:44.257   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:44.257   796   861 D skia    :   20	    }
+11-15 12:41:44.257   796   861 D skia    :   21	}
+11-15 12:41:44.258   796   861 D skia    :   22
+11-15 12:41:44.258   796   861 D skia    : Errors:
+11-15 12:41:44.267   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:44.267   796   861 D skia    :
+11-15 12:41:44.283   567   595 W ziparchive: Unable to open '/data/app/~~MML54bNNOylWROKLxUq7kA==/com.example.interview-26Vra3VeFRV7XvzmRjDIqg==/base.dm': No such file or directory
+11-15 12:41:44.298   567   595 I ActivityTaskManager: Displayed com.example.interview/.Login for user 0: +493ms
+11-15 12:41:44.415  2742  2984 I Finsky:background: [40] nft.run(22): Stats for Executor: BlockingExecutor nlp@866576b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+11-15 12:41:44.423   796   861 D EGL_emulation: app_time_stats: avg=194.48ms min=14.32ms max=1009.85ms count=6
+11-15 12:41:44.446   796   861 D EGL_emulation: app_time_stats: avg=14.90ms min=2.40ms max=295.07ms count=38
+11-15 12:41:44.457  6310  6335 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+11-15 12:41:44.467  1045  1934 D OneSearchSuggestProvider: Shut down the binder channel
+11-15 12:41:44.469  1045  6337 I IPCThreadState: oneway function results for code 2 on binder at 0x73fdddba9290 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-15 12:41:44.477   567  2488 I ImeTracker: com.example.interview:3665ad6f: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-15 12:41:44.477   567  2488 I ImeTracker: com.example.interview:3665ad6f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-15 12:41:44.484   796   861 D skia    : Shader compilation error
+11-15 12:41:44.484   796   861 D skia    : ------------------------
+11-15 12:41:44.484   796   861 D skia    :    1	#version 300 es
+11-15 12:41:44.484   796   861 D skia    :    2
+11-15 12:41:44.484   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:44.484   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:44.484   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:44.485   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:44.485   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:44.485   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:44.485   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:44.486   796   861 D skia    :   10	void main() {
+11-15 12:41:44.486  1045  1116 I ImeTracker: com.google.android.apps.nexuslauncher:874fe700: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+11-15 12:41:44.486   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:44.486   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:44.486   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:44.486   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:44.486   796   861 D skia    :   15	    {
+11-15 12:41:44.486   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:44.486   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:44.486   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:44.486   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:44.486  1045  1116 I ImeTracker: com.google.android.apps.nexuslauncher:874fe700: onFailed at PHASE_CLIENT_VIEW_SERVED
+11-15 12:41:44.486   796   861 D skia    :   20	    }
+11-15 12:41:44.487   796   861 D skia    :   21	}
+11-15 12:41:44.487   796   861 D skia    :   22
+11-15 12:41:44.487   796   861 D skia    : Errors:
+11-15 12:41:44.487   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:44.487   796   861 D skia    :
+11-15 12:41:44.510  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-15 12:41:44.513  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-15 12:41:44.513  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.interview fieldId=0 fieldName=null extras=null}, false)
+11-15 12:41:44.513  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-15 12:41:44.515  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-15 12:41:44.531   796   861 D skia    : Shader compilation error
+11-15 12:41:44.532   796   861 D skia    : ------------------------
+11-15 12:41:44.532   796   861 D skia    :    1	#version 300 es
+11-15 12:41:44.532   796   861 D skia    :    2
+11-15 12:41:44.532   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:44.532   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:44.532   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:44.532   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:44.532   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:44.532   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:44.532   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:44.532   796   861 D skia    :   10	void main() {
+11-15 12:41:44.532   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:44.532   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:44.532   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:44.532   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:44.532   796   861 D skia    :   15	    {
+11-15 12:41:44.532   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:44.532   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:44.532   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:44.532   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:44.532   796   861 D skia    :   20	    }
+11-15 12:41:44.532   796   861 D skia    :   21	}
+11-15 12:41:44.532   796   861 D skia    :   22
+11-15 12:41:44.532   796   861 D skia    : Errors:
+11-15 12:41:44.532   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:44.533   796   861 D skia    :
+11-15 12:41:44.616  6310  6335 I UiAutomation: Initialized for user 0 on display 0
+11-15 12:41:44.640   796   852 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@75f36a0
+11-15 12:41:44.647   567  2502 W InputManager-JNI: Input channel object 'a92784a Splash Screen com.example.interview (client)' was disposed without first being removed with the input manager!
+11-15 12:41:44.655  1567  3563 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+11-15 12:41:44.658  1567  2035 I AiAiEcho: Predicting[0]:
+11-15 12:41:44.658  1567  2035 I AiAiEcho: EchoTargets:
+11-15 12:41:44.658  1567  2035 I AiAiEcho: Filtered by AiAi flag check:
+11-15 12:41:44.665  1567  2035 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+11-15 12:41:44.669  1567  2035 I AiAiEcho: Predicting[0]:
+11-15 12:41:44.669  1567  2035 I AiAiEcho: EchoTargets:
+11-15 12:41:44.669  1567  2035 I AiAiEcho: Filtered by AiAi flag check:
+11-15 12:41:44.670  1567  2035 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+11-15 12:41:44.670  1567  2035 I AiAiEcho: Predicting[0]:
+11-15 12:41:44.671  1567  2035 I AiAiEcho: EchoTargets:
+11-15 12:41:44.671  1567  2035 I AiAiEcho: Filtered by AiAi flag check:
+11-15 12:41:44.671  1567  2035 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+11-15 12:41:44.677  1567  2035 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+11-15 12:41:44.679  1567  2035 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+11-15 12:41:44.681  1567  2035 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+11-15 12:41:44.694  6310  6310 D takeScreenshot: Found 1 global views to redraw
+11-15 12:41:44.708  1855  2138 I A       : NGA disabled due to not being eligible.
+11-15 12:41:44.715   796   796 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+11-15 12:41:44.718   796   796 D SsMediaDataProvider: Forwarding Smartspace updates []
+11-15 12:41:44.757   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-15 12:41:44.757  6292  6308 I Gralloc4: mapper 4.x is not supported
+11-15 12:41:44.846  6292  6384 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-15 12:41:44.849  6292  6384 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-15 12:41:44.850  6292  6384 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-15 12:41:44.878  6292  6384 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-15 12:41:44.878  6292  6384 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-15 12:41:45.072  1529  1736 W MediaProvider: isAppCloneUserPair for user 0: false
+11-15 12:41:45.173  1286  5803 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 2545 [CONTEXT service_id=218 ]
+11-15 12:41:45.183  1286  5803 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 29 uptime_millis: 29 exec_start_elapsed_seconds: 2545 [CONTEXT service_id=218 ]
+11-15 12:41:45.429  1529  1735 W MediaProvider: isAppCloneUserPair for user 0: false
+11-15 12:41:45.445  6310  6335 W ViewHierarchyExceptionHandler: The complete view hierarchy is available in artifact file 'view-hierarchy-1.txt'.
+11-15 12:41:45.459   796   861 D EGL_emulation: app_time_stats: avg=8.30ms min=1.80ms max=149.05ms count=49
+11-15 12:41:45.501  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@ae4aa77 in: PAUSED
+11-15 12:41:45.502  6310  6310 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.interview.Login@ae4aa77
+11-15 12:41:45.518  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3 in: PRE_ON_CREATE
+11-15 12:41:45.519  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3
+11-15 12:41:45.535   419   419 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-15 12:41:45.544  1286  5803 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 2545 [CONTEXT service_id=218 ]
+11-15 12:41:45.551  1286  6294 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 60 uptime_millis: 60 exec_start_elapsed_seconds: 2545 [CONTEXT service_id=218 ]
+11-15 12:41:45.551  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3 in: CREATED
+11-15 12:41:45.552  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3
+11-15 12:41:45.554  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3 in: STARTED
+11-15 12:41:45.555  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3
+11-15 12:41:45.563  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3 in: RESUMED
+11-15 12:41:45.564  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3
+11-15 12:41:45.608  6310  6338 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:45.634   567   595 I ActivityTaskManager: Displayed com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +135ms
+11-15 12:41:45.648  6310  6338 D EGL_emulation: app_time_stats: avg=346.18ms min=97.90ms max=934.19ms count=4
+11-15 12:41:45.653  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@ae4aa77 in: STOPPED
+11-15 12:41:45.654  6310  6310 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.interview.Login@ae4aa77
+11-15 12:41:45.662  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@ae4aa77 in: DESTROYED
+11-15 12:41:45.663  6310  6310 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-15 12:41:45.663  6310  6310 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@303534f
+11-15 12:41:45.670   567   590 W InputManager-JNI: Input channel object 'f0f4284 com.example.interview/com.example.interview.Login (client)' was disposed without first being removed with the input manager!
+11-15 12:41:45.696   567   590 I ImeTracker: com.example.interview:6a46d118: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-15 12:41:45.697   567   590 I ImeTracker: com.example.interview:6a46d118: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-15 12:41:45.700  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-15 12:41:45.705  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-15 12:41:45.705  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.interview fieldId=0 fieldName=null extras=null}, false)
+11-15 12:41:45.708  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-15 12:41:45.708  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3 in: PAUSED
+11-15 12:41:45.709  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-15 12:41:45.709  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@3344ea3
+11-15 12:41:45.718   419   419 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-15 12:41:45.729  6310  6335 E TestRunner: failed: testSearchboxWorkings(com.example.interview.ExampleInstrumentedTest)
+11-15 12:41:45.729  6310  6335 E TestRunner: ----- begin exception -----
+11-15 12:41:45.733  1855  2226 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:45.780  1045  1767 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:45.792  1592  1592 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+11-15 12:41:45.883  6310  6335 E TestRunner: androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: view.getId() is <2131231183/com.example.interview:id/search>
+11-15 12:41:45.883  6310  6335 E TestRunner:
+11-15 12:41:45.883  6310  6335 E TestRunner: View Hierarchy:
+11-15 12:41:45.883  6310  6335 E TestRunner: +>DecorView{id=-1, visibility=VISIBLE, width=1440, height=3120, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x10302fe
+11-15 12:41:45.883  6310  6335 E TestRunner:   fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
+11-15 12:41:45.883  6310  6335 E TestRunner:   pfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED
+11-15 12:41:45.883  6310  6335 E TestRunner:   bhv=DEFAULT
+11-15 12:41:45.883  6310  6335 E TestRunner:   fitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +->LinearLayout{id=-1, visibility=VISIBLE, width=1440, height=3036, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +-->ViewStub{id=16908746, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +-->FrameLayout{id=-1, visibility=VISIBLE, width=1440, height=2952, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=84.0, child-count=1}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +--->ActionBarOverlayLayout{id=2131230886, res-name=decor_content_parent, visibility=VISIBLE, width=1440, height=2952, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1440, height=2756, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.ActionBarOverlayLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=196.0, child-count=1}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +----->RelativeLayout{id=-1, visibility=VISIBLE, width=1440, height=2756, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=6}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +------>AppCompatTextView{id=2131231012, res-name=logoName, visibility=VISIBLE, width=528, height=233, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=786.0, y=126.0, text=goCart, input-type=0, ime-target=false, has-links=false}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +------>AppCompatImageView{id=2131231011, res-name=logo, desc=goCart Logo, visibility=VISIBLE, width=350, height=350, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=545.0, y=541.0}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +------>AppCompatEditText{id=2131231292, res-name=userid, desc=Enter User Id, visibility=VISIBLE, width=1258, height=190, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x21 imeOptions=0x8000005 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialToolType=0 initialCapsMode=0x0 hintText=User Id label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE contentMimeTypes=null ], x=91.0, y=944.0, text=, hint=User Id, input-type=33, ime-target=false, has-links=false}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +------>AppCompatEditText{id=2131231127, res-name=passwordid, visibility=VISIBLE, width=1258, height=190, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=true, editor-info=[inputType=0x81 imeOptions=0x4000006 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialToolType=0 initialCapsMode=0x0 hintText=Password label=null packageName=null autofillId=null fieldId=0 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}] hintLocales=null supportedHandwritingGestureTypes=SELECT|SELECT_RANGE|INSERT|DELETE|DELETE_RANGE|REMOVE_SPACE|JOIN_OR_SPLIT supportedHandwritingGesturePreviewTypes=SELECT|SELECT_RANGE|DELETE|DELETE_RANGE contentMimeTypes=null ], x=91.0, y=1215.0, text=, hint=Password, input-type=129, ime-target=false, has-links=false}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +------>AppCompatTextView{id=2131231158, res-name=register, desc=Double tap to register as new user, visibility=VISIBLE, width=1328, height=66, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=56.0, y=1433.0, text=New to goCart? Create an account, input-type=0, ime-target=false, has-links=false}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +------>AppCompatButton{id=2131231010, res-name=loginbtn, desc=Login Button to enter into application, visibility=VISIBLE, width=354, height=168, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.RelativeLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=543.0, y=1552.0, text=Login, input-type=0, ime-target=false, has-links=false}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +---->ActionBarContainer{id=2131230774, res-name=action_bar_container, visibility=VISIBLE, width=1440, height=196, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.ActionBarOverlayLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +----->Toolbar{id=2131230772, res-name=action_bar, visibility=VISIBLE, width=1440, height=196, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +------>AppCompatTextView{id=-1, visibility=VISIBLE, width=289, height=93, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.Toolbar$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=56.0, y=51.0, text=Interview, input-type=0, ime-target=false, has-links=false}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +------>ActionMenuView{id=-1, visibility=VISIBLE, width=0, height=196, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.Toolbar$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=1440.0, y=0.0, child-count=0}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +----->ActionBarContextView{id=2131230780, res-name=action_context_bar, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=0}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +->View{id=16908336, res-name=navigationBarBackground, visibility=VISIBLE, width=1440, height=84, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=3036.0}
+11-15 12:41:45.883  6310  6335 E TestRunner: |
+11-15 12:41:45.883  6310  6335 E TestRunner: +->View{id=16908335, res-name=statusBarBackground, visibility=VISIBLE, width=1440, height=84, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+11-15 12:41:45.883  6310  6335 E TestRunner: The complete view hierarchy is available in artifact file 'view-hierarchy-1.txt'.
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.NoMatchingViewException$Builder.build(NoMatchingViewException.java:5)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.lambda$getNoMatchingViewExceptionTruncater$0(DefaultFailureHandler.java:5)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler$$ExternalSyntheticLambda1.truncateExceptionMessage(Unknown Source:2)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:5)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.base.ViewHierarchyExceptionHandler.handleSafely(ViewHierarchyExceptionHandler.java:1)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at com.example.interview.ExampleInstrumentedTest.testSearchboxWorkings(ExampleInstrumentedTest.kt:41)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:446)
+11-15 12:41:45.883  6310  6335 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+11-15 12:41:45.883  6310  6335 E TestRunner: ----- end exception -----
+11-15 12:41:45.891  1592  2317 I GsaVoiceInteractionSrv: disregardVoiceMatch: false
+11-15 12:41:45.934  6310  6335 I TestRunner: finished: testSearchboxWorkings(com.example.interview.ExampleInstrumentedTest)

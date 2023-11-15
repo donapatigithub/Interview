@@ -1,0 +1,538 @@
+11-15 12:41:37.079  6310  6335 I TestRunner: started: testLoginSuccess(com.example.interview.ExampleInstrumentedTest)
+11-15 12:41:37.098  6310  6335 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+11-15 12:41:37.168   419   419 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-15 12:41:37.175   796   861 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:37.178   796   796 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+11-15 12:41:37.182  6310  6340 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-15 12:41:37.200  6310  6340 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-15 12:41:37.213  6310  6340 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-15 12:41:37.257  1045  1767 D EGL_emulation: app_time_stats: avg=1363.60ms min=691.03ms max=2036.17ms count=2
+11-15 12:41:37.258  1592  1592 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+11-15 12:41:37.374  6310  6310 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-15 12:41:37.394  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@6bf37c0 in: PRE_ON_CREATE
+11-15 12:41:37.396  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+11-15 12:41:37.574   796   861 D EGL_emulation: app_time_stats: avg=1769.08ms min=2.15ms max=28202.37ms count=16
+11-15 12:41:37.592   796   861 D skia    : Shader compilation error
+11-15 12:41:37.593   796   861 D skia    : ------------------------
+11-15 12:41:37.593   796   861 D skia    :    1	#version 300 es
+11-15 12:41:37.593   796   861 D skia    :    2
+11-15 12:41:37.593   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:37.593   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:37.594   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:37.594   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:37.594   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:37.594   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:37.594   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:37.594   796   861 D skia    :   10	void main() {
+11-15 12:41:37.594   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:37.594   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:37.595   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:37.595   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:37.595   796   861 D skia    :   15	    {
+11-15 12:41:37.595   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:37.595   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:37.595   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:37.595   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:37.596   796   861 D skia    :   20	    }
+11-15 12:41:37.596   796   861 D skia    :   21	}
+11-15 12:41:37.596   796   861 D skia    :   22
+11-15 12:41:37.596   796   861 D skia    : Errors:
+11-15 12:41:37.597   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:37.597   796   861 D skia    :
+11-15 12:41:37.601   796   861 D EGL_emulation: app_time_stats: avg=1897.10ms min=7.66ms max=20409.30ms count=11
+11-15 12:41:37.614  6310  6310 W ample.interview: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+11-15 12:41:37.614  6310  6310 W ample.interview: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+11-15 12:41:37.622  6310  6310 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10185; state: ENABLED
+11-15 12:41:37.626   796   861 D skia    : Shader compilation error
+11-15 12:41:37.626   796   861 D skia    : ------------------------
+11-15 12:41:37.626   796   861 D skia    :    1	#version 300 es
+11-15 12:41:37.626   796   861 D skia    :    2
+11-15 12:41:37.626   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:37.626   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:37.626   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:37.626   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:37.626   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:37.626   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:37.628   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:37.628   796   861 D skia    :   10	void main() {
+11-15 12:41:37.628   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:37.628   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:37.628   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:37.629   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:37.629   796   861 D skia    :   15	    {
+11-15 12:41:37.629   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:37.629   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:37.630   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:37.630   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:37.630   796   861 D skia    :   20	    }
+11-15 12:41:37.630   796   861 D skia    :   21	}
+11-15 12:41:37.630   796   861 D skia    :   22
+11-15 12:41:37.630   796   861 D skia    : Errors:
+11-15 12:41:37.630   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:37.631   796   861 D skia    :
+11-15 12:41:37.638   796   861 D skia    : Shader compilation error
+11-15 12:41:37.638   796   861 D skia    : ------------------------
+11-15 12:41:37.638   796   861 D skia    :    1	#version 300 es
+11-15 12:41:37.638   796   861 D skia    :    2
+11-15 12:41:37.638   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:37.638   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:37.638   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:37.638   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:37.638   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:37.638   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:37.638   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:37.638   796   861 D skia    :   10	void main() {
+11-15 12:41:37.638   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:37.639   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:37.639   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:37.639   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:37.639   796   861 D skia    :   15	    {
+11-15 12:41:37.639   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:37.639   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:37.639   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:37.640   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:37.640   796   861 D skia    :   20	    }
+11-15 12:41:37.640   796   861 D skia    :   21	}
+11-15 12:41:37.640   796   861 D skia    :   22
+11-15 12:41:37.640   796   861 D skia    : Errors:
+11-15 12:41:37.640   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:37.640   796   861 D skia    :
+11-15 12:41:37.649   796   861 D skia    : Shader compilation error
+11-15 12:41:37.649   796   861 D skia    : ------------------------
+11-15 12:41:37.649   796   861 D skia    :    1	#version 300 es
+11-15 12:41:37.649   796   861 D skia    :    2
+11-15 12:41:37.649   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:37.649   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:37.649   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:37.649   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:37.649   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:37.649   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:37.649   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:37.650   796   861 D skia    :   10	void main() {
+11-15 12:41:37.650   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:37.650   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:37.650   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:37.650   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:37.650   796   861 D skia    :   15	    {
+11-15 12:41:37.650   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:37.650   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:37.650   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:37.650   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:37.650   796   861 D skia    :   20	    }
+11-15 12:41:37.650   796   861 D skia    :   21	}
+11-15 12:41:37.650   796   861 D skia    :   22
+11-15 12:41:37.650   796   861 D skia    : Errors:
+11-15 12:41:37.650   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:37.650   796   861 D skia    :
+11-15 12:41:37.660   796   861 D skia    : Shader compilation error
+11-15 12:41:37.660   796   861 D skia    : ------------------------
+11-15 12:41:37.660   796   861 D skia    :    1	#version 300 es
+11-15 12:41:37.660   796   861 D skia    :    2
+11-15 12:41:37.661   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:37.661   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:37.661   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:37.661   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:37.661   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:37.661   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:37.661   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:37.661   796   861 D skia    :   10	void main() {
+11-15 12:41:37.661   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:37.661   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:37.661   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:37.662   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:37.663   796   861 D skia    :   15	    {
+11-15 12:41:37.663   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:37.663   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:37.664   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:37.664   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:37.664   796   861 D skia    :   20	    }
+11-15 12:41:37.664   796   861 D skia    :   21	}
+11-15 12:41:37.664   796   861 D skia    :   22
+11-15 12:41:37.664   796   861 D skia    : Errors:
+11-15 12:41:37.664   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:37.664   796   861 D skia    :
+11-15 12:41:37.679   796   861 D skia    : Shader compilation error
+11-15 12:41:37.679   796   861 D skia    : ------------------------
+11-15 12:41:37.679   796   861 D skia    :    1	#version 300 es
+11-15 12:41:37.679   796   861 D skia    :    2
+11-15 12:41:37.679   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:37.679   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:37.679   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:37.679   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:37.679   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:37.679   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:37.679   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:37.679   796   861 D skia    :   10	void main() {
+11-15 12:41:37.679   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:37.679   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:37.680   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:37.680   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:37.680   796   861 D skia    :   15	    {
+11-15 12:41:37.680   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:37.680   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:37.680   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:37.681   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:37.681   796   861 D skia    :   20	    }
+11-15 12:41:37.681   796   861 D skia    :   21	}
+11-15 12:41:37.681   796   861 D skia    :   22
+11-15 12:41:37.681   796   861 D skia    : Errors:
+11-15 12:41:37.681   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:37.681   796   861 D skia    :
+11-15 12:41:37.695   796   861 D skia    : Shader compilation error
+11-15 12:41:37.695   796   861 D skia    : ------------------------
+11-15 12:41:37.695   796   861 D skia    :    1	#version 300 es
+11-15 12:41:37.695   796   861 D skia    :    2
+11-15 12:41:37.695   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:37.695   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:37.695   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:37.695   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:37.695   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:37.695   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:37.695   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:37.695   796   861 D skia    :   10	void main() {
+11-15 12:41:37.695   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:37.695   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:37.696   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:37.696   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:37.696   796   861 D skia    :   15	    {
+11-15 12:41:37.696   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:37.696   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:37.696   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:37.696   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:37.696   796   861 D skia    :   20	    }
+11-15 12:41:37.696   796   861 D skia    :   21	}
+11-15 12:41:37.696   796   861 D skia    :   22
+11-15 12:41:37.696   796   861 D skia    : Errors:
+11-15 12:41:37.696   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:37.696   796   861 D skia    :
+11-15 12:41:37.713   796   861 D skia    : Shader compilation error
+11-15 12:41:37.713   796   861 D skia    : ------------------------
+11-15 12:41:37.713   796   861 D skia    :    1	#version 300 es
+11-15 12:41:37.713   796   861 D skia    :    2
+11-15 12:41:37.713   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:37.714   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:37.714   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:37.714   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:37.714   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:37.714   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:37.714   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:37.714   796   861 D skia    :   10	void main() {
+11-15 12:41:37.714   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:37.714   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:37.714   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:37.714   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:37.714   796   861 D skia    :   15	    {
+11-15 12:41:37.714   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:37.714   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:37.714   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:37.714   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:37.714   796   861 D skia    :   20	    }
+11-15 12:41:37.714   796   861 D skia    :   21	}
+11-15 12:41:37.714   796   861 D skia    :   22
+11-15 12:41:37.714   796   861 D skia    : Errors:
+11-15 12:41:37.714   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:37.714   796   861 D skia    :
+11-15 12:41:37.727   796   861 D skia    : Shader compilation error
+11-15 12:41:37.727   796   861 D skia    : ------------------------
+11-15 12:41:37.727   796   861 D skia    :    1	#version 300 es
+11-15 12:41:37.727   796   861 D skia    :    2
+11-15 12:41:37.727   796   861 D skia    :    3	#extension GL_EXT_shader_framebuffer_fetch : require
+11-15 12:41:37.727   796   861 D skia    :    4	precision mediump float;
+11-15 12:41:37.727   796   861 D skia    :    5	precision mediump sampler2D;
+11-15 12:41:37.727   796   861 D skia    :    6	inout mediump vec4 sk_FragColor;
+11-15 12:41:37.727   796   861 D skia    :    7	uniform mediump vec4 ublend_S1;
+11-15 12:41:37.727   796   861 D skia    :    8	flat in mediump vec4 vcolor_S0;
+11-15 12:41:37.727   796   861 D skia    :    9	in highp float vcoverage_S0;
+11-15 12:41:37.727   796   861 D skia    :   10	void main() {
+11-15 12:41:37.727   796   861 D skia    :   11	    mediump vec4 outputColor_S0;
+11-15 12:41:37.727   796   861 D skia    :   12	    outputColor_S0 = vcolor_S0;
+11-15 12:41:37.727   796   861 D skia    :   13	    highp float coverage = vcoverage_S0;
+11-15 12:41:37.727   796   861 D skia    :   14	    mediump vec4 outputCoverage_S0 = vec4(coverage);
+11-15 12:41:37.727   796   861 D skia    :   15	    {
+11-15 12:41:37.728   796   861 D skia    :   16	        mediump vec4 _dstColor = sk_FragColor;
+11-15 12:41:37.728   796   861 D skia    :   17	        mediump vec2 _0_d = ublend_S1.xy + ublend_S1.zw * (vec2(_dstColor.w, outputColor_S0.w) + min(ublend_S1.zw, 0.0));
+11-15 12:41:37.728   796   861 D skia    :   18	        sk_FragColor = min(vec4(1.0), outputColor_S0 * _0_d.x + _dstColor * _0_d.y);
+11-15 12:41:37.728   796   861 D skia    :   19	        sk_FragColor = outputCoverage_S0 * sk_FragColor + (vec4(1.0) - outputCoverage_S0) * _dstColor;
+11-15 12:41:37.729   796   861 D skia    :   20	    }
+11-15 12:41:37.729   796   861 D skia    :   21	}
+11-15 12:41:37.729   796   861 D skia    :   22
+11-15 12:41:37.729   796   861 D skia    : Errors:
+11-15 12:41:37.729   796   861 D skia    : ERROR: 0:6: 'inout' : invalid qualifier: can be only used with function parameters
+11-15 12:41:37.729   796   861 D skia    :
+11-15 12:41:37.796  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@6bf37c0 in: CREATED
+11-15 12:41:37.797  6310  6310 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.interview.Login@6bf37c0
+11-15 12:41:37.813  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@6bf37c0 in: STARTED
+11-15 12:41:37.814  6310  6310 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.interview.Login@6bf37c0
+11-15 12:41:37.818  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@6bf37c0 in: RESUMED
+11-15 12:41:37.819  6310  6310 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.interview.Login@6bf37c0
+11-15 12:41:37.839  6310  6310 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10185; state: DISABLED
+11-15 12:41:37.844  6310  6310 W OpenGLRenderer: Unknown dataspace 0
+11-15 12:41:37.926  6310  6338 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-15 12:41:37.927  6310  6338 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-15 12:41:37.976   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-15 12:41:37.977  6310  6338 I Gralloc4: mapper 4.x is not supported
+11-15 12:41:37.991  6310  6338 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:38.116   567   595 W ziparchive: Unable to open '/data/app/~~MML54bNNOylWROKLxUq7kA==/com.example.interview-26Vra3VeFRV7XvzmRjDIqg==/base.dm': No such file or directory
+11-15 12:41:38.120   567   595 I ActivityTaskManager: Displayed com.example.interview/.Login for user 0: +1s5ms
+11-15 12:41:38.193   567   591 I ImeTracker: com.example.interview:18efded5: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-15 12:41:38.193   567   591 I ImeTracker: com.example.interview:18efded5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-15 12:41:38.201  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-15 12:41:38.203  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-15 12:41:38.205  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.interview fieldId=0 fieldName=null extras=null}, false)
+11-15 12:41:38.205  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-15 12:41:38.213  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-15 12:41:38.241  1045  1934 D OneSearchSuggestProvider: Shut down the binder channel
+11-15 12:41:38.244  1045  1076 I IPCThreadState: oneway function results for code 2 on binder at 0x73fdddbb4840 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-15 12:41:38.267  1045  1116 I ImeTracker: com.google.android.apps.nexuslauncher:9cd0e617: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+11-15 12:41:38.268  1045  1116 I ImeTracker: com.google.android.apps.nexuslauncher:9cd0e617: onFailed at PHASE_CLIENT_VIEW_SERVED
+11-15 12:41:38.395  1286  5800 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-15 12:41:38.395  1286  5800 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-15 12:41:38.398  1286  5800 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-15 12:41:38.421  6310  6335 W FileTestStorage: Output properties is not supported.
+11-15 12:41:38.448  6310  6335 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+11-15 12:41:38.451  1286  5800 I FontLog : Pulling font file for id = 21, cache size = 6 [CONTEXT service_id=132 ]
+11-15 12:41:38.463   796   852 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@f0e6bdc
+11-15 12:41:38.467  1286  5800 I FontLog : Pulling font file for id = 21, cache size = 6 [CONTEXT service_id=132 ]
+11-15 12:41:38.470   567   590 W InputManager-JNI: Input channel object 'e5152d Splash Screen com.example.interview (client)' was disposed without first being removed with the input manager!
+11-15 12:41:38.510  6310  6335 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10185; state: ENABLED
+11-15 12:41:38.530  6310  6335 D EventInjectionStrategy: Creating injection strategy with input manager.
+11-15 12:41:38.530  6310  6335 W ample.interview: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+11-15 12:41:38.531  6310  6335 W ample.interview: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+11-15 12:41:38.532  6310  6335 W ample.interview: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+11-15 12:41:38.591   796   861 D EGL_emulation: app_time_stats: avg=12.37ms min=1.83ms max=56.69ms count=52
+11-15 12:41:38.600  6310  6335 W ample.interview: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+11-15 12:41:38.638  6310  6310 W ample.interview: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+11-15 12:41:38.639  6310  6310 W ample.interview: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+11-15 12:41:38.639  6310  6310 W ample.interview: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+11-15 12:41:38.650  6310  6310 W ample.interview: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+11-15 12:41:38.650  6310  6310 W ample.interview: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+11-15 12:41:38.650  6310  6310 W ample.interview: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+11-15 12:41:38.678  6310  6310 I ViewInteraction: Performing 'type text(donapati@gmail.com)' action on view view.getId() is <2131231292/com.example.interview:id/userid>
+11-15 12:41:38.763  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-15 12:41:38.763  6310  6310 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10185; state: ENABLED
+11-15 12:41:38.765  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-15 12:41:38.766  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x21(EmailAddress) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231292 fieldName=null extras=null}, false)
+11-15 12:41:38.766  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-15 12:41:38.766  6310  6310 I ImeTracker: com.example.interview:e8f3089a: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+11-15 12:41:38.767  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-15 12:41:38.768  6310  6310 D InputMethodManager: showSoftInput() view=androidx.appcompat.widget.AppCompatEditText{dac73f6 VFED..CL. .F.P..ID 91,944-1349,1134 #7f08023c app:id/userid aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+11-15 12:41:38.772  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-15 12:41:38.774  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1995 onStartInputView(EditorInfo{inputType=0x21(EmailAddress) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231292 fieldName=null extras=null}, false)
+11-15 12:41:38.777  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-15 12:41:38.778  1335  1335 W ModuleManager: ModuleManager.loadModule():450 Module erj is not available
+11-15 12:41:38.780  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():189 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+11-15 12:41:38.781  1335  1335 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=0x21(EmailAddress) imeOptions=0x8000005 privateImeOptions=null actionName=NEXT actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231292 fieldName=null extras=null, IncognitoMode = false, DeviceLocked = false
+11-15 12:41:38.782  1335  1335 I Delight5Facilitator: Delight5Facilitator.initializeForIme():777 initializeForIme() : Locale = [en_US], layout = qwerty
+11-15 12:41:38.783  1335  1335 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+11-15 12:41:38.783  1335  1335 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+11-15 12:41:38.787  1335  1335 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1003 inline flag updated to:false
+11-15 12:41:38.787  1335  5048 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():205 maybeScheduleAutoPackDownloadForFallback()
+11-15 12:41:38.792  1335  5048 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():195 maybeScheduleAutoPackDownload() for language tag en-US
+11-15 12:41:38.792  1335  1335 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+11-15 12:41:38.793  1335  1955 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-15 12:41:38.797  6310  6310 I AssistStructure: Flattened final assist data: 2004 bytes, containing 1 windows, 11 views
+11-15 12:41:38.799  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 473 height for app when screen height:2952, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2325
+11-15 12:41:38.801  1335  1335 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-15 12:41:38.801  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_OPTIONAL
+11-15 12:41:38.801  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:38.801  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = BODY, shownType = SHOW_MANDATORY
+11-15 12:41:38.802  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:38.802  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = FLOATING_CANDIDATES, shownType = HIDE
+11-15 12:41:38.802  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = false
+11-15 12:41:38.804  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 473 height for app when screen height:2952, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2325
+11-15 12:41:38.805  1335  1335 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-15 12:41:38.815  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-15 12:41:38.818  1335  1335 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-15 12:41:38.819  1335  1335 I KeyboardModeManager: KeyboardModeManager.setInputView():364 setInputView() : supportsOneHandedMode=true
+11-15 12:41:38.820  1335  1335 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-15 12:41:38.821  1335  1335 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 168
+11-15 12:41:38.822  1335  1335 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-15 12:41:38.823  1335  1335 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 168
+11-15 12:41:38.824  1335  1335 I KeyboardModeManager: KeyboardModeManager.setInputView():356 setInputView() : entry=hwn{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_adaptive_text_editing=false_enable_inline_suggestions_on_client_side=false_enable_large_tablet_batch_1=false_enable_large_tablet_batch_2=false_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign=false_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+11-15 12:41:38.828  1335  1335 I CurrentMicStatusHolder: CurrentMicStatusHolder.onStartInputView():79 Current Mic status = {MicIconHidden-EmailInputType,}
+11-15 12:41:38.828  1335  1335 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():383 No private IME option set to start voice input.
+11-15 12:41:38.840  1286  1286 W AutofillChimeraService: Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+11-15 12:41:38.854  1335  2077 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:38.861  1042  1042 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:526986863
+11-15 12:41:38.875  1286  5416 I IPCThreadState: oneway function results for code 1 on binder at 0x73fdddbfd680 will be dropped but finished with status UNKNOWN_TRANSACTION and reply parcel size 80
+11-15 12:41:38.880  6310  6310 D InsetsController: show(ime(), fromIme=true)
+11-15 12:41:38.887  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-15 12:41:38.889  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-15 12:41:38.890  1335  1335 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-15 12:41:38.895  1335  2203 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():457 setKeyboardLayout()
+11-15 12:41:38.901  1484  1484 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.api.phone.service.SmsRetrieverApiService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-15 12:41:38.901  1484  1484 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.api.phone.service.SmsRetrieverApiService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+11-15 12:41:39.032  6310  6310 D UiControllerImpl: Injecting string: "donapati@gmail.com"
+11-15 12:41:39.184  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-15 12:41:39.184  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:39.197  6310  6338 D EGL_emulation: app_time_stats: avg=155.29ms min=23.40ms max=510.63ms count=7
+11-15 12:41:39.200  6310  6310 I ImeTracker: com.example.interview:e8f3089a: onShown
+11-15 12:41:39.293  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-15 12:41:39.293  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:39.358  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-15 12:41:39.362  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:39.455  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-15 12:41:39.455  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:39.531  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-15 12:41:39.531  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:39.578  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-15 12:41:39.578  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:39.593   796   861 D EGL_emulation: app_time_stats: avg=14.83ms min=2.21ms max=81.83ms count=45
+11-15 12:41:39.624  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-15 12:41:39.625  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:39.660  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-15 12:41:39.661  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:39.676  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+11-15 12:41:39.677  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:40.081  6310  6310 I ViewInteraction: Performing 'type text(Siva@123)' action on view view.getId() is <2131231127/com.example.interview:id/passwordid>
+11-15 12:41:40.137   567  2502 I ImeTracker: com.example.interview:717c8f30: onRequestShow at ORIGIN_SERVER_START_INPUT reason ATTACH_NEW_INPUT
+11-15 12:41:40.139  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2241
+11-15 12:41:40.143  6310  6310 I ImeTracker: com.example.interview:c6018a8b: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+11-15 12:41:40.145  6310  6310 D InputMethodManager: showSoftInput() view=androidx.appcompat.widget.AppCompatEditText{40683f7 VFED..CL. .F.P..ID 91,1215-1349,1405 #7f080197 app:id/passwordid aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+11-15 12:41:40.146  1335  1335 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+11-15 12:41:40.146  1335  1335 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+11-15 12:41:40.148  1335  1335 I AndroidIME: AbstractIme.onDeactivate():207 LatinIme.onDeactivate()
+11-15 12:41:40.151  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-15 12:41:40.158  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-15 12:41:40.159  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x81(Password) imeOptions=0x4000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231127 fieldName=null extras=Bundle[mParcelledData.dataSize=240]}, false)
+11-15 12:41:40.159  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-15 12:41:40.162  6310  6310 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@182601359 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@5d99ccf
+11-15 12:41:40.163  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-15 12:41:40.168  1335  1335 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():88 Unregister key sequence hox{callback=bxi@b7bdb2b, lastModifier=0, keyCodes=[57, 57], actions=[1, 0]}
+11-15 12:41:40.168  1335  1335 I HardKeyTracker: HardKeyTracker.unregisterKeySequence():88 Unregister key sequence hox{callback=bxi@b7bdb2b, lastModifier=0, keyCodes=[58, 58], actions=[1, 0]}
+11-15 12:41:40.169  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1995 onStartInputView(EditorInfo{inputType=0x81(Password) imeOptions=0x4000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231127 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}]}, false)
+11-15 12:41:40.173  1335  1955 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-15 12:41:40.173  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-15 12:41:40.174  1335  1335 W ModuleManager: ModuleManager.loadModule():450 Module erj is not available
+11-15 12:41:40.189  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():189 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+11-15 12:41:40.192  1335  1335 I AndroidIME: AbstractIme.onActivate():86 PasswordIme.onActivate() : EditorInfo = inputType=0x81(Password) imeOptions=0x4000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.interview fieldId=2131231127 fieldName=null extras=Bundle[{android.support.text.emoji.emojiCompat_metadataVersion=9, android.support.text.emoji.emojiCompat_replaceAll=false}], IncognitoMode = false, DeviceLocked = false
+11-15 12:41:40.195  1335  1335 I KeyboardViewHelper: KeyboardViewHelper.getView():170 Get view with height ratio:1.000000
+11-15 12:41:40.208  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 473 height for app when screen height:2952, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2325
+11-15 12:41:40.209  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY
+11-15 12:41:40.209  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:40.210  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = BODY, shownType = SHOW_MANDATORY
+11-15 12:41:40.210  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+11-15 12:41:40.210  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = FLOATING_CANDIDATES, shownType = HIDE
+11-15 12:41:40.211  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = false
+11-15 12:41:40.213  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 473 height for app when screen height:2952, header height:154 and isFullscreenMode:false, so the max keyboard body height is:2325
+11-15 12:41:40.215  1335  1335 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-15 12:41:40.215  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-15 12:41:40.217  1335  1335 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:411
+11-15 12:41:40.217  1335  1335 I KeyboardModeManager: KeyboardModeManager.setInputView():364 setInputView() : supportsOneHandedMode=true
+11-15 12:41:40.218  1335  1335 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-15 12:41:40.219  1335  1335 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 168
+11-15 12:41:40.221  1335  1335 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+11-15 12:41:40.224  1335  1335 I AndroidIME: KeyboardViewManager.updateKeyboardBodyViewHolderPaddingBottom():604 Set finalPaddingBottom = 0 while keyboardBottomGapFromScreen = 0; navigationHeight = 168
+11-15 12:41:40.224  1335  1335 I KeyboardModeManager: KeyboardModeManager.setInputView():356 setInputView() : entry=hwn{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_adaptive_text_editing=false_enable_inline_suggestions_on_client_side=false_enable_large_tablet_batch_1=false_enable_large_tablet_batch_2=false_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign=false_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+11-15 12:41:40.229  1335  1335 I CurrentMicStatusHolder: CurrentMicStatusHolder.onStartInputView():79 Current Mic status = {MicIconHidden-SettingOff,MicIconHidden-PasswordOrNumberOrDateInputType,}
+11-15 12:41:40.229  1335  1335 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():383 No private IME option set to start voice input.
+11-15 12:41:40.231  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-15 12:41:40.234  6310  6310 D InsetsController: show(ime(), fromIme=true)
+11-15 12:41:40.234  6310  6310 I ImeTracker: com.example.interview:717c8f30: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+11-15 12:41:40.234  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-15 12:41:40.247  6310  6310 D InsetsController: show(ime(), fromIme=true)
+11-15 12:41:40.248  6310  6310 I ImeTracker: com.example.interview:c6018a8b: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+11-15 12:41:40.249  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-15 12:41:40.253  1335  2077 D EGL_emulation: app_time_stats: avg=90.43ms min=9.32ms max=376.97ms count=15
+11-15 12:41:40.254  1335  1335 I KeyboardViewUtil: KeyboardViewUtil.canAvoidFullscreenModeByReducingKeyboardHeight():68 can disable full screen mode by lowering keyboard. bodyHeight:2325 minBodyHeight:630
+11-15 12:41:40.405  6310  6310 D UiControllerImpl: Injecting string: "Siva@123"
+11-15 12:41:40.424  6310  6338 D EGL_emulation: app_time_stats: avg=52.82ms min=14.31ms max=234.59ms count=23
+11-15 12:41:40.608   796   861 D EGL_emulation: app_time_stats: avg=2.93ms min=1.85ms max=8.21ms count=61
+11-15 12:41:40.758  6310  6310 I ViewInteraction: Performing 'close keyboard' action on view view.getRootView() to equal view
+11-15 12:41:40.759  6310  6310 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@af79863]
+11-15 12:41:40.761  6310  6310 I ImeTracker: com.example.interview:7efda7bf: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+11-15 12:41:40.763  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2241
+11-15 12:41:40.763  1335  1335 I AndroidIME: AbstractIme.onDeactivate():207 PasswordIme.onDeactivate()
+11-15 12:41:40.773  6310  6310 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@182601359 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@b6c3c60
+11-15 12:41:40.899  2742  2984 I Finsky:background: [40] nft.run(22): Stats for Executor: bgExecutor nlp@1ca74dc[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4]
+11-15 12:41:40.900  2742  2984 I Finsky:background: [40] nft.run(22): Stats for Executor: LightweightExecutor nlp@56a5cba[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+11-15 12:41:40.987  6310  6310 I ImeTracker: com.example.interview:915c1283: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+11-15 12:41:40.988   567   643 I ImeTracker: com.example.interview:915c1283: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-15 12:41:40.990  6310  6310 I ImeTracker: com.example.interview:7efda7bf: onHidden
+11-15 12:41:41.076  6310  6310 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@af79863]
+11-15 12:41:41.081  6310  6310 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231010/com.example.interview:id/loginbtn>
+11-15 12:41:41.132   413  2750 D audioserver: FGS Logger Transaction failed
+11-15 12:41:41.132   413  2750 D audioserver: -129
+11-15 12:41:41.139   413   518 D AudioFlinger: mixer(0x7f96b5fba930) throttle end: throttle time(38)
+11-15 12:41:41.177  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@6bf37c0 in: PAUSED
+11-15 12:41:41.178  6310  6310 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.interview.Login@6bf37c0
+11-15 12:41:41.184   419   419 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-15 12:41:41.211  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: PRE_ON_CREATE
+11-15 12:41:41.212  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { cmp=com.example.interview/.DashboardActivity }, activity=com.example.interview.DashboardActivity@506cd54
+11-15 12:41:41.250   413   518 D audioserver: FGS Logger Transaction failed
+11-15 12:41:41.250   413   518 D audioserver: -129
+11-15 12:41:41.624   796   861 D EGL_emulation: app_time_stats: avg=6.24ms min=1.88ms max=174.80ms count=51
+11-15 12:41:41.759  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: CREATED
+11-15 12:41:41.759  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { cmp=com.example.interview/.DashboardActivity }, activity=com.example.interview.DashboardActivity@506cd54
+11-15 12:41:41.824  6310  6310 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10185; state: ENABLED
+11-15 12:41:41.901  6310  6310 W DataBinding: Setting the fragment as the LifecycleOwner might cause memory leaks because views lives shorter than the Fragment. Consider using Fragment's view lifecycle
+11-15 12:41:41.960  6310  6310 W DataBinding: Setting the fragment as the LifecycleOwner might cause memory leaks because views lives shorter than the Fragment. Consider using Fragment's view lifecycle
+11-15 12:41:41.995  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: STARTED
+11-15 12:41:41.996  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { cmp=com.example.interview/.DashboardActivity }, activity=com.example.interview.DashboardActivity@506cd54
+11-15 12:41:41.999  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: RESUMED
+11-15 12:41:41.999  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { cmp=com.example.interview/.DashboardActivity }, activity=com.example.interview.DashboardActivity@506cd54
+11-15 12:41:42.012  6310  6310 I Choreographer: Skipped 48 frames!  The application may be doing too much work on its main thread.
+11-15 12:41:42.022  6310  6310 D AutofillManager: view not autofillable - not passing ime action check
+11-15 12:41:42.022  6310  6310 D AutofillManager: view not autofillable - not passing ime action check
+11-15 12:41:42.067  6310  6338 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:42.105  6310  6310 D Dash    : Image Id: 2131165323, Name:Electronics
+11-15 12:41:42.114  6310  6310 D Dash    : Image Id: 2131165371, Name:Mobiles
+11-15 12:41:42.122  6310  6310 D Dash    : Image Id: 2131165316, Name:Clothes
+11-15 12:41:42.203  6310  6338 D EGL_emulation: app_time_stats: avg=118.38ms min=14.99ms max=1009.60ms count=15
+11-15 12:41:42.206   567   595 I ActivityTaskManager: Displayed com.example.interview/.DashboardActivity for user 0: +1s43ms
+11-15 12:41:42.211  6310  6324 I OpenGLRenderer: Davey! duration=993ms; Flags=1, FrameTimelineVsyncId=38271, IntendedVsync=2541076085986, Vsync=2541876085954, InputEventId=0, HandleInputStart=2541889824900, AnimationStart=2541889852100, PerformTraversalsStart=2541890752300, DrawStart=2542007378100, FrameDeadline=2541092752652, FrameInterval=2541889138400, FrameStartTime=16666666, SyncQueued=2542023222900, SyncStart=2542024753600, IssueDrawCommandsStart=2542025095500, SwapBuffers=2542069672800, FrameCompleted=2542071592900, DequeueBufferDuration=116800, QueueBufferDuration=691900, GpuCompleted=2542071100000, SwapBuffersCompleted=2542071592900, DisplayPresentTime=0, CommandSubmissionCompleted=2542069672800,
+11-15 12:41:42.223  6310  6324 I OpenGLRenderer: Davey! duration=1003ms; Flags=1, FrameTimelineVsyncId=38271, IntendedVsync=2541076085986, Vsync=2541876085954, InputEventId=0, HandleInputStart=2541889824900, AnimationStart=2541889852100, PerformTraversalsStart=2541890752300, DrawStart=2542074569400, FrameDeadline=2541092752652, FrameInterval=2541889138400, FrameStartTime=16666666, SyncQueued=2542074642500, SyncStart=2542075213500, IssueDrawCommandsStart=2542075302100, SwapBuffers=2542076681300, FrameCompleted=2542080643400, DequeueBufferDuration=97800, QueueBufferDuration=705700, GpuCompleted=2542080058900, SwapBuffersCompleted=2542080643400, DisplayPresentTime=106397549811138562, CommandSubmissionCompleted=2542076681300,
+11-15 12:41:42.257  6310  6361 D ProfileInstaller: Installing profile for com.example.interview
+11-15 12:41:42.367  6310  6310 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+11-15 12:41:42.380  6310  6310 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+11-15 12:41:42.414   567  2488 I ImeTracker: com.example.interview:a49a6b8e: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-15 12:41:42.414   567  2488 I ImeTracker: com.example.interview:a49a6b8e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-15 12:41:42.416  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-15 12:41:42.421  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-15 12:41:42.422  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.interview fieldId=0 fieldName=null extras=null}, false)
+11-15 12:41:42.422  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-15 12:41:42.425  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-15 12:41:42.426  1335  1335 I HardKeyTracker: HardKeyTracker.registerKeySequence():62 Register key sequence hox{callback=eac@7293938, lastModifier=0, keyCodes=[57, 57], actions=[1, 0]}
+11-15 12:41:42.426  1335  1335 I HardKeyTracker: HardKeyTracker.registerKeySequence():62 Register key sequence hox{callback=eac@d86bc77, lastModifier=0, keyCodes=[58, 58], actions=[1, 0]}
+11-15 12:41:42.451  6310  6310 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view view.getId() is <2131231183/com.example.interview:id/search>
+11-15 12:41:42.499  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: PAUSED
+11-15 12:41:42.500  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { cmp=com.example.interview/.DashboardActivity }, activity=com.example.interview.DashboardActivity@506cd54
+11-15 12:41:42.535  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea in: PRE_ON_CREATE
+11-15 12:41:42.538  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea
+11-15 12:41:42.549  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea in: CREATED
+11-15 12:41:42.550  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea
+11-15 12:41:42.555  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea in: STARTED
+11-15 12:41:42.557  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea
+11-15 12:41:42.563  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea in: RESUMED
+11-15 12:41:42.565  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea
+11-15 12:41:42.609  6310  6338 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:42.657   567   595 I ActivityTaskManager: Displayed com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +180ms
+11-15 12:41:42.724  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@6bf37c0 in: STOPPED
+11-15 12:41:42.725  6310  6310 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.interview.Login@6bf37c0
+11-15 12:41:42.728  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.Login@6bf37c0 in: DESTROYED
+11-15 12:41:42.729  6310  6310 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+11-15 12:41:42.730  6310  6310 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c80d140
+11-15 12:41:42.736   567  2488 W InputManager-JNI: Input channel object '5277c0c com.example.interview/com.example.interview.Login (client)' was disposed without first being removed with the input manager!
+11-15 12:41:42.748  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: STOPPED
+11-15 12:41:42.749  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { cmp=com.example.interview/.DashboardActivity }, activity=com.example.interview.DashboardActivity@506cd54
+11-15 12:41:42.769  6310  6310 D AutofillManager: view not autofillable - not passing ime action check
+11-15 12:41:42.782  6310  6310 D AutofillManager: view not autofillable - not passing ime action check
+11-15 12:41:42.801   419   419 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+11-15 12:41:42.801   567   643 I ImeTracker: com.example.interview:853d958e: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+11-15 12:41:42.802   567   643 I ImeTracker: com.example.interview:853d958e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-15 12:41:42.806  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+11-15 12:41:42.809  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+11-15 12:41:42.809  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.interview fieldId=0 fieldName=null extras=null}, false)
+11-15 12:41:42.809  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+11-15 12:41:42.811  1335  1335 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+11-15 12:41:42.818  6310  6310 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea in: PAUSED
+11-15 12:41:42.821  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.interview/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@91190ea
+11-15 12:41:42.840  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: RESTARTED
+11-15 12:41:42.842  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { cmp=com.example.interview/.DashboardActivity }, activity=com.example.interview.DashboardActivity@506cd54
+11-15 12:41:42.846  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: STARTED
+11-15 12:41:42.849  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { cmp=com.example.interview/.DashboardActivity }, activity=com.example.interview.DashboardActivity@506cd54
+11-15 12:41:42.853  6310  6310 D LifecycleMonitor: Lifecycle status change: com.example.interview.DashboardActivity@506cd54 in: RESUMED
+11-15 12:41:42.855  6310  6310 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.interview/.Login }, activity.getIntent()=Intent { cmp=com.example.interview/.DashboardActivity }, activity=com.example.interview.DashboardActivity@506cd54
+11-15 12:41:42.862  6310  6310 D AutofillManager: view not autofillable - not passing ime action check
+11-15 12:41:42.899  6310  6338 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-15 12:41:42.948  6310  6335 I TestRunner: finished: testLoginSuccess(com.example.interview.ExampleInstrumentedTest)
