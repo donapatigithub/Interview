@@ -64,5 +64,10 @@
         android:name="com.example.interview.ProfileDetailsFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile_details"/>
+    <fragment
+        android:id="@+id/weather"
+        android:name="com.example.interview.WeatherFragment"
+        android:label="weather_fragment"
+        tools:layout="@layout/fragment_weather"/>
 
 </navigation>

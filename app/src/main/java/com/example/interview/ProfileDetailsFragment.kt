@@ -3,10 +3,10 @@ package com.example.interview
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.example.interview.dB.UserRepo
 import com.example.interview.databinding.FragmentProfileDetailsBinding
 
@@ -45,6 +45,11 @@ class ProfileDetailsFragment : Fragment() {
                     pincode.text = "Pincode : ${users.address?.pincode}"
                 }
             }
+        }
+        binding.city.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,WeatherFragment())
+                .addToBackStack(null)
+                .commit()
         }
     }
 }

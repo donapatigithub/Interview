@@ -12,6 +12,7 @@ import com.example.interview.databinding.FragmentHomeBindingImpl;
 import com.example.interview.databinding.FragmentItemDetailsBindingImpl;
 import com.example.interview.databinding.FragmentProductsListBindingImpl;
 import com.example.interview.databinding.FragmentProfileDetailsBindingImpl;
+import com.example.interview.databinding.FragmentWeatherBindingImpl;
 import com.example.interview.databinding.ItemDashboardBindingImpl;
 import com.example.interview.databinding.ProductsListIemBindingImpl;
 import java.lang.IllegalArgumentException;
@@ -37,11 +38,13 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTPROFILEDETAILS = 6;
 
-  private static final int LAYOUT_ITEMDASHBOARD = 7;
+  private static final int LAYOUT_FRAGMENTWEATHER = 7;
 
-  private static final int LAYOUT_PRODUCTSLISTIEM = 8;
+  private static final int LAYOUT_ITEMDASHBOARD = 8;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(8);
+  private static final int LAYOUT_PRODUCTSLISTIEM = 9;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(9);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.activity_register, LAYOUT_ACTIVITYREGISTER);
@@ -50,6 +53,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_item_details, LAYOUT_FRAGMENTITEMDETAILS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_products_list, LAYOUT_FRAGMENTPRODUCTSLIST);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_profile_details, LAYOUT_FRAGMENTPROFILEDETAILS);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.fragment_weather, LAYOUT_FRAGMENTWEATHER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.item_dashboard, LAYOUT_ITEMDASHBOARD);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.interview.R.layout.products_list_iem, LAYOUT_PRODUCTSLISTIEM);
   }
@@ -98,6 +102,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentProfileDetailsBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_profile_details is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTWEATHER: {
+          if ("layout/fragment_weather_0".equals(tag)) {
+            return new FragmentWeatherBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_weather is invalid. Received: " + tag);
         }
         case  LAYOUT_ITEMDASHBOARD: {
           if ("layout/item_dashboard_0".equals(tag)) {
@@ -169,7 +179,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(8);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(9);
 
     static {
       sKeys.put("layout/activity_register_0", com.example.interview.R.layout.activity_register);
@@ -178,6 +188,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/fragment_item_details_0", com.example.interview.R.layout.fragment_item_details);
       sKeys.put("layout/fragment_products_list_0", com.example.interview.R.layout.fragment_products_list);
       sKeys.put("layout/fragment_profile_details_0", com.example.interview.R.layout.fragment_profile_details);
+      sKeys.put("layout/fragment_weather_0", com.example.interview.R.layout.fragment_weather);
       sKeys.put("layout/item_dashboard_0", com.example.interview.R.layout.item_dashboard);
       sKeys.put("layout/products_list_iem_0", com.example.interview.R.layout.products_list_iem);
     }
