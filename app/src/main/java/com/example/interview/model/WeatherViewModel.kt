@@ -31,12 +31,12 @@ class WeatherViewModel :ViewModel() {
                 if (response.isSuccessful){
                     _weatherData.postValue(response.body())
                 }else{
-                    _errorMessage.postValue("Failed to fetch data for $city. ${response.message()}")
+                    _errorMessage.postValue("Failed to fetch data for $city.\n ${response.message()}")
                 }
             }
 
             override fun onFailure(call: Call<WeatherModel>, t: Throwable) {
-                _errorMessage.postValue("Failed to fetch data for $city.${t.message}")
+                _errorMessage.postValue("Failed to fetch data for $city.\n ${t.message}")
             }
         })
     }
@@ -48,12 +48,12 @@ class WeatherViewModel :ViewModel() {
                     val currentList = _cityWeatherList.value ?: emptyList()
                     _cityWeatherList.postValue((currentList + response.body()) as List<WeatherModel>?)
                 }else{
-                    _errorMessage.postValue("Failed to fetch data for $city.")
+                    _errorMessage.postValue("Failed to fetch data for $city.\n ${response.message()}")
                 }
             }
 
             override fun onFailure(call: Call<WeatherModel>, t: Throwable) {
-                _errorMessage.postValue("Failed to fetch data for $city.")
+                _errorMessage.postValue("Failed to fetch data for $city.\n ${t.message}")
             }
         })
     }

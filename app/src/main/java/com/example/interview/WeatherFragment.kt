@@ -1,5 +1,7 @@
 package com.example.interview
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.interview.dB.UserRepo
 import com.example.interview.databinding.FragmentWeatherBinding
 import com.example.interview.model.WeatherViewModel
 
@@ -17,6 +20,8 @@ class WeatherFragment : Fragment() {
     private lateinit var binding: FragmentWeatherBinding
     private lateinit var viewModel: WeatherViewModel
     private lateinit var cityListAdapter: WeatherAdapter
+    private lateinit var userRepo: UserRepo
+    private lateinit var sharedPreferences: SharedPreferences
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -59,7 +64,12 @@ class WeatherFragment : Fragment() {
                 cityListAdapter.submitList(it)
             }
         })
-
+        userRepo = UserRepo(requireContext())
+        sharedPreferences = requireActivity().getSharedPreferences("Pref", Context.MODE_PRIVATE)
+        val userEmail = sharedPreferences.getString("userEmail",null)
+        val users = userEmail?.let { userRepo.getUserByEmail(it) }
+        val currentCity = "${users?.address?.city}"
+        viewModel.searchCity(currentCity)
         viewModel.weatherData.observe(viewLifecycleOwner, Observer {
             it?.let {
                 cityName.text = it.name
