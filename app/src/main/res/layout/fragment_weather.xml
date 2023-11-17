@@ -29,7 +29,6 @@
         android:id="@+id/cityNameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="City Name"
         android:textColor="@color/white"
         android:layout_below="@id/searchButton"
         android:textSize="20sp"
@@ -38,7 +37,6 @@
         android:id="@+id/temperatureTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Temperature"
         android:textSize="30sp"
         android:layout_below="@id/cityNameTextView"
         android:textColor="@color/white"
@@ -47,7 +45,6 @@
         android:id="@+id/weatherDescriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Weather Description"
         android:textSize="16sp"
         android:textColor="@color/white"
         android:layout_below="@id/temperatureTextView"
@@ -58,14 +55,12 @@
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:layout_below="@id/weatherDescriptionTextView"
-        android:text="Wind Speed"
         android:textColor="@color/white"
         android:layout_marginBottom="10dp"/>
     <TextView
         android:id="@+id/cloudsTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Clouds"
         android:textColor="@color/white"
         android:layout_below="@id/windSpeedTextView"
         android:layout_marginBottom="10dp"/>
