@@ -6,7 +6,7 @@ import java.lang.System;
 public final class RetrofitClient {
     @org.jetbrains.annotations.NotNull
     public static final com.example.interview.model.RetrofitClient INSTANCE = null;
-    private static final java.lang.String BASE_URL = "http://api.openweathermap.org/data/2.5/";
+    private static final java.lang.String BASE_URL = "https://api.openweathermap.org/data/2.5/";
     @org.jetbrains.annotations.NotNull
     private static final kotlin.Lazy apiService$delegate = null;
     

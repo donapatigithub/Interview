@@ -59,7 +59,6 @@ id errorMsg
 id firstName
 id flatNo
 id fragmentContainer
-id fragmentContainerid
 id home
 id homeFragment
 id homeimg
@@ -111,7 +110,6 @@ id temperatureTextView
 id totalPrice
 id txt
 id userid
-id wapp
 id weather
 id weatherDescriptionTextView
 id windSpeedTextView
