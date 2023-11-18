@@ -3365,6 +3365,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id header
 id header_title
 id hide_ime_id
 id hide_in_inspector_tag

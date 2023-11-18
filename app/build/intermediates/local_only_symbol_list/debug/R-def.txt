@@ -59,6 +59,7 @@ id errorMsg
 id firstName
 id flatNo
 id fragmentContainer
+id header
 id home
 id homeFragment
 id homeimg

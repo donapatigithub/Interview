@@ -3364,6 +3364,7 @@ int id graph_wrap 0x7f0800f1
 int id group_divider 0x7f0800f2
 int id grouping 0x7f0800f3
 int id groups 0x7f0800f4
+int id header 0x7f08025c
 int id header_title 0x7f0800f5
 int id hide_ime_id 0x7f0800f6
 int id hide_in_inspector_tag 0x7f0800f7
