@@ -3,7 +3,6 @@ package com.example.interview.dB
 import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
-import android.util.Log
 import com.example.interview.model.Address
 import com.example.interview.model.NameModel
 import com.example.interview.model.RegisterModel
@@ -28,7 +27,6 @@ class UserRepo(conext:Context) {
 
         val result = db.insert(AppDB.TABLE_NAME,null,values)
         db.close()
-        Log.d("user_Reg","User:${user.email},Name:${user.name?.firstName},mName:${user.name?.middleName},lName:${user.name?.lastName},Flat:${user.address?.flatno},street:${user.address?.street},city:${user.address?.city},pin:${user.address?.pincode},Mobile:${user.mobile},Password:${user.password}")
         return result
     }
     @SuppressLint("Range")

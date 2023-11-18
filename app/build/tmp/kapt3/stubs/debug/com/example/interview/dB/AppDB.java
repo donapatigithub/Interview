@@ -8,7 +8,7 @@ public final class AppDB extends android.database.sqlite.SQLiteOpenHelper {
     public static final com.example.interview.dB.AppDB.Companion Companion = null;
     @org.jetbrains.annotations.NotNull
     public static final java.lang.String DATABASE_NAME = "user_database";
-    public static final int DATABASE_VERSION = 2;
+    public static final int DATABASE_VERSION = 3;
     @org.jetbrains.annotations.NotNull
     public static final java.lang.String TABLE_NAME = "users";
     @org.jetbrains.annotations.NotNull
