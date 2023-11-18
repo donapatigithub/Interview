@@ -35,6 +35,8 @@
         android:textColor="@color/white"
         android:layout_below="@id/searchButton"
         android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"/>
     <TextView
         android:id="@+id/temperatureTextView"
@@ -43,6 +45,8 @@
         android:textSize="30sp"
         android:layout_below="@id/cityNameTextView"
         android:textColor="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"/>
     <TextView
         android:id="@+id/weatherDescriptionTextView"
@@ -51,6 +55,8 @@
         android:textSize="16sp"
         android:textColor="@color/white"
         android:layout_below="@id/temperatureTextView"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"/>
     <TextView
         android:id="@+id/windSpeedTextView"
@@ -59,6 +65,8 @@
         android:textSize="16sp"
         android:layout_below="@id/weatherDescriptionTextView"
         android:textColor="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"/>
     <TextView
         android:id="@+id/cloudsTextView"
@@ -66,12 +74,16 @@
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:layout_below="@id/windSpeedTextView"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/cityListRecycleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/cloudsTextView"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginTop="10dp">
     </androidx.recyclerview.widget.RecyclerView>
     <TextView

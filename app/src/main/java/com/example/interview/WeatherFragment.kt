@@ -70,6 +70,7 @@ class WeatherFragment : Fragment() {
         val users = userEmail?.let { userRepo.getUserByEmail(it) }
         val currentCity = "${users?.address?.city}"
         viewModel.searchCity(currentCity)
+        viewModel.getWeather(currentCity)
         viewModel.weatherData.observe(viewLifecycleOwner, Observer {
             it?.let {
                 cityName.text = it.name
