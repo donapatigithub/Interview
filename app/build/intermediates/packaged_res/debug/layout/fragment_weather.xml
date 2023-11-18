@@ -35,9 +35,8 @@
         android:textColor="@color/white"
         android:layout_below="@id/searchButton"
         android:textSize="20sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"/>
+        android:textStyle="bold|italic"
+        android:layout_margin="10dp"/>
     <TextView
         android:id="@+id/temperatureTextView"
         android:layout_width="wrap_content"

@@ -96,6 +96,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:textSize="20sp"
+                    android:drawableEnd="@drawable/sun"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="start"
                     android:id="@+id/city"/>
                 <TextView
                     android:layout_width="match_parent"

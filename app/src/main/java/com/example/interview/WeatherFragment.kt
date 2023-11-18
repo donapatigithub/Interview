@@ -79,6 +79,7 @@ class WeatherFragment : Fragment() {
                 windSpeed.text = "Wind Speed : ${it.wind.speed} m/s"
                 cloudText.text = "Clouds : ${it.clouds.all}%"
             }
+            binding.errorMsg.visibility = View.GONE
         })
         viewModel.errorMessage.observe(viewLifecycleOwner, Observer { errorMessage->
             errorMessage.let {
@@ -89,5 +90,11 @@ class WeatherFragment : Fragment() {
     private fun showError(message: String){
         binding.errorMsg.text= "Error : $message"
         binding.errorMsg.visibility = View.VISIBLE
+        binding.cityListRecycleView.visibility = View.GONE
+        binding.cityNameTextView.visibility = View.GONE
+        binding.cloudsTextView.visibility = View.GONE
+        binding.weatherDescriptionTextView.visibility = View.GONE
+        binding.windSpeedTextView.visibility = View.GONE
+        binding.temperatureTextView.visibility = View.GONE
     }
 }

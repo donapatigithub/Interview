@@ -25,6 +25,7 @@ drawable kitchen
 drawable logo
 drawable mobile
 drawable shoe
+drawable sun
 drawable toys
 id action_address_to_profileDetails
 id action_homeFragment_to_address
