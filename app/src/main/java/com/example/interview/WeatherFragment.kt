@@ -126,6 +126,7 @@ class WeatherFragment : Fragment() {
     private fun requestLocationPermission(){
         if(ContextCompat.checkSelfPermission(requireContext(),android.Manifest.permission.ACCESS_FINE_LOCATION)==PackageManager.PERMISSION_GRANTED){
             if (!locationUpdatesReq) {
+                binding.cityNameInput.text.clear()
                 getLiveLocation()
             }
         }else{

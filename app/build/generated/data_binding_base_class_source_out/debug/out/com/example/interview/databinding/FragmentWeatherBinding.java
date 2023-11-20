@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -33,6 +34,9 @@ public abstract class FragmentWeatherBinding extends ViewDataBinding {
   public final TextView errorMsg;
 
   @NonNull
+  public final ImageButton liveLocation;
+
+  @NonNull
   public final Button searchButton;
 
   @NonNull
@@ -46,14 +50,16 @@ public abstract class FragmentWeatherBinding extends ViewDataBinding {
 
   protected FragmentWeatherBinding(Object _bindingComponent, View _root, int _localFieldCount,
       RecyclerView cityListRecycleView, EditText cityNameInput, TextView cityNameTextView,
-      TextView cloudsTextView, TextView errorMsg, Button searchButton, TextView temperatureTextView,
-      TextView weatherDescriptionTextView, TextView windSpeedTextView) {
+      TextView cloudsTextView, TextView errorMsg, ImageButton liveLocation, Button searchButton,
+      TextView temperatureTextView, TextView weatherDescriptionTextView,
+      TextView windSpeedTextView) {
     super(_bindingComponent, _root, _localFieldCount);
     this.cityListRecycleView = cityListRecycleView;
     this.cityNameInput = cityNameInput;
     this.cityNameTextView = cityNameTextView;
     this.cloudsTextView = cloudsTextView;
     this.errorMsg = errorMsg;
+    this.liveLocation = liveLocation;
     this.searchButton = searchButton;
     this.temperatureTextView = temperatureTextView;
     this.weatherDescriptionTextView = weatherDescriptionTextView;

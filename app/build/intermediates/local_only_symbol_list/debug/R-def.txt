@@ -22,6 +22,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_launcher_round
 drawable kitchen
+drawable live_location
 drawable logo
 drawable mobile
 drawable shoe
@@ -75,6 +76,7 @@ id itemname
 id itemprice
 id landmark
 id lastName
+id liveLocation
 id loginbtn
 id logo
 id logoName
