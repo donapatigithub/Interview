@@ -13,6 +13,13 @@ interface WeatherApiService {
         @Query("appid") apiKey : String
     ) : WeatherModel
 }
+data class WeatherData(
+    val name: String,
+    val temp: Double,
+    val description: String,
+    val speed: Double,
+    val all: Int
+)
 class WeatherRepository{
     private val apiService: WeatherApiService
 
@@ -26,18 +33,25 @@ class WeatherRepository{
     }
 
     // Replace "YOUR_API_KEY" with your actual OpenWeatherMap API key
-    private val apiKey = "YOUR_API_KEY"
+    private val apiKey = "8c0b1dfe5aec8cdca63f8bf1fca2f850"
 
-    suspend fun getWeatherByCoordinates(latitude: Double, longitude: Double): WeatherModel {
+    suspend fun getWeatherByCoordinates(latitude: Double, longitude: Double): WeatherData {
         val apiResponse = apiService.getWeatherByCoordinates(latitude, longitude, apiKey)
         return mapApiResponseToWeatherData(apiResponse)
     }
 
     private fun mapApiResponseToWeatherData(apiResponse: WeatherModel): WeatherData {
+       val name = apiResponse.name
+       val temp = apiResponse.main.temp
+       val description = apiResponse.weather.first().description
+       val speed = apiResponse.wind.speed
+       val all = apiResponse.clouds.all
         return WeatherData(
-            temperature = apiResponse.main.temp,
-            description = apiResponse.weather.first().description,
-            // Add other properties as needed
+            name = name,
+            temp = temp,
+            description = description,
+            speed = speed,
+            all = all
         )
     }
 }

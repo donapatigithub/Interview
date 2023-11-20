@@ -6,6 +6,7 @@ import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.location.Location
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,6 +19,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.interview.dB.UserRepo
 import com.example.interview.databinding.FragmentWeatherBinding
 import com.example.interview.model.WeatherViewModel
+import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 
 class WeatherFragment : Fragment() {
@@ -28,6 +30,8 @@ class WeatherFragment : Fragment() {
     private lateinit var userRepo: UserRepo
     private lateinit var sharedPreferences: SharedPreferences
     private val Location_Permission_Request = 123
+    private lateinit var fusedLocation : FusedLocationProviderClient
+    private var locationUpdatesReq = false
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -50,6 +54,8 @@ class WeatherFragment : Fragment() {
         val windSpeed = binding.windSpeedTextView
         val cloudText = binding.cloudsTextView
         val cityListRecyclerView = binding.cityListRecycleView
+
+        fusedLocation = LocationServices.getFusedLocationProviderClient(requireActivity())
 
         cityListAdapter = WeatherAdapter()
         cityListRecyclerView.apply {
@@ -87,11 +93,23 @@ class WeatherFragment : Fragment() {
             }
             binding.errorMsg.visibility = View.GONE
         })
+        viewModel.liveData.observe(viewLifecycleOwner, Observer {
+            it?.let {
+                cityName.text = it.name
+                temp.text = "${it.temp}℃"
+                description.text = it.description
+                windSpeed.text = "Wind Speed : ${it.speed} m/s"
+                cloudText.text = "Clouds : ${it.all}%"
+            }
+        })
         viewModel.errorMessage.observe(viewLifecycleOwner, Observer { errorMessage->
             errorMessage.let {
                 showError(it)
             }
         })
+        binding.liveLocation.setOnClickListener {
+            requestLocationPermission()
+        }
     }
     private fun showError(message: String){
         binding.errorMsg.text= "Error : $message"
@@ -107,7 +125,9 @@ class WeatherFragment : Fragment() {
     //new for livelocation
     private fun requestLocationPermission(){
         if(ContextCompat.checkSelfPermission(requireContext(),android.Manifest.permission.ACCESS_FINE_LOCATION)==PackageManager.PERMISSION_GRANTED){
-            getLiveLocation()
+            if (!locationUpdatesReq) {
+                getLiveLocation()
+            }
         }else{
             requestPermissions(arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION),Location_Permission_Request)
         }
@@ -127,10 +147,9 @@ class WeatherFragment : Fragment() {
     //new for livelocation
     @SuppressLint("MissingPermission")
     private fun getLiveLocation(){
-        val fusedLocation = LocationServices.getFusedLocationProviderClient(requireActivity())
-
-        fusedLocation.lastLocation.addOnSuccessListener { location: Location? ->
+        fusedLocation.lastLocation.addOnSuccessListener { location: Location ->
             if (location!=null){
+                Log.d("LocationUpdate","latitude :${location.latitude} and longitude : ${location.longitude}")
                 val latitude = location.latitude
                 val longitude = location.longitude
                 viewModel.searchCityByCoordnates(latitude,longitude)

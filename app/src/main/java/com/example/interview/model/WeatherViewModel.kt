@@ -14,6 +14,9 @@ class WeatherViewModel :ViewModel() {
 
     private val apiService = RetrofitClient.apiService
     private val _weatherData = MutableLiveData<WeatherModel>()
+    private val _liveData = MutableLiveData<WeatherData>()
+    val liveData : LiveData<WeatherData> get() = _liveData
+    private val weatherRepository = WeatherRepository()
     val weatherData : LiveData<WeatherModel>
         get() = _weatherData
 
@@ -64,7 +67,7 @@ class WeatherViewModel :ViewModel() {
         viewModelScope.launch {
             try{
                 val result = weatherRepository.getWeatherByCoordinates(latitude,longitude)
-                _weatherData.value=result
+                _liveData.value=result
             }catch (e : Exception){
                 e.printStackTrace()
             }
