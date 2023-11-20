@@ -1,12 +1,16 @@
 package com.example.interview
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.SharedPreferences
+import android.content.pm.PackageManager
+import android.location.Location
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -14,6 +18,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.interview.dB.UserRepo
 import com.example.interview.databinding.FragmentWeatherBinding
 import com.example.interview.model.WeatherViewModel
+import com.google.android.gms.location.LocationServices
 
 class WeatherFragment : Fragment() {
 
@@ -22,6 +27,7 @@ class WeatherFragment : Fragment() {
     private lateinit var cityListAdapter: WeatherAdapter
     private lateinit var userRepo: UserRepo
     private lateinit var sharedPreferences: SharedPreferences
+    private val Location_Permission_Request = 123
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -96,5 +102,41 @@ class WeatherFragment : Fragment() {
         binding.weatherDescriptionTextView.visibility = View.GONE
         binding.windSpeedTextView.visibility = View.GONE
         binding.temperatureTextView.visibility = View.GONE
+    }
+
+    //new for livelocation
+    private fun requestLocationPermission(){
+        if(ContextCompat.checkSelfPermission(requireContext(),android.Manifest.permission.ACCESS_FINE_LOCATION)==PackageManager.PERMISSION_GRANTED){
+            getLiveLocation()
+        }else{
+            requestPermissions(arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION),Location_Permission_Request)
+        }
+    }
+
+    //new for livelocation
+    private fun onRequestPermissions(requstCode :Int,permissions : Array<out String>, grantResults :IntArray){
+        if (requstCode == Location_Permission_Request){
+            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                getLiveLocation()
+            }else{
+                Toast.makeText(requireContext(),"Location permission denied. Cannot show live location.",Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
+    //new for livelocation
+    @SuppressLint("MissingPermission")
+    private fun getLiveLocation(){
+        val fusedLocation = LocationServices.getFusedLocationProviderClient(requireActivity())
+
+        fusedLocation.lastLocation.addOnSuccessListener { location: Location? ->
+            if (location!=null){
+                val latitude = location.latitude
+                val longitude = location.longitude
+                viewModel.searchCityByCoordnates(latitude,longitude)
+            }
+        }.addOnFailureListener { e->
+            Toast.makeText(requireContext(),"Failed to get live location: ${e.message}",Toast.LENGTH_SHORT).show()
+        }
     }
 }

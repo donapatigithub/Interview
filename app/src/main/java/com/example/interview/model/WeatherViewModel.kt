@@ -3,6 +3,8 @@ package com.example.interview.model
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Response
 
@@ -56,5 +58,16 @@ class WeatherViewModel :ViewModel() {
                 _errorMessage.postValue("Failed to fetch data for $city.\n ${t.message}")
             }
         })
+    }
+    //new for livelocation
+    fun searchCityByCoordnates(latitude: Double, longitude: Double){
+        viewModelScope.launch {
+            try{
+                val result = weatherRepository.getWeatherByCoordinates(latitude,longitude)
+                _weatherData.value=result
+            }catch (e : Exception){
+                e.printStackTrace()
+            }
+        }
     }
 }
