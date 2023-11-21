@@ -140,7 +140,7 @@ class WeatherFragment : Fragment() {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED){
                 getLiveLocation()
             }else{
-                Toast.makeText(requireContext(),"Location permission denied. Cannot show live location.",Toast.LENGTH_SHORT).show()
+                Toast.makeText(requireContext(),"Location permission denied. Cannot show live location weather.",Toast.LENGTH_SHORT).show()
             }
         }
     }
