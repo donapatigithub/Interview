@@ -3324,7 +3324,6 @@ id checked
 id chronometer
 id circle_center
 id city
-id cityListRecycleView
 id cityNameInput
 id cityNameTextView
 id clear_text
@@ -3433,7 +3432,6 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
-id header
 id header_title
 id hide_ime_id
 id hide_in_inspector_tag
@@ -3493,6 +3491,7 @@ id logo
 id logoName
 id ltr
 id m3_side_sheet
+id mapsFragment
 id marquee
 id masked
 id match_constraint
@@ -3944,7 +3943,6 @@ layout fragment_profile_details
 layout fragment_weather
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
-layout item_city
 layout item_dashboard
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

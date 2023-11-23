@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml:2:1-68:12
 MERGED from [androidx.databinding:databinding-adapters:8.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\420bcd953fcd017a4144bfc61efb2feb\transformed\databinding-adapters-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\7032a44681d17638c937b8d862782e26\transformed\databinding-ktx-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.1.0] C:\Users\DO20329591\.gradle\caches\transforms-3\efb70e61f59799dad0abc4c3000c272f\transformed\databinding-runtime-8.1.0\AndroidManifest.xml:2:1-7:12
@@ -169,8 +169,8 @@ ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:21:5-85
 	android:name
 		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:21:22-82
 application
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:23:5-63:19
-INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml:23:5-63:19
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:23:5-66:19
+INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml:23:5-66:19
 MERGED from [androidx.test.espresso:espresso-accessibility:3.5.1] C:\Users\DO20329591\.gradle\caches\transforms-3\c778667883faa8c6da0ed0eae6746a45\transformed\espresso-accessibility-3.5.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.test.espresso:espresso-accessibility:3.5.1] C:\Users\DO20329591\.gradle\caches\transforms-3\c778667883faa8c6da0ed0eae6746a45\transformed\espresso-accessibility-3.5.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\DO20329591\.gradle\caches\transforms-3\1246486d218f24300b58f0af94f337a8\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
@@ -237,58 +237,64 @@ MERGED from [androidx.test:runner:1.5.2] C:\Users\DO20329591\.gradle\caches\tran
 		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:25:9-65
 	android:usesCleartextTraffic
 		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:33:9-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:35:9-37:70
+	android:value
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:37:13-68
+	android:name
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:36:13-58
 activity#com.example.interview.RegisterActivity
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:35:9-38:53
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:38:9-41:53
 	android:exported
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:40:13-36
 	android:theme
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:38:13-51
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:41:13-51
 	android:name
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:36:13-45
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:39:13-45
 activity#com.example.interview.DashboardActivity
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:39:9-42:54
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:42:9-45:54
 	android:exported
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:41:13-36
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:44:13-36
 	android:theme
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:42:13-51
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:45:13-51
 	android:name
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:40:13-46
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:43:13-46
 activity#com.example.interview.Login
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:43:9-53:20
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:46:9-56:20
 	android:label
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:46:13-45
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:49:13-45
 	android:exported
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:45:13-36
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:48:13-36
 	android:theme
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:47:13-51
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:50:13-51
 	android:name
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:44:13-34
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:47:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:48:13-52:29
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:51:13-55:29
 action#android.intent.action.MAIN
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:49:17-69
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:52:17-69
 	android:name
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:49:25-66
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:52:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:51:17-77
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:51:27-74
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:54:27-74
 provider#androidx.core.content.FileProvider
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:54:9-62:20
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:57:9-65:20
 	android:grantUriPermissions
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:57:13-47
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:60:13-47
 	android:authorities
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:55:13-69
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:58:13-69
 	android:exported
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:56:13-62
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:59:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:59:13-61:53
+ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:62:13-64:53
 	android:resource
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:61:17-51
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:64:17-51
 	android:name
-		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:60:17-67
+		ADDED from C:\And\Interview\app\src\main\AndroidManifest.xml:63:17-67
 uses-sdk
 INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\And\Interview\app\src\main\AndroidManifest.xml

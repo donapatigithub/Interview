@@ -25,8 +25,8 @@ class WeatherViewModel :ViewModel() {
         get() = _errorMessage
 
     private val _cityWeatherList = MutableLiveData<List<WeatherModel>>()
-    val cityWeatherlist:LiveData<List<WeatherModel>>
-        get() = _cityWeatherList
+    /*val cityWeatherlist:LiveData<List<WeatherModel>>
+        get() = _cityWeatherList*/
 
     fun getWeather(city : String){
         val url = "weather?q=$city&appid=$apiKey&units=$units"

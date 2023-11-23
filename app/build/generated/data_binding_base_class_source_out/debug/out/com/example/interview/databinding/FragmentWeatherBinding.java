@@ -12,15 +12,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.fragment.app.FragmentContainerView;
 import com.example.interview.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class FragmentWeatherBinding extends ViewDataBinding {
-  @NonNull
-  public final RecyclerView cityListRecycleView;
-
   @NonNull
   public final EditText cityNameInput;
 
@@ -37,6 +34,9 @@ public abstract class FragmentWeatherBinding extends ViewDataBinding {
   public final ImageButton liveLocation;
 
   @NonNull
+  public final FragmentContainerView mapsFragment;
+
+  @NonNull
   public final Button searchButton;
 
   @NonNull
@@ -49,17 +49,17 @@ public abstract class FragmentWeatherBinding extends ViewDataBinding {
   public final TextView windSpeedTextView;
 
   protected FragmentWeatherBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      RecyclerView cityListRecycleView, EditText cityNameInput, TextView cityNameTextView,
-      TextView cloudsTextView, TextView errorMsg, ImageButton liveLocation, Button searchButton,
+      EditText cityNameInput, TextView cityNameTextView, TextView cloudsTextView, TextView errorMsg,
+      ImageButton liveLocation, FragmentContainerView mapsFragment, Button searchButton,
       TextView temperatureTextView, TextView weatherDescriptionTextView,
       TextView windSpeedTextView) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.cityListRecycleView = cityListRecycleView;
     this.cityNameInput = cityNameInput;
     this.cityNameTextView = cityNameTextView;
     this.cloudsTextView = cloudsTextView;
     this.errorMsg = errorMsg;
     this.liveLocation = liveLocation;
+    this.mapsFragment = mapsFragment;
     this.searchButton = searchButton;
     this.temperatureTextView = temperatureTextView;
     this.weatherDescriptionTextView = weatherDescriptionTextView;

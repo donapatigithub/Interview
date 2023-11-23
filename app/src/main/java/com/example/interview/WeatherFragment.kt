@@ -15,24 +15,27 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.interview.dB.UserRepo
 import com.example.interview.databinding.FragmentWeatherBinding
 import com.example.interview.model.WeatherViewModel
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.LatLng
 
-class WeatherFragment : Fragment() {
+class WeatherFragment : Fragment(), OnMapReadyCallback {
 
     private lateinit var binding: FragmentWeatherBinding
     private lateinit var viewModel: WeatherViewModel
-    private lateinit var cityListAdapter: WeatherAdapter
     private lateinit var userRepo: UserRepo
     private lateinit var sharedPreferences: SharedPreferences
     private val Location_Permission_Request = 123
     private lateinit var fusedLocation : FusedLocationProviderClient
     private var locationUpdatesReq = false
-
+    private lateinit var googleMap: GoogleMap
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
@@ -53,15 +56,9 @@ class WeatherFragment : Fragment() {
         val description = binding.weatherDescriptionTextView
         val windSpeed = binding.windSpeedTextView
         val cloudText = binding.cloudsTextView
-        val cityListRecyclerView = binding.cityListRecycleView
 
         fusedLocation = LocationServices.getFusedLocationProviderClient(requireActivity())
 
-        cityListAdapter = WeatherAdapter()
-        cityListRecyclerView.apply {
-            layoutManager = LinearLayoutManager(requireContext())
-            adapter = cityListAdapter
-        }
 
         searchButton.setOnClickListener {
             val city = cityNameInput.text.toString()
@@ -71,11 +68,7 @@ class WeatherFragment : Fragment() {
                 Toast.makeText(requireContext(),"Please Enter City",Toast.LENGTH_SHORT).show()
             }
         }
-        viewModel.cityWeatherlist.observe(viewLifecycleOwner, Observer {
-            it.let {
-                cityListAdapter.submitList(it)
-            }
-        })
+
         userRepo = UserRepo(requireContext())
         sharedPreferences = requireActivity().getSharedPreferences("Pref", Context.MODE_PRIVATE)
         val userEmail = sharedPreferences.getString("userEmail",null)
@@ -110,11 +103,19 @@ class WeatherFragment : Fragment() {
         binding.liveLocation.setOnClickListener {
             requestLocationPermission()
         }
+
+        //Maps Integration
+        val mapFragment = childFragmentManager.findFragmentById(R.id.mapsFragment) as SupportMapFragment
+        mapFragment.getMapAsync(this)
+/*
+        mapFragment.view?.isVisible=true
+*/
+        binding.mapsFragment.visibility = View.VISIBLE
     }
+
     private fun showError(message: String){
         binding.errorMsg.text= "Error : $message"
         binding.errorMsg.visibility = View.VISIBLE
-        binding.cityListRecycleView.visibility = View.GONE
         binding.cityNameTextView.visibility = View.GONE
         binding.cloudsTextView.visibility = View.GONE
         binding.weatherDescriptionTextView.visibility = View.GONE
@@ -153,10 +154,16 @@ class WeatherFragment : Fragment() {
                 Log.d("LocationUpdate","latitude :${location.latitude} and longitude : ${location.longitude}")
                 val latitude = location.latitude
                 val longitude = location.longitude
+                val userLocation = LatLng(latitude,longitude)
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation,15f))
                 viewModel.searchCityByCoordnates(latitude,longitude)
             }
         }.addOnFailureListener { e->
             Toast.makeText(requireContext(),"Failed to get live location: ${e.message}",Toast.LENGTH_SHORT).show()
         }
+    }
+
+    override fun onMapReady(p0: GoogleMap) {
+        this.googleMap = p0
     }
 }

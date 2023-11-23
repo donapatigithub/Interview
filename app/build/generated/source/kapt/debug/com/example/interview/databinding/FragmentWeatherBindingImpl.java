@@ -21,7 +21,7 @@ public class FragmentWeatherBindingImpl extends FragmentWeatherBinding  {
         sViewsWithIds.put(R.id.weatherDescriptionTextView, 5);
         sViewsWithIds.put(R.id.windSpeedTextView, 6);
         sViewsWithIds.put(R.id.cloudsTextView, 7);
-        sViewsWithIds.put(R.id.cityListRecycleView, 8);
+        sViewsWithIds.put(R.id.mapsFragment, 8);
         sViewsWithIds.put(R.id.errorMsg, 9);
         sViewsWithIds.put(R.id.liveLocation, 10);
     }
@@ -38,12 +38,12 @@ public class FragmentWeatherBindingImpl extends FragmentWeatherBinding  {
     }
     private FragmentWeatherBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (androidx.recyclerview.widget.RecyclerView) bindings[8]
             , (android.widget.EditText) bindings[1]
             , (android.widget.TextView) bindings[3]
             , (android.widget.TextView) bindings[7]
             , (android.widget.TextView) bindings[9]
             , (android.widget.ImageButton) bindings[10]
+            , (androidx.fragment.app.FragmentContainerView) bindings[8]
             , (android.widget.Button) bindings[2]
             , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[5]

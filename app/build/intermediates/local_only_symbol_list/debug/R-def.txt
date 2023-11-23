@@ -48,7 +48,6 @@ id cartButton
 id cartFragment
 id cart_RV
 id city
-id cityListRecycleView
 id cityNameInput
 id cityNameTextView
 id cloudsTextView
@@ -61,7 +60,6 @@ id errorMsg
 id firstName
 id flatNo
 id fragmentContainer
-id header
 id home
 id homeFragment
 id homeimg
@@ -80,6 +78,7 @@ id liveLocation
 id loginbtn
 id logo
 id logoName
+id mapsFragment
 id midName
 id mobile
 id navigation
@@ -129,7 +128,6 @@ layout fragment_products_list
 layout fragment_profile
 layout fragment_profile_details
 layout fragment_weather
-layout item_city
 layout item_dashboard
 layout products_list_iem
 menu menu
