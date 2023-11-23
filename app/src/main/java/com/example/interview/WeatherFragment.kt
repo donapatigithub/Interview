@@ -102,6 +102,7 @@ class WeatherFragment : Fragment(), OnMapReadyCallback {
         })
         binding.liveLocation.setOnClickListener {
             requestLocationPermission()
+            binding.mapsFragment.visibility = View.VISIBLE
         }
 
         //Maps Integration
@@ -110,7 +111,7 @@ class WeatherFragment : Fragment(), OnMapReadyCallback {
 /*
         mapFragment.view?.isVisible=true
 */
-        binding.mapsFragment.visibility = View.VISIBLE
+        binding.mapsFragment.visibility = View.GONE
     }
 
     private fun showError(message: String){
