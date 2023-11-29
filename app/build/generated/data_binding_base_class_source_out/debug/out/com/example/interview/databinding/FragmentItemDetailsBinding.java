@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,15 +32,19 @@ public abstract class FragmentItemDetailsBinding extends ViewDataBinding {
   @NonNull
   public final TextView itemPrice;
 
+  @NonNull
+  public final Spinner qntySpinner;
+
   protected FragmentItemDetailsBinding(Object _bindingComponent, View _root, int _localFieldCount,
       Button cartButton, TextView description, ImageView itemImage, TextView itemName,
-      TextView itemPrice) {
+      TextView itemPrice, Spinner qntySpinner) {
     super(_bindingComponent, _root, _localFieldCount);
     this.cartButton = cartButton;
     this.description = description;
     this.itemImage = itemImage;
     this.itemName = itemName;
     this.itemPrice = itemPrice;
+    this.qntySpinner = qntySpinner;
   }
 
   @NonNull

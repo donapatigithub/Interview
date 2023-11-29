@@ -84,6 +84,7 @@ int animator nav_default_enter_anim 0x7f020022
 int animator nav_default_exit_anim 0x7f020023
 int animator nav_default_pop_enter_anim 0x7f020024
 int animator nav_default_pop_exit_anim 0x7f020025
+int array qty 0x7f150000
 int attr SharedValue 0x7f030000
 int attr SharedValueId 0x7f030001
 int attr action 0x7f030002
@@ -3625,6 +3626,7 @@ int id profileDetails 0x7f0801b7
 int id profileFragment 0x7f0801b8
 int id progress_circular 0x7f0801b9
 int id progress_horizontal 0x7f0801ba
+int id qntySpinner 0x7f080266
 int id quantity 0x7f0801bb
 int id radio 0x7f0801bc
 int id ratio 0x7f0801bd

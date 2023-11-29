@@ -1,13 +1,14 @@
 package com.example.interview
 
-import android.health.connect.datatypes.units.Length
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.example.interview.databinding.FragmentItemDetailsBinding
 import com.example.interview.model.CartModel
 import com.example.interview.model.ItemModel
@@ -27,8 +28,15 @@ class ItemDetailsFragment : Fragment() {
            binding.itemPrice.text = "Price: INR ${currentItem.price}"
            binding.description.text = currentItem.description
            binding.itemImage.setImageResource(currentItem.image)
+           val spinner = binding.root.findViewById<Spinner>(R.id.qntySpinner)
+           ArrayAdapter.createFromResource(requireContext(),R.array.qty,android.R.layout.simple_spinner_item)
+               .also { adapter->
+                   adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+                   spinner.adapter=adapter
+               }
            binding.cartButton.setOnClickListener {
-                CartManager.addToCart(currentItem)
+               val selectedqty = spinner.selectedItem.toString().toInt()
+                CartManager.addToCart(currentItem,selectedqty)
                Toast.makeText(requireContext(),"Item Added to cart",Toast.LENGTH_SHORT).show()
            }
            return binding.root
@@ -39,14 +47,14 @@ class ItemDetailsFragment : Fragment() {
 }
 object CartManager{
     private val cartModels = mutableListOf<CartModel>()
-    fun addToCart(itemModel: ItemModel){
+    fun addToCart(itemModel: ItemModel, quantity: Int){
         val existingItem = cartModels.find {
             itemModel == itemModel
         }
         if (existingItem!=null){
-            existingItem.quantity++
+            existingItem.quantity += quantity
         }else{
-            cartModels.add(CartModel(itemModel,1))
+            cartModels.add(CartModel(itemModel,quantity))
         }
     }
     fun getCartItems():List<CartModel>{

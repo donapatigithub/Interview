@@ -18,7 +18,8 @@ public class FragmentItemDetailsBindingImpl extends FragmentItemDetailsBinding  
         sViewsWithIds.put(R.id.itemName, 2);
         sViewsWithIds.put(R.id.itemPrice, 3);
         sViewsWithIds.put(R.id.description, 4);
-        sViewsWithIds.put(R.id.cartButton, 5);
+        sViewsWithIds.put(R.id.qntySpinner, 5);
+        sViewsWithIds.put(R.id.cartButton, 6);
     }
     // views
     @NonNull
@@ -29,15 +30,16 @@ public class FragmentItemDetailsBindingImpl extends FragmentItemDetailsBinding  
     // Inverse Binding Event Handlers
 
     public FragmentItemDetailsBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
     }
     private FragmentItemDetailsBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.Button) bindings[5]
+            , (android.widget.Button) bindings[6]
             , (android.widget.TextView) bindings[4]
             , (android.widget.ImageView) bindings[1]
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[3]
+            , (android.widget.Spinner) bindings[5]
             );
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);

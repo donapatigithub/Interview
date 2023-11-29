@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array qty
 color Blue
 color Orange
 color Red
@@ -94,6 +95,7 @@ id productsRecycle
 id profile
 id profileDetails
 id profileFragment
+id qntySpinner
 id quantity
 id regCnfPassword
 id regEmail

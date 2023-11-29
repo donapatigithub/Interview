@@ -85,6 +85,7 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array qty
 attr SharedValue
 attr SharedValueId
 attr action
@@ -3626,6 +3627,7 @@ id profileDetails
 id profileFragment
 id progress_circular
 id progress_horizontal
+id qntySpinner
 id quantity
 id radio
 id ratio
