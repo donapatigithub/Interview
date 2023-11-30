@@ -3452,6 +3452,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id imgid
 id imgscroll
 id immediateStop
@@ -3464,7 +3465,6 @@ id inward
 id is_pooling_container_tag
 id italic
 id itemDetailsFragment
-id itemImage
 id itemName
 id itemPrice
 id item_touch_helper_previous_elevation
@@ -3599,6 +3599,7 @@ id outline
 id outward
 id overshoot
 id packed
+id pager
 id parallax
 id parent
 id parentPanel
@@ -3614,6 +3615,7 @@ id percent
 id personaldetails
 id pin
 id pincode
+id playButton
 id pooling_container_listener_holder_tag
 id position
 id postLayout
@@ -3777,6 +3779,7 @@ id up
 id useLogo
 id userid
 id vertical_only
+id videoView
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3943,6 +3946,7 @@ layout fragment_products_list
 layout fragment_profile
 layout fragment_profile_details
 layout fragment_weather
+layout image_item
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_dashboard
@@ -4014,6 +4018,7 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
+raw demo
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

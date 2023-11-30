@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.viewpager2.widget.ViewPager2
 import com.example.interview.databinding.FragmentItemDetailsBinding
 import com.example.interview.model.CartModel
 import com.example.interview.model.ItemModel
@@ -23,11 +24,24 @@ class ItemDetailsFragment : Fragment() {
     ): View? {
            binding= FragmentItemDetailsBinding.inflate(inflater,container,false)
             Log.d("name","Name : Hp ProBook")
-           currentItem = ItemModel("Hp ProBook",59999.00,"Hp Probook",R.drawable.electronics)
+           currentItem = ItemModel("Hp ProBook",59999.00,"Hp Probook")
+
+           //Video view
+
+           val mediaList = mutableListOf<MediaItem>()
+
+           val image= listOf(
+               R.drawable.electronics,
+               )
+           mediaList.addAll(image.map { MediaItem.Image(it) })
+           mediaList.add(MediaItem.Video(R.raw.demo))
+
+           val pager2 : ViewPager2= binding.root.findViewById(R.id.pager)
+           pager2.adapter = MediaAdapter(mediaList)
+
            binding.itemName.text = currentItem.name
            binding.itemPrice.text = "Price: INR ${currentItem.price}"
            binding.description.text = currentItem.description
-           binding.itemImage.setImageResource(currentItem.image)
            val spinner = binding.root.findViewById<Spinner>(R.id.qntySpinner)
            ArrayAdapter.createFromResource(requireContext(),R.array.qty,android.R.layout.simple_spinner_item)
                .also { adapter->

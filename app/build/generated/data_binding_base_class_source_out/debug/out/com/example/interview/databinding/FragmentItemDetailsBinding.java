@@ -5,13 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import androidx.viewpager2.widget.ViewPager2;
 import com.example.interview.R;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -24,26 +24,26 @@ public abstract class FragmentItemDetailsBinding extends ViewDataBinding {
   public final TextView description;
 
   @NonNull
-  public final ImageView itemImage;
-
-  @NonNull
   public final TextView itemName;
 
   @NonNull
   public final TextView itemPrice;
 
   @NonNull
+  public final ViewPager2 pager;
+
+  @NonNull
   public final Spinner qntySpinner;
 
   protected FragmentItemDetailsBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button cartButton, TextView description, ImageView itemImage, TextView itemName,
-      TextView itemPrice, Spinner qntySpinner) {
+      Button cartButton, TextView description, TextView itemName, TextView itemPrice,
+      ViewPager2 pager, Spinner qntySpinner) {
     super(_bindingComponent, _root, _localFieldCount);
     this.cartButton = cartButton;
     this.description = description;
-    this.itemImage = itemImage;
     this.itemName = itemName;
     this.itemPrice = itemPrice;
+    this.pager = pager;
     this.qntySpinner = qntySpinner;
   }
 

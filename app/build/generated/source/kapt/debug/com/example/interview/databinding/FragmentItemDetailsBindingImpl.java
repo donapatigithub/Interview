@@ -14,7 +14,7 @@ public class FragmentItemDetailsBindingImpl extends FragmentItemDetailsBinding  
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.itemImage, 1);
+        sViewsWithIds.put(R.id.pager, 1);
         sViewsWithIds.put(R.id.itemName, 2);
         sViewsWithIds.put(R.id.itemPrice, 3);
         sViewsWithIds.put(R.id.description, 4);
@@ -36,9 +36,9 @@ public class FragmentItemDetailsBindingImpl extends FragmentItemDetailsBinding  
         super(bindingComponent, root, 0
             , (android.widget.Button) bindings[6]
             , (android.widget.TextView) bindings[4]
-            , (android.widget.ImageView) bindings[1]
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[3]
+            , (androidx.viewpager2.widget.ViewPager2) bindings[1]
             , (android.widget.Spinner) bindings[5]
             );
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
