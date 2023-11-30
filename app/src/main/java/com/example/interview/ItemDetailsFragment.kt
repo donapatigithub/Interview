@@ -27,7 +27,6 @@ class ItemDetailsFragment : Fragment() {
            currentItem = ItemModel("Hp ProBook",59999.00,"Hp Probook")
 
            //Video view
-
            val mediaList = mutableListOf<MediaItem>()
 
            val image= listOf(
