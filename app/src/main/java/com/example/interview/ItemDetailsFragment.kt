@@ -30,7 +30,7 @@ class ItemDetailsFragment : Fragment() {
            val mediaList = mutableListOf<MediaItem>()
 
            val image= listOf(
-               R.drawable.electronics,
+               R.drawable.dell,
                )
            mediaList.addAll(image.map { MediaItem.Image(it) })
            mediaList.add(MediaItem.Video(R.raw.demo))
