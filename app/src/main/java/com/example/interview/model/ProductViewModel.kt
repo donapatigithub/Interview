@@ -15,7 +15,7 @@ class ProductViewModel : ViewModel() {
     private fun getProducts() : List<ProductModel>{
         return listOf(
             ProductModel("Dell Inspiron","59999",R.drawable.electronics),
-            ProductModel("HP","250",R.drawable.toys)
+            ProductModel("HP","45999",R.drawable.toys)
 
         )
     }
