@@ -24,7 +24,7 @@ class ItemDetailsFragment : Fragment() {
     ): View? {
            binding= FragmentItemDetailsBinding.inflate(inflater,container,false)
             Log.d("name","Name : Hp ProBook")
-           currentItem = ItemModel("Dell Inspiron",59999.00,"Hp Probook")
+           currentItem = ItemModel("Dell Inspiron",59999.00,"Inspiron 14_Plus")
 
            //Video view
            val mediaList = mutableListOf<MediaItem>()

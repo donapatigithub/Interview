@@ -41,7 +41,7 @@ class ProductsListFragment : Fragment() {
         val adapter = ProductAdapter()
         adapter.setOnItemClickListener { position, prodtype ->
             when (prodtype) {
-                "Hp ProBook" -> {
+                "Dell Inspiron" -> {
                     requireActivity().supportFragmentManager.beginTransaction()
                         .replace(R.id.fragmentContainer, ItemDetailsFragment())
                         .addToBackStack(null)
