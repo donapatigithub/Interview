@@ -3298,6 +3298,7 @@ int id bounceBoth 0x7f09006c
 int id bounceEnd 0x7f09006d
 int id bounceStart 0x7f09006e
 int id btnAddress 0x7f09006f
+int id btnComments 0x7f090268
 int id btnprofiledetails 0x7f090070
 int id buttonPanel 0x7f090071
 int id buttons 0x7f090072
@@ -3394,6 +3395,7 @@ int id edge 0x7f0900cc
 int id edit_query 0x7f0900cd
 int id edit_text_id 0x7f0900ce
 int id edtText 0x7f0900cf
+int id edtcomments 0x7f090269
 int id elastic 0x7f0900d0
 int id email 0x7f0900d1
 int id embed 0x7f0900d2
@@ -3645,6 +3647,7 @@ int id reglastName 0x7f0901c7
 int id regmidName 0x7f0901c8
 int id report_drawn 0x7f0901c9
 int id reverseSawtooth 0x7f0901ca
+int id reviews 0x7f09026a
 int id right 0x7f0901cb
 int id rightToLeft 0x7f0901cc
 int id right_icon 0x7f0901cd

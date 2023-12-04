@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -18,10 +20,16 @@ import java.lang.Object;
 
 public abstract class FragmentItemDetailsBinding extends ViewDataBinding {
   @NonNull
+  public final Button btnComments;
+
+  @NonNull
   public final Button cartButton;
 
   @NonNull
   public final TextView description;
+
+  @NonNull
+  public final EditText edtcomments;
 
   @NonNull
   public final TextView itemName;
@@ -35,16 +43,23 @@ public abstract class FragmentItemDetailsBinding extends ViewDataBinding {
   @NonNull
   public final Spinner qntySpinner;
 
+  @NonNull
+  public final LinearLayout reviews;
+
   protected FragmentItemDetailsBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button cartButton, TextView description, TextView itemName, TextView itemPrice,
-      ViewPager2 pager, Spinner qntySpinner) {
+      Button btnComments, Button cartButton, TextView description, EditText edtcomments,
+      TextView itemName, TextView itemPrice, ViewPager2 pager, Spinner qntySpinner,
+      LinearLayout reviews) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.btnComments = btnComments;
     this.cartButton = cartButton;
     this.description = description;
+    this.edtcomments = edtcomments;
     this.itemName = itemName;
     this.itemPrice = itemPrice;
     this.pager = pager;
     this.qntySpinner = qntySpinner;
+    this.reviews = reviews;
   }
 
   @NonNull

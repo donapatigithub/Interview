@@ -41,6 +41,7 @@
             android:theme="@style/Theme.AppCompat"/>
         <activity
             android:name=".DashboardActivity"
+            android:windowSoftInputMode="adjustResize"
             android:exported="true"
             android:theme="@style/Theme.AppCompat" />
         <activity

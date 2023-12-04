@@ -40,6 +40,7 @@ id action_product_to_itemDetailsFragment
 id address
 id bottomNav
 id btnAddress
+id btnComments
 id btnprofiledetails
 id buttons
 id c_itemName
@@ -57,6 +58,7 @@ id dashRV
 id delbtn
 id description
 id edtText
+id edtcomments
 id email
 id errorMsg
 id firstName
@@ -76,6 +78,7 @@ id itemname
 id itemprice
 id landmark
 id lastName
+id layout
 id liveLocation
 id loginbtn
 id logo
@@ -109,6 +112,7 @@ id register
 id registertitle
 id reglastName
 id regmidName
+id reviews
 id savebtn
 id savedText
 id search

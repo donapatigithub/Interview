@@ -3299,6 +3299,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnAddress
+id btnComments
 id btnprofiledetails
 id buttonPanel
 id buttons
@@ -3395,6 +3396,7 @@ id edge
 id edit_query
 id edit_text_id
 id edtText
+id edtcomments
 id elastic
 id email
 id embed
@@ -3646,6 +3648,7 @@ id reglastName
 id regmidName
 id report_drawn
 id reverseSawtooth
+id reviews
 id right
 id rightToLeft
 id right_icon

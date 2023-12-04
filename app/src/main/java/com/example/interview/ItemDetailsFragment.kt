@@ -6,7 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Button
+import android.widget.EditText
+import android.widget.LinearLayout
 import android.widget.Spinner
+import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
@@ -52,8 +56,45 @@ class ItemDetailsFragment : Fragment() {
                 CartManager.addToCart(currentItem,selectedqty)
                Toast.makeText(requireContext(),"Item Added to cart",Toast.LENGTH_SHORT).show()
            }
+
+           //comments
+           val addcommentsBtn= binding.root.findViewById<Button>(R.id.btnComments)
+           addcommentsBtn.setOnClickListener {
+               addcomment()
+           }
+
+           val reviewscontainers = binding.root.findViewById<LinearLayout>(R.id.reviews)
+           dispaly(reviewscontainers)
+
            return binding.root
 
+    }
+
+    private fun dispaly(reviewscontainer : LinearLayout){
+        val reviews = listOf("Awesome!","Looks Good","Avarage","Not Recommended")
+        for (reviews in reviews){
+            val reviewTxt = TextView(requireContext())
+            reviewTxt.text=reviews
+            reviewscontainer.addView(reviewTxt)
+        }
+    }
+
+    private fun addcomment(){
+        val reviewEdt = binding.root.findViewById<EditText>(R.id.edtcomments)
+        val newComment = reviewEdt.text.toString()
+        if (newComment.isNotEmpty()){
+            val reviewscontainer = binding.root.findViewById<LinearLayout>(R.id.reviews)
+            val newcmnt=TextView(requireContext())
+            newcmnt.text=newComment
+            reviewscontainer.addView(newcmnt)
+            reviewEdt.text.clear()
+            newcmnt.setOnLongClickListener {
+                reviewscontainer.removeView(newcmnt)
+                true
+            }
+        }else{
+            Toast.makeText(requireContext(),"Please enter your comments",Toast.LENGTH_SHORT).show()
+        }
     }
 
 
