@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.1">
+  <library name="Gradle: com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.1" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/5.0.0-alpha.1/8db4c77f5faf10274835b4d7776a37d6e1dc5f82/logging-interceptor-5.0.0-alpha.1.jar!/" />
     </CLASSES>

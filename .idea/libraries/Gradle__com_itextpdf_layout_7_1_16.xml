@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.itextpdf:layout:7.1.16">
+  <library name="Gradle: com.itextpdf:layout:7.1.16" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/layout/7.1.16/2fc2d86df82e1760aab158117ef1bdfc51004a4e/layout-7.1.16.jar!/" />
     </CLASSES>
