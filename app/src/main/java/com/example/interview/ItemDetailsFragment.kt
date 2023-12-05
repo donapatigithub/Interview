@@ -52,45 +52,45 @@ class ItemDetailsFragment : Fragment() {
                    spinner.adapter=adapter
                }
            binding.cartButton.setOnClickListener {
-               val selectedqty = spinner.selectedItem.toString().toInt()
-                CartManager.addToCart(currentItem,selectedqty)
+               val selectedQty = spinner.selectedItem.toString().toInt()
+                CartManager.addToCart(currentItem,selectedQty)
                Toast.makeText(requireContext(),"Item Added to cart",Toast.LENGTH_SHORT).show()
            }
 
            //comments
-           val addcommentsBtn= binding.root.findViewById<Button>(R.id.btnComments)
-           addcommentsBtn.setOnClickListener {
-               addcomment()
+           val addCommentsBtn= binding.root.findViewById<Button>(R.id.btnComments)
+           addCommentsBtn.setOnClickListener {
+               addComment()
            }
 
-           val reviewscontainers = binding.root.findViewById<LinearLayout>(R.id.reviews)
-           dispaly(reviewscontainers)
+           val reviewsContainers = binding.root.findViewById<LinearLayout>(R.id.reviews)
+           display(reviewsContainers)
 
            return binding.root
 
     }
 
-    private fun dispaly(reviewscontainer : LinearLayout){
+    private fun display(reviewsContainer : LinearLayout){
         val reviews = listOf("Awesome!","Looks Good","Average","Not Recommended")
         for (reviews in reviews){
             val reviewTxt = TextView(requireContext())
             reviewTxt.text=reviews
-            reviewscontainer.addView(reviewTxt)
+            reviewsContainer.addView(reviewTxt)
         }
     }
 
-    private fun addcomment(){
+    private fun addComment(){
         val reviewEdt = binding.root.findViewById<EditText>(R.id.edtcomments)
         val newComment = reviewEdt.text.toString()
         if (newComment.isNotEmpty()){
-            val reviewscontainer = binding.root.findViewById<LinearLayout>(R.id.reviews)
+            val reviewsContainer = binding.root.findViewById<LinearLayout>(R.id.reviews)
             val newcmnt=TextView(requireContext())
             newcmnt.text=newComment
             newcmnt.textSize = 10f
-            reviewscontainer.addView(newcmnt)
+            reviewsContainer.addView(newcmnt)
             reviewEdt.text.clear()
             newcmnt.setOnLongClickListener {
-                reviewscontainer.removeView(newcmnt)
+                reviewsContainer.removeView(newcmnt)
                 true
             }
         }else{
