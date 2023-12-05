@@ -8,12 +8,12 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_weather.xml"
     },
     {
-        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_home_24.xml.flat",
-        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\home_24.xml"
-    },
-    {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_furniture.jpg.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\furniture.jpg"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_home_24.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\home_24.xml"
     },
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_fragment_cart.xml.flat",
-        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_cart.xml"
-    },
-    {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\drawable_baseline_account_circle_24.xml.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\drawable\\baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_cart.xml"
     },
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\xml\\file_paths.xml"
     },
     {
-        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_cart_item.xml.flat",
-        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\cart_item.xml"
-    },
-    {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_item_dashboard.xml.flat",
         "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\item_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\layout_cart_item.xml.flat",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\cart_item.xml"
     },
     {
         "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-merged_res-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
