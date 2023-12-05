@@ -3,98 +3,110 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="10dp"
-    android:orientation="vertical"
-    tools:context=".ItemDetailsFragment">
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/pager"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:layout_marginBottom="5dp"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".ItemDetailsFragment">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginBottom="5dp" />
+
         <TextView
             android:id="@+id/itemName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
             android:text="Item Name"
             android:textSize="25sp"
-            android:layout_marginBottom="5dp"/>
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/itemPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
             android:layout_marginTop="5dp"
             android:text="Item Price"
-            android:textStyle="bold"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/description"
-        android:textSize="15sp"
-        android:layout_marginTop="5dp"
-        android:text="Item Description"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="2"
-        android:orientation="horizontal">
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
         <TextView
+            android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Select Quantity : "
-            android:textStyle="bold"/>
-    <Spinner
-        android:id="@+id/qntySpinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:entries="@array/qty"
-        android:layout_marginTop="5dp"
-        />
-    </LinearLayout>
-    <Button
-        android:id="@+id/cartButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:textColor="@color/Orange"
-        android:text="Add To Cart"
-        android:layout_marginTop="5dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Reviews"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:layout_marginTop="5dp"/>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="190dp"
-        android:layout_marginTop="5dp">
+            android:text="Item Description"
+            android:textSize="15sp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/reviews"
-            android:orientation="vertical"/>
-    </ScrollView>
-    <EditText
-        android:id="@+id/edtcomments"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Add comments"
-        android:layout_marginTop="2dp"/>
-    <Button
-        android:id="@+id/btnComments"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add Comments"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="50dp"
-        android:layout_gravity="center"/>
+            android:orientation="horizontal"
+            android:weightSum="2">
 
-</LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Select Quantity : "
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/qntySpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:entries="@array/qty" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:text="Add To Cart"
+            android:textColor="@color/Orange" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Reviews"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:id="@+id/reviews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <EditText
+            android:id="@+id/edtcomments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:hint="Add comments" />
+
+        <Button
+            android:id="@+id/btnComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="50dp"
+            android:text="Add Comments" />
+
+    </LinearLayout>
 </layout>
