@@ -29,7 +29,7 @@
             android:id="@+id/itemPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             android:text="Item Price"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -38,7 +38,7 @@
             android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             android:text="Item Description"
             android:textSize="15sp" />
 
@@ -51,7 +51,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Select Quantity : "
                 android:textStyle="bold" />
 
@@ -59,7 +59,7 @@
                 android:id="@+id/qntySpinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
+                android:layout_marginTop="5dp"
                 android:entries="@array/qty" />
         </LinearLayout>
 
@@ -68,22 +68,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             android:text="Add To Cart"
             android:textColor="@color/Orange" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             android:text="Reviews"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:layout_marginTop="2dp">
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp">
 
             <LinearLayout
                 android:id="@+id/reviews"
@@ -92,21 +92,28 @@
                 android:orientation="vertical" />
         </ScrollView>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal" >
         <EditText
             android:id="@+id/edtcomments"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1.7"
             android:layout_marginTop="2dp"
-            android:hint="Add comments" />
+            android:hint="Add your comments" />
 
         <Button
             android:id="@+id/btnComments"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="50dp"
-            android:text="Add Comments" />
-
+            android:layout_marginTop="18dp"
+            android:layout_weight="0.3"
+            android:layout_marginBottom="45dp"
+            android:text="send" />
+        </LinearLayout>
     </LinearLayout>
 </layout>

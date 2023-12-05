@@ -1,38 +1,42 @@
 [
     {
-        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_weather.xml",
-        "source": "com.example.interview.app-main-6:/layout/fragment_weather.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_address.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_address.xml"
     },
     {
-        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_home.xml",
-        "source": "com.example.interview.app-main-6:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\item_dashboard.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\item_dashboard.xml"
     },
     {
-        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_address.xml",
-        "source": "com.example.interview.app-main-6:/layout/fragment_address.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_products_list.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_products_list.xml"
     },
     {
-        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/activity_register.xml",
-        "source": "com.example.interview.app-main-6:/layout/activity_register.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_weather.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_weather.xml"
     },
     {
-        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_profile_details.xml",
-        "source": "com.example.interview.app-main-6:/layout/fragment_profile_details.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\products_list_iem.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\products_list_iem.xml"
     },
     {
-        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/item_dashboard.xml",
-        "source": "com.example.interview.app-main-6:/layout/item_dashboard.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_profile_details.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_profile_details.xml"
     },
     {
-        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_products_list.xml",
-        "source": "com.example.interview.app-main-6:/layout/fragment_products_list.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\fragment_item_details.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\fragment_item_details.xml"
     },
     {
         "merged": "com.example.interview.app-mergeDebugResources-3:/layout/fragment_item_details.xml",
         "source": "com.example.interview.app-main-6:/layout/fragment_item_details.xml"
     },
     {
-        "merged": "com.example.interview.app-mergeDebugResources-3:/layout/products_list_iem.xml",
-        "source": "com.example.interview.app-main-6:/layout/products_list_iem.xml"
+        "merged": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-mergeDebugResources-3:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\DO20329591\\.gradle\\daemon\\8.0\\com.example.interview.app-main-6:\\layout\\activity_register.xml"
     }
 ]
