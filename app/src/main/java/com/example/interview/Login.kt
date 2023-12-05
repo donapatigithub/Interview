@@ -3,7 +3,6 @@ package com.example.interview
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.text.InputType
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -20,20 +19,26 @@ class Login : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
-
-        userName = findViewById(R.id.userid)
-        userPassword = findViewById(R.id.passwordid)
-        login = findViewById(R.id.loginbtn)
-        register = findViewById(R.id.register)
-        userRepo = UserRepo(this)
-        userPassword.hint = "Password"
-        register.setOnClickListener {
-            //showRegistrationDialog()
-            val intent = Intent(this,RegisterActivity::class.java)
+        val sharedPreferences = getSharedPreferences("Pref", Context.MODE_PRIVATE)
+        val userEmail = sharedPreferences.getString("userEmail", null)
+        if (userEmail != null) {
+            val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
+            finish()
+        } else {
+            setContentView(R.layout.activity_login)
+            userName = findViewById(R.id.userid)
+            userPassword = findViewById(R.id.passwordid)
+            login = findViewById(R.id.loginbtn)
+            register = findViewById(R.id.register)
+            userRepo = UserRepo(this)
+            userPassword.hint = "Password"
+            register.setOnClickListener {
+                val intent = Intent(this, RegisterActivity::class.java)
+                startActivity(intent)
+            }
+            onClick()
         }
-        onClick()
     }
 
     fun onClick() {

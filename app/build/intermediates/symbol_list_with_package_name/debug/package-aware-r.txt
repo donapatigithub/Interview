@@ -3493,6 +3493,7 @@ id locale
 id loginbtn
 id logo
 id logoName
+id logout
 id ltr
 id m3_side_sheet
 id mapsFragment

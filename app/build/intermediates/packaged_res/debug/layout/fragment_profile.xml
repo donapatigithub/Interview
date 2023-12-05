@@ -28,6 +28,13 @@
         android:layout_marginTop="5dp"
         android:layout_below="@id/btnprofiledetails"
         android:text="Address"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_below="@id/btnAddress"
+        android:layout_marginTop="5dp"
+        android:text="logout"/>
 
 
 </RelativeLayout>
