@@ -71,7 +71,7 @@ class ItemDetailsFragment : Fragment() {
     }
 
     private fun dispaly(reviewscontainer : LinearLayout){
-        val reviews = listOf("Awesome!","Looks Good","Avarage","Not Recommended")
+        val reviews = listOf("Awesome!","Looks Good","Average","Not Recommended")
         for (reviews in reviews){
             val reviewTxt = TextView(requireContext())
             reviewTxt.text=reviews
