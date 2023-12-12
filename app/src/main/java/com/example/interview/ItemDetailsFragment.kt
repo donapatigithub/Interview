@@ -86,7 +86,6 @@ class ItemDetailsFragment : Fragment() {
             val reviewsContainer = binding.root.findViewById<LinearLayout>(R.id.reviews)
             val newcmnt=TextView(requireContext())
             newcmnt.text=newComment
-            newcmnt.textSize = 10f
             reviewsContainer.addView(newcmnt)
             reviewEdt.text.clear()
             newcmnt.setOnLongClickListener {
